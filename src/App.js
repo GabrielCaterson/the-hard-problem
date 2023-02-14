@@ -26,19 +26,19 @@ function App() {
 			
 		</section>
 
+		<section className="body">
+			<section className="text-box" >
+				The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks "why is it like something to have the experiences we have?"
+			</section>
 
-		<section className="text-box" >
-		The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks "why is it like something to have the experiences we have?"
+			<div className="hexagone"></div>
+			<div className="triangle"></div>
+			<div className="star" ></div>
+			<div className="arrow" ></div>
+			<div className="custom"></div>
+			<div className="brain-image"></div>
+			<div className="test"> blah </div>
 		</section>
-
-		<div className="hexagone"></div>
-		<div className="triangle"></div>
-		<div className="star" ></div>
-		<div className="arrow" ></div>
-		<div className="custom"></div>
-		<div className="brain-image"></div>
-		<div className="test"> blah </div>
-
 		
 
 
