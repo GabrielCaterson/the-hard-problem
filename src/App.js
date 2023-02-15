@@ -15,14 +15,14 @@ function App() {
 
 		<section className="logo-container">
 			<div className="logo"> 
-				
+				{/*<p className="title-text">
+					The 
+					Hard <br />
+					Problem <br />
+				</p>*/}
 			</div>
 
-			<p className="title-text">
-				The 
-				Hard <br />
-				Problem <br />
-			</p>
+			
 			
 		</section>
 
