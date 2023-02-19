@@ -43,12 +43,19 @@ function App() {
 			<section className="body">
 
 				<section className="text-box-container">
-					<section className="text-box" >
-						The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks "why is it like something to have the experiences we have?" Why is it like something to see the color red, smell coffee, or taste strawberries? 
+					<section className="text-box-container-inner">
+						<section className="text-box" >
+							The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks "why is it like something to have the experiences we have?" Why is it like something to see the color red, smell coffee, or taste strawberries? 
+						</section>
 					</section>
 
-					<section className="mug"> 
+					
+					<section className="mug-container"> 
+						<section className="mug-container-inner"> 
+							<section className="mug"> 
 
+							</section>
+						</section>
 					</section>
 				</section>
 
