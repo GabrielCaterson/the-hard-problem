@@ -205,9 +205,15 @@
 	height: 100vh;
 }
 
+.text-box-1 {
+	position: sticky;
+	top: calc(33% - 150px);
+	height: 300px;
+}
+
 .text-box {
-	top: calc(50vh - 50%);
-	font-size: 20px;
+	
+	font-size: 25px;
 	width: max(300px, 50vw);
 	background-color: var(--color-b-1);
 	padding: 20px;
