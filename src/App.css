@@ -106,6 +106,7 @@
 	display:flex;
 	justify-content: flex-start;
 	align-items: flex-start;
+	
 }
 
 .animated-logo::before {
@@ -217,7 +218,9 @@
 	align-items: center;
 	justify-content:center;
 	
-	font-size: 25px;
+	font-size: 35px;
+	font-weight: 600;
+	text-align: start;
 	width: max(300px, 50vw);
 	background-color: var(--color-b-1);
 	padding: 20px;

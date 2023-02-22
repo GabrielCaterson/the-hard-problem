@@ -26,7 +26,7 @@ function App() {
 			<section className="logo-container">
 				<section  className="logo-container-inner">
 					<section className="animated-logo"> 
-					
+
 					</section>
 		
 					<p className="title-text">
@@ -49,11 +49,11 @@ function App() {
 						</section>
 
 						<section className="text-box text-box-1" >
-							The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks "why is it like something to have the experiences we have?" Why is it like something to see the color red, smell coffee, or taste strawberries? 
+							The trouble is, everything in the universe seems to be physical, but consciousness seems to be something different. Something non-physical, or as the philosophers call it, phenomenal. 
 						</section>
 
 						<section className="text-box text-box-1" >
-							A variety of solutions to the hard problem have been proposed. 
+							Many solutions to the hard problem have been proposed. Some accept the hard problem, and others say there is no consciousness in this "what it's like" sense. Let's explore some of the arguments.
 						</section>
 
 
@@ -70,6 +70,70 @@ function App() {
 				</section>
 
 
+
+				<section className="text-box-container">
+
+					<section className="mug-container"> 
+						<section className="mug-container-inner"> 
+							<section className="mug"> 
+
+							</section>
+						</section>
+					</section>
+
+
+					<section className="text-box-container-inner">
+						<section className="text-box text-box-1" >
+							What is it like to be a bat?
+						</section>
+
+					</section>
+				</section>
+
+
+
+				<section className="text-box-container">
+					<section className="text-box-container-inner">
+						<section className="text-box text-box-1" >
+							Mary's room.
+						</section>
+					</section>
+
+					
+					<section className="mug-container"> 
+						<section className="mug-container-inner"> 
+							<section className="mug"> 
+
+							</section>
+						</section>
+					</section>
+				</section>
+
+
+
+				<section className="text-box-container">
+
+					<section className="mug-container"> 
+						<section className="mug-container-inner"> 
+							<section className="mug"> 
+
+							</section>
+						</section>
+					</section>
+
+
+					<section className="text-box-container-inner">
+						<section className="text-box text-box-1" >
+							Zombies.
+						</section>
+
+					</section>
+				</section>
+
+
+				
+
+				{/*
 				<section className="text-box-container">
 					<section className="text-box" >
 						Lorem ipsum dolor sit amet, simul oratio elaboraret eum ea, iudicabit scripserit id sit, summo discere accumsan ei sit. Sed temporibus interpretaris in, elit ferri verterem vis et. Alii quaeque quaestio an nam, mei ne habeo rationibus definitiones, vix ludus senserit persecuti ad. Graece nominavi te est, ut dicta delicata his, invidunt detraxit ex vis. Ut modo clita iuvaret vix. Ea qui alii purto ancillae.
@@ -88,7 +152,7 @@ function App() {
 					<section className="text-box" >
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod fermentum leo id mollis. Proin dignissim libero nibh, mattis dapibus lacus eleifend ac. Aliquam ac iaculis velit, et pulvinar sem. Cras erat mi, efficitur quis vulputate at, accumsan non neque. Ut risus ante, scelerisque eu leo vitae, tempus tristique eros. Donec arcu dolor, porttitor nec sem a, aliquet tempus lectus. Mauris odio lacus, tempus eu venenatis vitae, ornare vitae ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque eu magna libero. Duis mi lectus, accumsan non ante sed, porttitor suscipit augue. Donec quis elit mattis turpis dapibus fermentum a et sapien. Praesent dapibus ligula lacinia, vehicula diam non, malesuada ex. Integer eu lorem vel ligula mattis facilisis. Quisque sollicitudin tellus et urna rutrum vestibulum.
 					</section>
-				</section>
+				</section>*/}
 				
 			</section>
 
