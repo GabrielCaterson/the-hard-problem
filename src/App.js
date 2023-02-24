@@ -71,11 +71,11 @@ function App() {
 
 
 
-				<section className="text-box-container">
+				<section className="text-box-container text-box-container-bat">
 
-					<section className="mug-container"> 
-						<section className="mug-container-inner"> 
-							<section className="mug"> 
+					<section className="bat-container"> 
+						<section className="bat-container-inner"> 
+							<section className="mug bat"> 
 
 							</section>
 						</section>
