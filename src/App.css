@@ -9,10 +9,25 @@
 	--color-b-1: rgba(240,240,255,1);
 	--color-b-2: rgba(210,210,225,1);
 
-	--color-c-1: #ecdcff;
-	--color-c-2: #d5baff;
-	--color-c-3: #5e00c1;
-	--color-c-4: #42008a;
+	/* Red + green + muted colors */
+	/*--color-c-1: #AD0E00;
+	--color-d-1: #6EA16C;
+	--color-e-1: #A3B0B8;
+	--color-f-1: #B8B3A5;
+	--color-g-1: #A99AAD;*/
+
+
+	/* Rainbow */
+	--color-c-1: #970FF2;
+	--color-d-1: #0597F2;
+	--color-e-1: #49D907;
+	--color-f-1: #EAF205;
+	--color-g-1: #F24607;
+
+
+	
+
+
 
 	--brain-path: path(
 		'M 120 45 C 147 42 159 42 192 48 Q 225 54 261 84 C 282 105 300 126 300 165 C 300 189 285 201 270 207 C 243 210 255 207 240 210 C 237 234 189 243 165 240 C 138 246 129 264 99 291 C 96 297 87 294 90 288 C 105 267 102 261 99 261 C 75 264 18 246 18 213 C 18 201 21 195 24 195 C 3 183 -6 147 12 117 Q 24 90 51 66 C 84 45 99 48 120 45'
@@ -189,15 +204,24 @@
 	justify-content:center;
 	flex-wrap: wrap;
 	
-	width: 100vw;
+	width: 100vw;	
+}
 
+.text-box-container-mug {
 	height: 300vh;
-	
 }
 
 .text-box-container-bat {
-	height: 100vw;
-	background-color: brown;
+	height: 100vh;
+}
+
+.text-box-container-mary {
+	height: 100vh;
+	background-color: var(--color-b-1);
+}
+
+.text-box-container-zombie {
+	height: 100vh;
 }
 
 .text-box-container-inner {
@@ -206,32 +230,63 @@
 	justify-content:center;
 	flex-wrap: wrap;
 
-	background-color: var(--color-b-1);
-
-	
 	width: max(300px, 50vw);
+}
+
+.text-box-container-inner-2 {
+	height: 100vh;
+}
+
+.text-box-container-inner-mug {
 	height: 300vh;
 }
 
-.text-box-1 {
-	top: calc(33% - 150px);
-	border: 2px
+.text-box-container-inner-bat {
+	height: 100vh;
+}
+
+.text-box-container-inner-mary {
+	height: 100vh;
+
+	color: white;
+}
+
+.text-box-container-inner-zombie {
+	height: 100vh;
+}
+
+
+.text-box-mug {
+	position: sticky;
+	top: 0;
+	height: 
 }
 
 .text-box {
-	display: flex;
-	align-items: center;
-	justify-content:center;
-	
 	font-size: 35px;
 	font-weight: 600;
 	text-align: start;
 	width: max(300px, 50vw);
-	background-color: var(--color-b-1);
-	background-color: blue;
 	padding: 20px;
-	margin: 0px 20px;
+	margin: 20px 20px;
 }
+
+.text-box-bat {
+	text-align: end;
+}
+
+.red-text {
+	color: var(--color-g-1);
+}
+
+.brown-text {
+	color: #6F4E37;
+}
+
+.blue-text {
+	color: var(--color-d-1);
+}
+
 
 .mug-container {
 	position: sticky;
@@ -244,7 +299,6 @@
 	width: max(300px, 50vw);
 	height: 300vh;
 
-	background-color: var(--color-b-2);
 }
 
 .mug-container-inner {
@@ -257,8 +311,6 @@
 	
 	width: max(300px, 50vw);
 	height: 300vh;
-
-	background-color: var(--color-b-2);
 }
 
 .mug {
@@ -291,7 +343,56 @@
 	}
 }
 
+.bat {
+	position: sticky;
+	background-color: #000;
+	width: 300px;
+	height: 300px;
+
+	top: calc(50vh - 150px);
+	margin-top: -20px;
+	margin-bottom: -30px;
+	
+	clip-path: var(--bat-path);
+
+
+	z-index: 2;
+}
+
+.mary {
+
+}
+
+.zombie {
+
+}
+
 .bat-container {
+	position: sticky;
+
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	flex-wrap: wrap;
+	
+	width: max(300px, 50vw);
+	height: 100vh;
+
+}
+
+.mary-container {
+	position: sticky;
+
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	flex-wrap: wrap;
+	
+	width: max(300px, 50vw);
+	height: 100vh;
+}
+
+.zombie-container {
 	position: sticky;
 
 	display: flex;
@@ -317,6 +418,54 @@
 
 }
 
-.bat {
+.mary-container-inner {
+	position: sticky;
 
+	display: flex;
+	align-items: flex-start;
+	justify-content:center;
+	flex-wrap: wrap;
+	
+	width: max(300px, 50vw);
+	height: 100vh;
+
+	background-color: #fff;
+}
+
+.zombie-container-inner {
+	position: sticky;
+
+	display: flex;
+	align-items: flex-start;
+	justify-content:center;
+	flex-wrap: wrap;
+	
+	width: max(300px, 50vw);
+	height: 100vh;
+
+	background-color: #fff;
+}
+
+.purple-background {
+	background-color: var(--color-c-1);
+}
+
+.blue-background {
+	background-color: var(--color-d-1);
+}
+
+.green-background {
+	background-color: var(--color-e-1);
+}
+
+.yellow-background {
+	background-color: var(--color-f-1);
+}
+
+.red-background {
+	background-color: var(--color-g-1);
+}
+
+.black-background {
+	background-color: #000;
 }

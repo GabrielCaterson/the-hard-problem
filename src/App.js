@@ -4,24 +4,6 @@ import './App.css';
 function App() {
 	return (
 		<section className="App">
-			{/*<header className="App-header">
-				<p className="page-title">
-				The <br />
-				Hard <br />
-				Problem
-				</p>        
-			</header>*/}
-
-
-			{/*<section className="logo-container">
-				<section className="logo"> 
-					<p className="title-text">
-						The 
-						Hard <br />
-						Problem <br />
-					</p>
-				</section>
-			</section>*/}
 
 			<section className="logo-container">
 				<section  className="logo-container-inner">
@@ -42,25 +24,33 @@ function App() {
 
 			<section className="body">
 
-				<section className="text-box-container">
-					<section className="text-box-container-inner">
-						<section className="text-box text-box-1" >
-							The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks "why is it like something to have the experiences we have?" Why is it like something to see the color red, smell coffee, or taste strawberries? 
+				<section className="text-box-container text-box-container-mug">
+					<section className="text-box-container-inner
+										text-box-container-inner-mug 
+										purple-background">
+						<section className="text-box-container-inner-2">
+							<section className="text-box text-box-mug" >
+								The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks "why is it like something to have the experiences we have?" Why is it like something to see the <span className="red-text"> color red</span>, <span className="brown-text">smell coffee</span>, or taste <span className="blue-text">blueberries</span>? 
+							</section>
 						</section>
 
-						<section className="text-box text-box-1" >
-							The trouble is, everything in the universe seems to be physical, but consciousness seems to be something different. Something non-physical, or as the philosophers call it, phenomenal. 
+						<section className="text-box-container-inner-2">
+							<section className="text-box text-box-mug" >
+								The trouble is, everything in the universe seems to be physical, but consciousness seems to be something different. Something non-physical, or as the philosophers call it, phenomenal. 
+							</section>
 						</section>
 
-						<section className="text-box text-box-1" >
-							Many solutions to the hard problem have been proposed. Some accept the hard problem, and others say there is no consciousness in this "what it's like" sense. Let's explore some of the arguments.
+						<section className="text-box-container-inner-2">
+							<section className="text-box text-box-mug" >
+								Many solutions to the hard problem have been proposed. Some accept the hard problem, and others say there is no consciousness in this "what it's like" sense. Let's explore some of the arguments.
+							</section>
 						</section>
 
 
 					</section>
 
 					
-					<section className="mug-container"> 
+					<section className="mug-container red-background"> 
 						<section className="mug-container-inner"> 
 							<section className="mug"> 
 
@@ -71,38 +61,44 @@ function App() {
 
 
 
+
+
 				<section className="text-box-container text-box-container-bat">
 
-					<section className="bat-container"> 
+					<section className="bat-container blue-background"> 
 						<section className="bat-container-inner"> 
-							<section className="mug bat"> 
+							<section className="bat"> 
 
 							</section>
 						</section>
 					</section>
 
 
-					<section className="text-box-container-inner">
-						<section className="text-box text-box-1" >
-							What is it like to be a bat?
+					<section className="text-box-container-inner
+										text-box-container-inner-bat
+										yellow-background">
+						<section className="text-box text-box-bat" >
+							What is it like to be a bat? <br />
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</section>
-
 					</section>
 				</section>
 
 
 
-				<section className="text-box-container">
-					<section className="text-box-container-inner">
+				<section className="text-box-container 
+									text-box-container-mary
+									black-background">
+					<section className="text-box-container-inner text-box-container-inner-mary">
 						<section className="text-box text-box-1" >
 							Mary's room.
 						</section>
 					</section>
 
 					
-					<section className="mug-container"> 
-						<section className="mug-container-inner"> 
-							<section className="mug"> 
+					<section className="mary-container"> 
+						<section className="mary-container-inner"> 
+							<section className="mug mary"> 
 
 							</section>
 						</section>
@@ -111,48 +107,28 @@ function App() {
 
 
 
-				<section className="text-box-container">
+				<section className="text-box-container text-box-container-zombie">
 
-					<section className="mug-container"> 
-						<section className="mug-container-inner"> 
-							<section className="mug"> 
+					<section className="zombie-container"> 
+						<section className="zombie-container-inner"> 
+							<section className="mug zombie"> 
 
 							</section>
 						</section>
 					</section>
 
 
-					<section className="text-box-container-inner">
+					<section className="text-box-container-inner
+										text-box-container-inner-zombie
+										green-background">
 						<section className="text-box text-box-1" >
-							Zombies.
+							Philosophical zombies.
 						</section>
 
 					</section>
 				</section>
 
 
-				
-
-				{/*
-				<section className="text-box-container">
-					<section className="text-box" >
-						Lorem ipsum dolor sit amet, simul oratio elaboraret eum ea, iudicabit scripserit id sit, summo discere accumsan ei sit. Sed temporibus interpretaris in, elit ferri verterem vis et. Alii quaeque quaestio an nam, mei ne habeo rationibus definitiones, vix ludus senserit persecuti ad. Graece nominavi te est, ut dicta delicata his, invidunt detraxit ex vis. Ut modo clita iuvaret vix. Ea qui alii purto ancillae.
-
-						Pri possit nostrum id, aliquam tincidunt intellegat eu duo. Mea errem deterruisset ad, pro in duis accusata contentiones, ei vim liber paulo utroque. No quo laudem animal pertinax, eam ad hinc assentior theophrastus, eum ea error epicuri philosophia. Tollit apeirian ad duo, feugait verterem cum te. Est eirmod oportere persequeris at, vidit etiam nec eu, ius cu graeci prompta habemus.
-
-						Sit affert quaestio ne, ei pro debet pertinax percipitur. Ignota invenire constituto et mea. Audiam malorum sit eu. Pro ad laudem inermis, nam ut quem aperiri alienum, nam et omnis movet animal. Cu quo error philosophia, et impedit tractatos per.
-
-						At eam feugait torquatos, mundi bonorum tractatos ei vix, magna incorrupte qui ex. Mel lobortis indoctum ne, fugit scaevola per et, at prima dicit facilisis usu. Iuvaret minimum atomorum nec ne. Te populo salutatus usu, id quaeque detraxit necessitatibus mel. At nam solum inani ocurreret, est dicta aperiam tractatos et. Aliquam scribentur ex mel, usu partem fierent scripserit ut.
-
-						Sit ne causae copiosae voluptatum, at platonem accusamus reprehendunt nam, meliore probatus explicari vis ne. Congue atomorum expetendis te sed, usu id postea nusquam, his scaevola praesent interesset id. Eu mea meliore abhorreant mnesarchum, an mea rebum option intellegat. At per fastidii moderatius definitionem. In est tritani debitis platonem, est eu possim facilisis definitionem. Nibh liber malorum ei per, aperiam facilisis vim an. Officiis qualisque ne duo, ius ea magna commune consulatu.
-					</section>
-				</section>
-
-				<section className="text-box-container">
-					<section className="text-box" >
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod fermentum leo id mollis. Proin dignissim libero nibh, mattis dapibus lacus eleifend ac. Aliquam ac iaculis velit, et pulvinar sem. Cras erat mi, efficitur quis vulputate at, accumsan non neque. Ut risus ante, scelerisque eu leo vitae, tempus tristique eros. Donec arcu dolor, porttitor nec sem a, aliquet tempus lectus. Mauris odio lacus, tempus eu venenatis vitae, ornare vitae ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque eu magna libero. Duis mi lectus, accumsan non ante sed, porttitor suscipit augue. Donec quis elit mattis turpis dapibus fermentum a et sapien. Praesent dapibus ligula lacinia, vehicula diam non, malesuada ex. Integer eu lorem vel ligula mattis facilisis. Quisque sollicitudin tellus et urna rutrum vestibulum.
-					</section>
-				</section>*/}
 				
 			</section>
 
