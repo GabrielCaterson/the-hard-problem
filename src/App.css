@@ -143,7 +143,7 @@
 
 	clip-path: path('M 135 3 C 135 3 141 0 144 3 Q 141 21 156 45 C 180 45 180 30 210 30 C 270 30 285 105 285 135 C 285 180 267 210 246 255 C 237 270 219 300 195 300 C 165 300 165 285 150 285 C 135 285 135 300 105 300 C 81 300 63 270 54 255 C 33 210 15 180 15 135 C 15 105 30 30 90 30 C 120 30 120 45 144 45 Q 129 21 129 6 C 129 6 129 6 135 3');
 	
-  	animation: logo-animation 15s ease-in-out normal infinite;
+  	animation: logo-animation 10s ease-in-out normal infinite;
 	z-index: 2;
 }
 
@@ -259,16 +259,16 @@
 .text-box-mug {
 	position: sticky;
 	top: 0;
-	height: 
 }
 
 .text-box {
-	font-size: 35px;
+	font-size: 40px;
 	font-weight: 600;
 	text-align: start;
 	width: max(300px, 50vw);
-	padding: 20px;
-	margin: 20px 20px;
+	width: calc(100% - 60px);
+	padding: 30px;
+	margin: 0px 0px;
 }
 
 .text-box-bat {
@@ -280,7 +280,7 @@
 }
 
 .brown-text {
-	color: #6F4E37;
+	color: #7B3F00;
 }
 
 .blue-text {
@@ -442,8 +442,6 @@
 	
 	width: max(300px, 50vw);
 	height: 100vh;
-
-	background-color: #fff;
 }
 
 .purple-background {
