@@ -30,13 +30,13 @@ function App() {
 										green-background">
 						<section className="text-box-container-inner-2">
 							<section className="text-box text-box-mug" >
-								The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks "why is it like something to have the experiences we have?" Why is it like something to see the color red, smell coffee, or taste blueberries? 
+								The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks "why is it <span className="like-something blue-text">like something</span> to have the experiences we have?" Why is it like something to see the color red, smell coffee, or taste blueberries? 
 							</section>
 						</section>
 
 						<section className="text-box-container-inner-2">
 							<section className="text-box text-box-mug" >
-								The trouble is, everything in the universe seems to be physical, but consciousness seems to be something different. Something non-physical, or as the philosophers call it, phenomenal. 
+								The trouble is, everything in the universe is physical, but consciousness seems to be something different. The experience of red seems to be non-physical, or as the philosophers call it, phenomenal. 
 							</section>
 						</section>
 
