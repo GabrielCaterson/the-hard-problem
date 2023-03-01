@@ -97,6 +97,8 @@
 	top: calc(50vh - 150px);
 	
 	animation: logo-in 1.3s ease-in-out normal 1;
+	z-index: -1;
+
 
 }
 
@@ -131,11 +133,11 @@
 .animated-logo {
 	height: 300px;
 	width: 300px;
-	z-index: -1;
 
 	display:flex;
 	justify-content: flex-start;
 	align-items: flex-start;
+
 	
 }
 
@@ -159,7 +161,6 @@
 	clip-path: path('M 135 3 C 135 3 141 0 144 3 Q 141 21 156 45 C 180 45 180 30 210 30 C 270 30 285 105 285 135 C 285 180 267 210 246 255 C 237 270 219 300 195 300 C 165 300 165 285 150 285 C 135 285 135 300 105 300 C 81 300 63 270 54 255 C 33 210 15 180 15 135 C 15 105 30 30 90 30 C 120 30 120 45 144 45 Q 129 21 129 6 C 129 6 129 6 135 3');
 	
   	animation: logo-animation 10s ease-in-out normal infinite;
-	z-index: 2;
 }
 
 
@@ -168,26 +169,26 @@
 	0% {
 		clip-path: var(--brain-path);
 	}
-	30% {
+	28.3% {
 		clip-path: var(--brain-path);
 
 		background-color: #000;
 	}
 
 	/* Apple*/
-	35% {
+	33.3% {
 		clip-path: var(--apple-path);
 
 		/*background-color: red;*/
 	}
-	60% {
+	61.7% {
 		clip-path: var(--apple-path);
 
 		/*background-color: red;*/
 	}
 
 	/* Bat */
-	65% {
+	66.7% {
 		clip-path: var(--bat-path);
 
 		background-color: #000000;
@@ -199,6 +200,7 @@
 		background-color: #000000;
 	}
 
+	/* Brain */
 	100% {
 		clip-path: var(--brain-path);
 
@@ -277,7 +279,7 @@
 }
 
 .text-box {
-	font-size: 40px;
+	font-size: 35px;
 	font-weight: 600;
 	text-align: start;
 	width: 50vw;
@@ -288,7 +290,7 @@
 }
 
 .text-box-bat {
-	text-align: end;
+	/*text-align: end;*/
 }
 
 .like-something {
