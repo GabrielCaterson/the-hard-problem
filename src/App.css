@@ -40,6 +40,10 @@
 	--bat-path: path(
 		'M 150 93.75 C 153.75 93.75 157.5 93.75 161.25 82.5 Q 168.75 93.75 168.75 112.5 C 187.5 120 225 93.75 206.25 56.25 C 243.75 56.25 300 131.25 300 168.75 C 281.25 150 255 157.5 255 187.5 C 236.25 168.75 206.25 176.25 206.25 206.25 C 187.5 187.5 165 187.5 150 243.75 C 135 187.5 112.5 187.5 93.75 206.25 C 93.75 176.25 67.5 168.75 45 187.5 C 45 157.5 18.75 150 0 168.75 C 0 131.25 56.25 56.25 93.75 56.25 C 75 93.75 112.5 120 131.25 112.5 Q 131.25 93.75 138.75 82.5 C 142.5 93.75 146.25 93.75 150 93.75'
 	);
+
+	--bat-path-2: path(
+		'M 45 93.75 C 48.75 93.75 52.5 93.75 56.25 82.5 Q 63.75 93.75 63.75 112.5 C 63.75 131.25 63.75 187.5 82.5 168.75 C 101.25 187.5 82.5 318.75 67.5 412.5 C 75 356.25 71.25 337.5 60 356.25 C 63.75 300 63.75 281.25 52.5 300 C 60 262.5 52.5 225 45 243.75 C 37.5 225 26.25 262.5 37.5 300 C 26.25 281.25 26.25 300 30 356.25 C 18.75 337.5 18.75 356.25 22.5 412.5 C 7.5 318.75 -11.25 187.5 7.5 168.75 C 26.25 187.5 26.25 131.25 26.25 112.5 Q 26.25 93.75 33.75 82.5 C 37.5 93.75 41.25 93.75 45 93.75'
+	);
 }
 
 .App {
@@ -238,7 +242,7 @@
 }
 
 .text-box-container-zombie {
-	height: 100vh;
+	padding: 0;
 }
 
 .text-box-container-inner {
@@ -269,7 +273,7 @@
 }
 
 .text-box-container-inner-zombie {
-	height: 100vh;
+	margin: 0;
 }
 
 
@@ -371,7 +375,7 @@
 	position: sticky;
 	background-color: #000;
 	width: 300px;
-	height: 300px;
+	height: 450px;
 
 	top: calc(50vh - 150px);
 	margin-top: -20px;
@@ -379,8 +383,24 @@
 	
 	clip-path: var(--bat-path);
 
-
+	animation: bat-animation .2s ease-in-out alternate infinite;
 	z-index: 2;
+}
+
+@keyframes bat-animation {
+	/* Brain */
+	0% {
+		clip-path: var(--bat-path);
+		/*height: 400px;*/
+		width: 300px;
+	}
+	
+	100% {
+		clip-path: var(--bat-path-2);
+		/*height: 400px;*/
+		width: 90px;
+
+	}
 }
 
 .mary {
@@ -425,8 +445,6 @@
 	flex-wrap: wrap;
 	
 	width: 50vw;
-	height: 100vh;
-
 }
 
 .bat-container-inner {
@@ -437,7 +455,7 @@
 	justify-content:center;
 	flex-wrap: wrap;
 	
-	width: 50vw;
+	width: 300px;
 	height: 100vh;
 
 }
@@ -491,3 +509,4 @@
 .black-background {
 	background-color: #000;
 }
+
