@@ -153,7 +153,7 @@ function App() {
 
 
 
-				<section className="text-box-container text-box-container-zombie">
+				<section className="text-box-container text-box-container-zombie blue-background">
 
 					<section className="zombie-container blue-background"> 
 						<section className="zombie-container-inner"> 
