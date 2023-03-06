@@ -516,12 +516,15 @@
 	background-color: #000;
 }
 
-svg {
-	position: fixed;
-	top: 50%;
+.test-animation-guy {
+	position: sticky;
+	/*top: 50%;
 	left: 50%;
 	margin-top: -50px;
-	margin-left: -50px;
+	margin-left: -50px;*/
+	margin: 40px 0px;
+	width: 300px;
+	height: 300px;
   
 	animation: rotate 1s linear infinite;
 	animation-play-state: paused;
@@ -530,10 +533,10 @@ svg {
 	animation-iteration-count: 1;
 	animation-fill-mode: both;
 	z-index: 100;
-  }
+}
   
-  @keyframes rotate {
+@keyframes rotate {
 	to {
-	  transform: rotate(360deg);
+	  transform: rotate(3600deg);
 	}
-  }
+}
