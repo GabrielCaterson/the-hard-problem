@@ -106,9 +106,9 @@ function App() {
 
 
 
-				<section className="text-box-container text-box-container-bat">
+				<section className="text-box-container text-box-container-bat yellow-background">
 
-					<section className="bat-container yellow-background"> 
+					<section className="bat-container"> 
 						<section className="bat-container-inner"> 
 							{/*<section className="bat"> 
 
@@ -158,7 +158,7 @@ function App() {
 					
 					<section className="mary-container"> 
 						<section className="mary-container-inner"> 
-							<section className="mug mary"> 
+							<section className="mary"> 
 
 							</section>
 						</section>
