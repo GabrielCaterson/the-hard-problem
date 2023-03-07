@@ -236,11 +236,11 @@
 }
 
 .text-box-container-bat {
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .text-box-container-mary {
-	height: 100vh;
+	min-height: 100vh;
 	background-color: var(--color-b-1);
 }
 
@@ -259,19 +259,19 @@
 }
 
 .text-box-container-inner-2 {
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .text-box-container-inner-mug {
-	height: 300vh;
+	min-height: 300vh;
 }
 
 .text-box-container-inner-bat {
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .text-box-container-inner-mary {
-	height: 100vh;
+	min-height: 100vh;
 
 	color: white;
 }
@@ -330,7 +330,7 @@
 	flex-wrap: wrap;
 	
 	width: 50vw;
-	height: 300vh;
+	min-height: 300vh;
 
 }
 
@@ -343,7 +343,7 @@
 	flex-wrap: wrap;
 	
 	width: 50vw;
-	height: 300vh;
+	min-height: 300vh;
 }
 
 .mug {
@@ -409,7 +409,43 @@
 }
 
 .mary {
+	position: sticky;
+	background-color: #000;
+	width: 300px;
+	height: 300px;
+	margin: 40px 0px;
 
+	top: calc(50vh - 150px);
+	
+	
+	/*clip-path: path('M 36.5376 90 L 242.0616 90 C 248.9124 90 253.4796 94.5672 253.4796 101.418 C 253.4796 147.09 207.8076 204.18 184.9716 204.18 C 162.1356 204.18 139.2996 204.18 93.6276 204.18 C 70.7916 204.18 25.1196 147.09 25.1196 101.418 C 25.1196 94.5672 29.6868 90 36.5376 90 M 242.0616 112.836 C 242.0616 112.836 264.8976 101.418 276.3156 101.418 C 294.5844 101.418 299.1516 117.4032 299.1516 124.254 C 299.1516 158.508 242.0616 192.762 207.8076 181.344 C 207.8076 179.0604 207.8076 176.7768 207.8076 174.4932 C 242.0616 185.9112 292.3008 153.9408 292.3008 124.254 C 292.3008 117.4032 287.7336 108.2688 276.3156 108.2688 C 264.8976 108.2688 255.7632 112.836 242.0616 119.6868 M 2.2836 208.7472 C 93.6276 208.7472 184.9716 208.7472 276.3156 208.7472 C 287.7336 208.7472 253.4796 227.016 184.9716 227.016 C 154.5236 227.016 124.0756 227.016 93.6276 227.016 C 25.1196 227.016 -9.1344 208.7472 2.2836 208.7472 M 139 70 C 149 40 119 30 139 0 C 129 30 159 40 139 70 M 89 0 C 69 30 99 40 89 70 C 109 40 79 30 89 0 M 189 0 C 169 30 199 40 189 70 C 209 40 179 30 189 0');*/
+	
+	clip-path: var(--apple-path);
+
+  
+	animation: mary-animation 1s linear infinite;
+	animation-play-state: paused;
+	animation-delay: calc(var(--scroll) * -1s);
+  
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+	z-index: 100;
+}
+  
+@keyframes mary-animation {
+	0% {
+		background-color: #000;
+	}
+	85% {
+		background-color: #000;
+	}
+	87% {
+		background-color: #f00;
+	}
+	100% {
+		background-color: #f00;
+
+	}
 }
 
 .zombie {
@@ -425,7 +461,7 @@
 	flex-wrap: wrap;
 	
 	width: 50vw;
-	height: 100vh;
+	min-height: 100vh;
 
 }
 
@@ -438,7 +474,8 @@
 	flex-wrap: wrap;
 	
 	width: 50vw;
-	height: 100vh;
+	min-height: 100vh;
+	height: 100%;
 }
 
 .zombie-container {
@@ -462,7 +499,7 @@
 	flex-wrap: wrap;
 	
 	width: 300px;
-	height: 100vh;
+	min-height: 100vh;
 
 }
 
@@ -475,7 +512,8 @@
 	flex-wrap: wrap;
 	
 	width: 50vw;
-	height: 100vh;
+	min-height: 100vh;
+	height: 100%;
 
 	background-color: #fff;
 }
@@ -489,7 +527,7 @@
 	flex-wrap: wrap;
 	
 	width: 50vw;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .purple-background {
