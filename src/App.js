@@ -93,7 +93,7 @@ function App() {
 					</section>
 
 					
-					<section className="mug-container blue-background"> 
+					<section className="svg-container mug-container blue-background"> 
 						<section className="mug-container-inner"> 
 							<section className="mug"> 
 
@@ -146,8 +146,8 @@ function App() {
 
 				<section className="text-box-container 
 									text-box-container-mary
-									black-background">
-					<section className="text-box-container-inner text-box-container-inner-mary">
+									">
+					<section className="text-box-container-inner text-box-container-inner-mary black-background">
 						<p className="text-box text-box-1" >
 							Mary's room. <br />
 
