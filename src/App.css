@@ -229,6 +229,7 @@
 	padding: 0;
 
 	height:auto; 
+	z-index: 3;
 }
 
 .text-box-container-mug {
@@ -241,7 +242,7 @@
 
 .text-box-container-mary {
 	min-height: 100vh;
-	background-color: var(--color-b-1);
+	/*background-color: var(--color-b-1);*/
 }
 
 .text-box-container-zombie {
@@ -474,8 +475,11 @@
 	flex-wrap: wrap;
 	
 	width: 50vw;
+	width: 50vw;
 	min-height: 100vh;
-	height: 100%;
+	min-height: 100%;
+	top: 0;
+	bottom: 0;
 }
 
 .zombie-container {
@@ -513,7 +517,6 @@
 	
 	width: 50vw;
 	min-height: 100vh;
-	height: 100%;
 
 	background-color: #fff;
 }
@@ -554,6 +557,10 @@
 	background-color: #000;
 }
 
+.white-background {
+	background-color: #fff;
+}
+
 .test-animation-guy {
 	position: sticky;
 	/*top: 50%;
@@ -576,5 +583,18 @@
 @keyframes rotate {
 	to {
 	  transform: rotate(3600deg);
+	}
+}
+
+
+@media (max-width: 500px) {
+	/* … */
+	.text-box {
+		width: 100vw;
+		border: 2px solid red;
+	}
+
+	.svg-container {
+		width: 100vw;
 	}
 }
