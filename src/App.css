@@ -233,7 +233,7 @@
 }
 
 .text-box-container-mug {
-	height: 300vh;
+
 }
 
 .text-box-container-bat {
@@ -306,6 +306,7 @@
 .like-something {
 	color: black;
 	font-weight: 900;
+	border-radius: 20px;
 }
 
 .red-text {
@@ -331,7 +332,8 @@
 	flex-wrap: wrap;
 	
 	width: 50vw;
-	min-height: 300vh;
+	/*min-height: 300vh;*/
+	height: 100%;
 
 }
 
@@ -590,11 +592,15 @@
 @media (max-width: 500px) {
 	/* … */
 	.text-box {
-		width: 100vw;
-		border: 2px solid red;
+		width: 100%;
+		padding: 0px;
 	}
 
 	.svg-container {
 		width: 100vw;
+	}
+
+	.mug-container-inner {
+		max-height: 100vh;
 	}
 }
