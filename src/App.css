@@ -332,6 +332,7 @@
 	flex-wrap: wrap;
 	
 	width: 50vw;
+	min-width: 300px;
 	/*min-height: 300vh;*/
 	height: 100%;
 
@@ -346,6 +347,7 @@
 	flex-wrap: wrap;
 	
 	width: 50vw;
+	min-width: 300px;
 	min-height: 300vh;
 }
 
