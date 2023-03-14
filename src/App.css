@@ -584,6 +584,34 @@
 	background-color: #fff;
 }
 
+.black-text {
+	color: black;
+}
+
+.read-more {
+	
+
+	height: 30px;
+	width: 120px;
+	bottom: 0;
+
+	border-radius: 30px;
+
+	font-weight: 700;
+	font-size: 20px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -631,8 +659,12 @@
 		width: 300px;
 	}
 
-	.text-box-container-inner {
+	/*.text-box-container-inner {
+		display: flex;
+		flex-direction: row-reverse;
+	}*/
+
+	.text-box-container-bat {
 		width: auto;
 	}
-
 }
