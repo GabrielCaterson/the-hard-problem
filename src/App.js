@@ -10,6 +10,8 @@ import Autoscroll from './Components/Autoscroll.js';
 import Scroller from './Components/Scroller.js';
 
 import { ReadMore } from './Components/ReadMore.js';
+import { ReadPaper } from './Components/ReadPaper.js';
+
 
 
 
@@ -140,7 +142,11 @@ function App() {
 							What this shows us is that scientific theories are objective, but our experiences are subjective.
 						</p>
 
-						<ReadMore color="yellow-background black-text"/>
+						<section className="reading-section">
+							<ReadMore color="yellow-background black-text" link=""/>
+							<ReadPaper color="yellow-background black-text" link=""/>
+
+						</section>
 
 					</section>
 				</section>
