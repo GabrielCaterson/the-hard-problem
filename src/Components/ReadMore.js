@@ -14,7 +14,7 @@ export class ReadMore extends Component {
 
         return (
 			<a className={ "read-more " + this.props.color } href={ this.props.link } target="_blank" rel="noopener noreferrer" >
-               Read more
+               { this.props.text }
             </a>
 		);
 	}
