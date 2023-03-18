@@ -48,6 +48,14 @@
 	--thought-bubble-path: path(
 		'M 234 261 C 210 261 210 228 234 228 C 258 228 258 261 234 261 M 108 30 C 120 0 168 0 180 30 C 204 9 255 18 255 60 C 300 60 306 123 282 135 C 297 165 267 192 246 189 C 246 222 198 243 171 222 C 156 252 102 240 96 207 C 66 222 24 186 45 150 C 18 132 27 81 60 75 C 51 48 78 18 108 30 M 255 285 C 243 285 243 267 255 267 C 267 267 267 285 255 285'
 	);
+
+	--thought-bubble-path-2: path(
+		'M 238 261 C 210 261 210 225 234 225 C 258 225 258 261 238 261 M 112 39 C 115 5 173 -3 184 18 C 202 0 263 19 264 55 C 300 60 306 123 284 136 C 297 165 272 199 253 195 C 252 225 198 243 171 222 C 154 245 106 233 98 203 C 69 206 36 182 53 143 C 38 128 41 85 75 80 C 62 59 90 28 112 39 M 255 285 C 240 285 243 267 253 267 C 265 267 267 285 255 285'
+	);
+
+	--thought-bubble-path-3: path(
+		'M 240 261 C 216 261 220 230 240 230 C 259 230 258 261 240 261 M 102 30 C 102 2 173 -3 184 18 C 202 0 255 28 251 58 C 289 58 300 117 280 136 C 297 165 264 195 247 190 C 250 217 198 243 175 227 C 162 247 98 239 92 211 C 63 224 16 174 35 142 C 7 124 21 70 48 66 C 37 40 77 13 102 30 M 252 285 C 238 285 243 265 255 265 C 267 265 267 285 252 285'
+	);
 }
 
 .App {
@@ -334,14 +342,15 @@
 	position: sticky;
 
 	display: flex;
-	align-items: center;
+	align-items: start;
 	justify-content:center;
 	flex-wrap: wrap;
 	
 	width: 50vw;
 	min-width: 300px;
-	/*min-height: 300vh;*/
-	height: 100%;
+	min-height: 300vh;
+	height: 300vh;
+	top: 0;
 
 }
 
@@ -355,11 +364,13 @@
 	
 	width: 50vw;
 	min-width: 300px;
-	min-height: 300vh;
+	/*min-height: 300vh;*/
+	height: fit-content;
+	top: calc(50vh - 150px);
+
 }
 
 .mug {
-	position: sticky;
 	background-color: #000;
 	width: 300px;
 	height: 300px;
@@ -396,27 +407,34 @@
 
 	top: calc(50vh - 150px);
 	margin-top: 20px;
-	margin-bottom: -50px;
+	margin-bottom: 0px;
 	
 	clip-path: var(--thought-bubble-path);
 
 
-	animation: thought-bubble-animation 1s ease-in-out alternate infinite;
+	animation: thought-bubble-animation 10s ease-in-out normal infinite;
 	z-index: 2;
 }
 
 
 @keyframes thought-bubble-animation {
 	/* Brain */
-	/*0% {
-		clip-path: path('');
+	0% {
+		clip-path: var(--thought-bubble-path);
 	}
 	
+	33.3% {
+		clip-path: var(--thought-bubble-path-2);
+	}
+
+	66.7% {
+		clip-path: var(--thought-bubble-path-3);
+	}
+
 
 	100% {
-		clip-path: path('');
-
-	}*/
+		clip-path: var(--thought-bubble-path);
+	}
 }
 
 .bat {
@@ -691,12 +709,12 @@
 	}
 
 	.mug-container {
-		height: 50vh;
+		height: 600px;
 	}
 
 	.mug-container-inner {
-		height: 50vh;
-		min-height: 50vh;
+		height: 600px;
+		min-height: 600px;
 	}
 
 	.mary-container {
