@@ -698,6 +698,12 @@
 
 
 @media (max-width: 500px) {
+	
+	.text-box-container-inner {
+		padding: 0;
+		margin: 0;
+		width: auto;
+	}
 
 	.text-box {
 		padding: 0;
@@ -710,11 +716,17 @@
 
 	.mug-container {
 		height: 600px;
+		min-height: 600px;
+		max-height: 600px;
+
+
 	}
 
 	.mug-container-inner {
 		height: 600px;
 		min-height: 600px;
+		max-height: 600px;
+
 	}
 
 	.mary-container {
@@ -741,10 +753,10 @@
 		width: 300px;
 	}
 
-	/*.text-box-container-inner {
+	.text-box-container-inner {
 		display: flex;
 		flex-direction: row-reverse;
-	}*/
+	}
 
 	.text-box-container-bat {
 		width: auto;
