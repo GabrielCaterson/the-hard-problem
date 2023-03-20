@@ -312,6 +312,7 @@
 	padding: 30px;
 	margin: 0px 0px;
 	color: white;
+
 }
 
 .text-box-bat {
@@ -753,12 +754,15 @@
 		width: 300px;
 	}
 
-	.text-box-container-inner {
+	.text-box-container-bat {
 		display: flex;
-		flex-direction: row-reverse;
+		flex-direction: column-reverse;
+		width: auto;
 	}
 
-	.text-box-container-bat {
+	.text-box-container-zombie {
+		display: flex;
+		flex-direction: column-reverse;
 		width: auto;
 	}
 }
