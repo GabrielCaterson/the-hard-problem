@@ -1,3 +1,5 @@
+import React, { useRef } from 'react';
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -10,6 +12,10 @@ import Autoscroll from './Components/Autoscroll.js';
 import Scroller from './Components/Scroller.js';
 
 import { ReadMore } from './Components/ReadMore.js';
+
+
+import useIntersection from './Components/useIntersection.js'
+
 
 
 
@@ -49,6 +55,32 @@ titles.forEach(title => {
 
 
 function App() {
+	/*
+	const ref = useRef();
+    //const inViewport = useIntersection(ref, '0px');
+    const inViewport = useIntersection(ref, '-200px');
+
+    if (inViewport) {
+        console.log('in viewport:', ref.current);
+    }
+
+	const observer = new IntersectionObserver(entries => {
+		entries.forEach(entry => {
+		  	const square = entry.target.querySelector('.wipe-enter');
+	  
+			if (entry.isIntersecting) {
+				square.classList.add('wipe-enter-activator');
+				return; // if we added the class, exit the function
+			}
+	  
+			// We're not intersecting, so remove the class!
+			square.classList.remove('wipe-enter-activator');
+		});
+	});
+	
+	observer.observe(document.querySelector('.crop-36-box'));
+	*/
+
 	return (
 		<section className="App">
 
