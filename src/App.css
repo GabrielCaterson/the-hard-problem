@@ -244,7 +244,7 @@
 	z-index: 3;
 }
 
-.text-box-container-mug {
+.text-box-container-overview{
 
 }
 
@@ -278,7 +278,7 @@
 	min-height: 100vh;
 }
 
-.text-box-container-inner-mug {
+.text-box-container-inner-overview{
 	min-height: 300vh;
 }
 
@@ -298,7 +298,7 @@
 }
 
 
-.text-box-mug {
+.text-box-overview{
 	position: sticky;
 	top: 0;
 }
@@ -325,6 +325,10 @@
 	border-radius: 20px;
 }
 
+.black-text {
+	color: #000;
+}
+
 .red-text {
 	color: var(--color-g-1);
 }
@@ -339,7 +343,7 @@
 
 
 
-.mug-container {
+.overview-container {
 	position: sticky;
 
 	display: flex;
@@ -355,7 +359,7 @@
 
 }
 
-.mug-container-inner {
+.overview-container-inner {
 	position: sticky;
 
 	display: flex;
@@ -367,12 +371,17 @@
 	min-width: 300px;
 	/*min-height: 300vh;*/
 	height: fit-content;
-	top: calc(50vh - 150px);
+	height: 300px;
+	/*top: calc(50vh - 150px);*/
+	top: 0;
+	margin: 0;
+	padding: 0;
 
 }
 
 .mug {
 	background-color: #000;
+	background-color: #ffffff;
 	width: 300px;
 	height: 300px;
 
@@ -403,10 +412,12 @@
 .thought-bubble {
 	position: sticky;
 	background-color: #000;
+	background-color: #ffffff;
 	width: 300px;
 	height: 300px;
 
 	top: calc(50vh - 150px);
+	top: 0;
 	margin-top: 20px;
 	margin-bottom: 0px;
 	
@@ -415,6 +426,12 @@
 
 	animation: thought-bubble-animation 10s ease-in-out normal infinite;
 	z-index: 2;
+	/*background-image: url("/public/pictures/mugs_1.png");
+	background-position: center;
+	background-size: 300px;
+	background-position-y: 290px;
+	background-position-x: 10px;*/
+
 }
 
 
@@ -436,6 +453,24 @@
 	100% {
 		clip-path: var(--thought-bubble-path);
 	}
+}
+
+.mug-image {
+	position: sticky;
+	width: 100%;
+	height: calc(100vh - 300px);
+
+	top: calc(50vh - 150px);
+	margin: 0;
+	
+
+
+	z-index: 2;
+	background-image: url("/public/pictures/mugs_1.png");
+	background-position: center;
+	background-size: 100%;
+	
+
 }
 
 .bat {
@@ -715,7 +750,7 @@
 		width: 100vw;
 	}
 
-	.mug-container {
+	.overview-container {
 		height: 600px;
 		min-height: 600px;
 		max-height: 600px;
@@ -723,7 +758,7 @@
 
 	}
 
-	.mug-container-inner {
+	.overview-container-inner {
 		height: 600px;
 		min-height: 600px;
 		max-height: 600px;

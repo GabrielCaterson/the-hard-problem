@@ -103,23 +103,23 @@ function App() {
 
 			<section className="body">
 
-				<section className="text-box-container text-box-container-mug green-background">
+				<section className="text-box-container text-box-container-overview blue-background">
 					<section className="text-box-container-inner
-										text-box-container-inner-mug">
+										text-box-container-inner-overview">
 						<section className="text-box-container-inner-2">
-							<p className="text-box text-box-mug" >
-								The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks "why is it<span className="like-something blue-text"> like something </span>to have the experiences we have?" Why is it like something to see the color red, smell coffee, or taste blueberries? 
+							<p className="text-box text-box-overview" >
+								The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks "why is it<span className="like-something black-text"> like something </span>to have the experiences we have?" Why is it like something to see the color red, smell coffee, or taste blueberries? 
 							</p>
 						</section>
 
 						<section className="text-box-container-inner-2">
-							<p className="text-box text-box-mug" >
+							<p className="text-box text-box-overview" >
 								The trouble is, everything in the universe is physical, but consciousness seems to be something different. The experience of red seems to be non-physical, or as the philosophers call it, phenomenal. 
 							</p>
 						</section>
 
 						<section className="text-box-container-inner-2">
-							<p className="text-box text-box-mug" >
+							<p className="text-box text-box-overview" >
 								Many solutions to the hard problem have been proposed. Some accept the hard problem, and others say there is no consciousness in this "what it's like" sense. Let's explore some of the arguments.
 							</p>
 						</section>
@@ -128,14 +128,20 @@ function App() {
 					</section>
 
 					
-					<section className="svg-container mug-container blue-background"> 
-						<section className="mug-container-inner"> 
+					<section className="svg-container overview-container red-background"> 
+						<section className="overview-container-inner"> 
+
 							<section className="mug"> 
 
 							</section>
 							<section className="thought-bubble"> 
 
 							</section>
+
+							<section className="mug-image"> 
+
+							</section>
+
 						</section>
 					</section>
 				</section>
@@ -216,7 +222,7 @@ function App() {
 
 					<section className="zombie-container"> 
 						<section className="zombie-container-inner"> 
-							<section className="mug zombie"> 
+							<section className="overview zombie"> 
 
 							</section>
 
