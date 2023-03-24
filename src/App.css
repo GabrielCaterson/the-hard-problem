@@ -321,6 +321,7 @@
 
 .like-something {
 	color: black;
+
 	font-weight: 900;
 	border-radius: 20px;
 }
@@ -355,6 +356,8 @@
 	min-width: 300px;
 	min-height: 300vh;
 	height: 300vh;
+	height: 25vw;
+
 	top: 0;
 
 }
@@ -372,6 +375,7 @@
 	/*min-height: 300vh;*/
 	height: fit-content;
 	height: 300px;
+	height: 100vh;
 	/*top: calc(50vh - 150px);*/
 	top: 0;
 	margin: 0;
@@ -379,15 +383,37 @@
 
 }
 
+.mug-container {
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	width: 25.105vw;
+	height: 25vw;
+	background-color: rgba(64,83,108,1);
+	background-color: rgba(91,58,50,1);
+	/*background-color: rgba(146,81,67,1);*/
+
+
+}
+
+.thought-bubble-container {
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	width: 24.895vw;
+	height: 25vw;
+}
+
 .mug {
 	background-color: #000;
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
+	background-color: #f00;
 	width: 300px;
 	height: 300px;
 
 	top: calc(50vh - 150px);
 	margin-top: 20px;
-	margin-bottom: -50px;
+	margin-bottom: -20px;
 	
 	clip-path: path('M 36.5376 90 L 242.0616 90 C 248.9124 90 253.4796 94.5672 253.4796 101.418 C 253.4796 147.09 207.8076 204.18 184.9716 204.18 C 162.1356 204.18 139.2996 204.18 93.6276 204.18 C 70.7916 204.18 25.1196 147.09 25.1196 101.418 C 25.1196 94.5672 29.6868 90 36.5376 90 M 242.0616 112.836 C 242.0616 112.836 264.8976 101.418 276.3156 101.418 C 294.5844 101.418 299.1516 117.4032 299.1516 124.254 C 299.1516 158.508 242.0616 192.762 207.8076 181.344 C 207.8076 179.0604 207.8076 176.7768 207.8076 174.4932 C 242.0616 185.9112 292.3008 153.9408 292.3008 124.254 C 292.3008 117.4032 287.7336 108.2688 276.3156 108.2688 C 264.8976 108.2688 255.7632 112.836 242.0616 119.6868 M 2.2836 208.7472 C 93.6276 208.7472 184.9716 208.7472 276.3156 208.7472 C 287.7336 208.7472 253.4796 227.016 184.9716 227.016 C 154.5236 227.016 124.0756 227.016 93.6276 227.016 C 25.1196 227.016 -9.1344 208.7472 2.2836 208.7472 M 139 70 C 149 40 119 30 139 0 C 129 30 159 40 139 70 M 89 0 C 69 30 99 40 89 70 C 109 40 79 30 89 0 M 189 0 C 169 30 199 40 189 70 C 209 40 179 30 189 0');
 
@@ -410,7 +436,6 @@
 }
 
 .thought-bubble {
-	position: sticky;
 	background-color: #000;
 	background-color: #ffffff;
 	width: 300px;
@@ -418,7 +443,7 @@
 
 	top: calc(50vh - 150px);
 	top: 0;
-	margin-top: 20px;
+	margin-top: 0px;
 	margin-bottom: 0px;
 	
 	clip-path: var(--thought-bubble-path);
@@ -459,8 +484,10 @@
 	position: sticky;
 	width: 100%;
 	height: calc(100vh - 300px);
+	height: calc(100vh - 25vw);
 
-	top: calc(50vh - 150px);
+
+	/*top: calc(50vh - 150px);*/
 	margin: 0;
 	
 
@@ -751,19 +778,28 @@
 	}
 
 	.overview-container {
-		height: 600px;
-		min-height: 600px;
-		max-height: 600px;
-
+		height: calc(600px + 100vw);
+		min-height: calc(600px + 100vw);
+		max-height: calc(600px + 100vw);
+		width: 100%;
 
 	}
 
 	.overview-container-inner {
-		height: 600px;
-		min-height: 600px;
-		max-height: 600px;
+		height: calc(600px + 100vw);
+		min-height: calc(600px + 100vw);
+		max-height: calc(600px + 100vw);
+		width: 100%;
+
 
 	}
+
+	.mug-image {
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	
 
 	.mary-container {
 		position: relative;
