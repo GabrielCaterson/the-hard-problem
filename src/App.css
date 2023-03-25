@@ -56,6 +56,22 @@
 	--thought-bubble-path-3: path(
 		'M 240 261 C 216 261 220 230 240 230 C 259 230 258 261 240 261 M 102 30 C 102 2 173 -3 184 18 C 202 0 255 28 251 58 C 289 58 300 117 280 136 C 297 165 264 195 247 190 C 250 217 198 243 175 227 C 162 247 98 239 92 211 C 63 224 16 174 35 142 C 7 124 21 70 48 66 C 37 40 77 13 102 30 M 252 285 C 238 285 243 265 255 265 C 267 265 267 285 252 285'
 	);
+
+	--eye-path: path(
+		'M 0 90 C 45 -30 255 -30 300 90 C 255 210 30 210 0 90 L 9 90 C 39 198 246 198 291 90 C 246 -18 54 -18 9 90 Z M 90 90 C 90 57 117 30 150 30 C 183 30 210 57 210 90 C 210 123 183 150 150 150 C 117 150 90 123 90 90 L 99 90 C 99 117 123 141 150 141 C 177 141 201 117 201 90 C 201 63 177 39 150 39 C 123 39 99 63 99 90'
+	);
+
+	--eye-path-2: path(
+		'M 0 90 C 45 -30 255 -30 300 90 C 255 210 30 210 0 90 L 9 90 C 39 198 246 198 291 90 C 246 198 39 198 9 90 Z M 90 90 C 90 57 117 30 150 30 C 183 30 210 57 210 90 C 210 123 183 150 150 150 C 117 150 90 123 90 90 L 99 90 C 99 117 123 141 150 141 C 177 141 201 117 201 90 C 201 63 177 39 150 39 C 123 39 99 63 99 90'
+	);
+
+	--eyelid-path: path(
+		'M 0 90 C 45 -30 255 -30 300 90 C 255 210 30 210 0 90 L 9 90 C 39 198 246 198 291 90 C 246 -18 54 -18 9 90 Z'
+	);
+
+	--eyelid-path-2: path(
+		'M 0 90 C 45 -30 255 -30 300 90 C 255 210 30 210 0 90 L 9 90 C 39 198 246 198 291 90 C 246 198 39 198 9 90 Z'
+	)
 }
 
 .App {
@@ -392,8 +408,6 @@
 	background-color: rgba(64,83,108,1);
 	background-color: rgba(91,58,50,1);
 	/*background-color: rgba(146,81,67,1);*/
-
-
 }
 
 .thought-bubble-container {
@@ -435,6 +449,53 @@
 	}
 }
 
+.eye {
+	background-color: #000;
+	/*background-color: #ffffff;*/
+	background-color: var(--color-g-1);
+	width: 300px;
+	height: 180px;
+
+
+	animation: eye-animation 15s ease-in-out alternate infinite;
+	z-index: 2;
+}
+
+
+@keyframes eye-animation {
+	/* Brain */
+	0% {
+		clip-path: var(--eyelid-path);	
+	}
+	
+
+	50% {
+		clip-path: var(--eyelid-path);	
+	}
+	
+
+	51% {
+		clip-path: var(--eyelid-path-2);	
+	}
+
+	52% {
+		clip-path: var(--eyelid-path);	
+	}
+
+	60% {
+		clip-path: var(--eyelid-path);	
+	}
+	61% {
+		clip-path: var(--eyelid-path-2);	
+	}
+	62% {
+		clip-path: var(--eyelid-path);	
+	}
+	100% {
+		clip-path: var(--eyelid-path);	
+	}
+}
+
 .thought-bubble {
 	background-color: #000;
 	background-color: #ffffff;
@@ -443,8 +504,8 @@
 
 	top: calc(50vh - 150px);
 	top: 0;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin: 0px;
+	margin-left: -20px;
 	
 	clip-path: var(--thought-bubble-path);
 
@@ -496,7 +557,6 @@
 	background-image: url("/public/pictures/mugs_1.png");
 	background-position: center;
 	background-size: 100%;
-	
 
 }
 
