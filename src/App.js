@@ -131,7 +131,7 @@ function App() {
 					<section className="svg-container overview-container red-background"> 
 						<section className="overview-container-inner"> 
 							<section className="mug-container"> 
-								<section className="mug"></section>
+								<section className="eye"></section>
 							</section>
 							<section className="thought-bubble-container"> 
 								<section className="thought-bubble"></section>
