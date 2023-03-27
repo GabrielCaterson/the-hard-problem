@@ -4,14 +4,13 @@ import logo from './logo.svg';
 import './App.css';
 
 
-import gsap from "gsap";
-import SplitTextJS from 'split-text-js';
 
 
 import Autoscroll from './Components/Autoscroll.js';
 import Scroller from './Components/Scroller.js';
 
 import { ReadMore } from './Components/ReadMore.js';
+import AnimatedText from './Components/LazyAnimation.js';
 
 
 import useIntersection from './Components/useIntersection.js'
@@ -20,8 +19,10 @@ import useIntersection from './Components/useIntersection.js'
 
 
 
+/*
+import gsap from "gsap";
+import SplitTextJS from 'split-text-js';
 
-/*let text*/
 const titles = gsap.utils.toArray('p');
 const tl = gsap.timeline();
 
@@ -44,7 +45,7 @@ titles.forEach(title => {
 			stagger: .005
 		}, "<1")
 
-});
+});*/
 
 
 
@@ -106,24 +107,14 @@ function App() {
 				<section className="text-box-container text-box-container-overview blue-background">
 					<section className="text-box-container-inner
 										text-box-container-inner-overview">
-						<section className="text-box-container-inner-2">
-							<p className="text-box text-box-overview" >
-								The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks "why is it<span className="like-something"> like something </span>to have the experiences we have?" Why is it like something to see the color red, smell coffee, or taste blueberries? 
-							</p>
-						</section>
+						<AnimatedText text={ 
+							<p>The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks, <q>why is it <span className="like-something"> like something </span>to have the experiences we have?</q> Why is it like something to see the color red, smell coffee, or taste blueberries?</p> }/>
 
-						<section className="text-box-container-inner-2">
-							<p className="text-box text-box-overview" >
-								The trouble is, everything in the universe is physical, but consciousness seems to be something different. The experience of red seems to be non-physical, or as the philosophers call it, phenomenal. 
-							</p>
-						</section>
+						<AnimatedText text={ 
+							<p>The trouble is, everything in the universe is physical, but consciousness seems to be something different. The experience of red seems to be non-physical, or as the philosophers call it, phenomenal.</p> }/>
 
-						<section className="text-box-container-inner-2">
-							<p className="text-box text-box-overview" >
-								Many solutions to the hard problem have been proposed. Some accept the hard problem, and others say there is no consciousness in this "what it's like" sense. Let's explore some of the arguments.
-							</p>
-						</section>
-
+						<AnimatedText text={ 
+							<p> Many solutions to the hard problem have been proposed. Some accept the hard problem, and others say there is no consciousness in this "what it's like" sense. Let's explore some of the arguments. </p> }/>
 
 					</section>
 
