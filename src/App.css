@@ -468,7 +468,6 @@
 		clip-path: var(--eyelid-path);	
 	}
 	
-	
 
 	50% {
 		clip-path: var(--eyelid-path);	
@@ -910,4 +909,42 @@
 	background-color: purple;
 	clip-path: path('m 40 25 c 1 0 2 0 3 -3 q 2 3 2 8 c 5 2 15 -5 10 -15 c 10 0 25 20 25 30 c -5 -5 -12 -3 -12 5 c -5 -5 -13 -3 -13 5 c -5 -5 -11 -5 -15 10 c -4 -15 -10 -15 -15 -10 c 0 -8 -7 -10 -13 -5 c 0 -8 -7 -10 -12 -5 c 0 -10 15 -30 25 -30 c -5 10 5 17 10 15 q 0 -5 2 -8 c 1 3 2 3 3 3');
 	z-index: 1000;
+}
+
+
+
+.text-animate-in {
+	height: 200px;
+	width: 100%;
+	opacity: 0;
+}
+
+.text-animate-in-offscreen {
+	opacity: 0;
+	animation: text-out 1s ease-in-out normal 1;
+
+}
+
+@keyframes text-out {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.text-animate-in-onscreen {
+	opacity: 1;
+
+	animation: text-in 1s ease-in-out normal 1;
+}
+
+@keyframes text-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
