@@ -258,6 +258,9 @@
 
 	height:auto; 
 	z-index: 3;
+	background-image: url("/public/pictures/mugs_1.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .text-box-container-overview{
@@ -318,6 +321,44 @@
 	position: sticky;
 	top: 0;
 }
+
+
+.text-animate-in {
+	width: 100%;
+	opacity: 0;
+	border: 2px solid blue;
+}
+
+.text-animate-in-offscreen {
+	opacity: 0;
+	animation: text-out 1s ease-in-out normal 1;
+
+}
+
+@keyframes text-out {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.text-animate-in-onscreen {
+	opacity: 1;
+
+	animation: text-in 1s ease-in-out normal 1;
+}
+
+@keyframes text-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 
 .text-box {
 	font-size: 35px;
@@ -912,39 +953,14 @@
 }
 
 
+.test-image {
+	width: 100vw;
+	height: 100vh;
+	background-image: url("/public/pictures/mugs_1.png");
+	background-size: 100%;
 
-.text-animate-in {
-	height: 200px;
-	width: 100%;
-	opacity: 0;
-}
+	color: white;
+	font-size: 30px;
+	font-weight: 800;
 
-.text-animate-in-offscreen {
-	opacity: 0;
-	animation: text-out 1s ease-in-out normal 1;
-
-}
-
-@keyframes text-out {
-	0% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0;
-	}
-}
-
-.text-animate-in-onscreen {
-	opacity: 1;
-
-	animation: text-in 1s ease-in-out normal 1;
-}
-
-@keyframes text-in {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
 }
