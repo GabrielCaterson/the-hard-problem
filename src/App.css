@@ -23,6 +23,8 @@
 	--color-e-1: #49D907;
 	--color-f-1: #EAF205;
 	--color-g-1: #F24607;
+	/*--color-g-1: rgb(222,56,27);*/
+
 
 
 	
@@ -258,13 +260,23 @@
 
 	height:auto; 
 	z-index: 3;
+	margin: 0;
+	padding: 0;
+}
+
+.mugs-image {
+	position: sticky;
+
 	background-image: url("/public/pictures/mugs_1.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	margin-bottom: -100vh;
 }
 
 .text-box-container-overview{
-
+	
 }
 
 .text-box-container-bat {
@@ -288,6 +300,8 @@
 
 	width: 50vw;
 	margin: 0;
+	padding: 0;margin: 0;
+	padding: 0;
 
 	align-content: space-between;
 
@@ -326,13 +340,16 @@
 .text-animate-in {
 	width: 100%;
 	opacity: 0;
-	border: 2px solid blue;
+	margin: 0;
+	padding: 0;
+	
 }
 
 .text-animate-in-offscreen {
 	opacity: 0;
 	animation: text-out 1s ease-in-out normal 1;
-
+	margin: 0;
+	padding: 0;
 }
 
 @keyframes text-out {
@@ -348,6 +365,8 @@
 	opacity: 1;
 
 	animation: text-in 1s ease-in-out normal 1;
+	margin: 0;
+	padding: 0;
 }
 
 @keyframes text-in {
@@ -364,12 +383,12 @@
 	font-size: 35px;
 	font-weight: 600;
 	text-align: start;
-	width: 50vw;
-	width: calc(100% - 60px);
-	padding: 30px;
-	margin: 0px 0px;
+	width: apples;
+	padding: 0px;
+	
+	margin: 0 25px;
 	color: white;
-
+	border: 0.001px solid rgba(0,0,0,0);
 }
 
 .text-box-bat {
@@ -871,7 +890,7 @@
 
 	.text-box {
 		padding: 0;
-		margin: 40px;
+		margin: 0;
 	}
 
 	.svg-container {
@@ -958,9 +977,13 @@
 	height: 100vh;
 	background-image: url("/public/pictures/mugs_1.png");
 	background-size: 100%;
+	background-repeat: no-repeat;
+
 
 	color: white;
 	font-size: 30px;
 	font-weight: 800;
+	background-attachment: fixed;
+
 
 }
