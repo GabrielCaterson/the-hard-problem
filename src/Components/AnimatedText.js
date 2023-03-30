@@ -5,6 +5,32 @@ import gsap from "gsap";
 import SplitTextJS from 'split-text-js';
 
 
+function animateText(){
+    const titles = gsap.utils.toArray('p');
+    const tl = gsap.timeline();
+
+
+    titles.forEach(title => {
+        const splitTitle = new SplitTextJS(title);
+        
+        tl
+            .from(splitTitle.chars, {
+                opacity: 0,
+                y: 80,
+                rotateX: -90,
+                stagger: .005
+            }, "<")
+
+            .to(splitTitle.chars, {
+                opacity: 1,
+                y: 0,
+                rotateX: 0,
+                stagger: .005
+            }, "<1")
+
+    });
+}
+
 
 const AnimatedText = (props) => {
     
