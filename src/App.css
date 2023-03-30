@@ -23,6 +23,8 @@
 	--color-e-1: #49D907;
 	--color-f-1: #EAF205;
 	--color-g-1: #F24607;
+	--color-g-1: red;
+	--color-g-1: rgb(170,14,27);
 	/*--color-g-1: rgb(222,56,27);*/
 
 
@@ -267,12 +269,13 @@
 .mugs-image {
 	position: sticky;
 
-	background-image: url("/public/pictures/mugs_1.png");
-	background-size: 100%;
+	background-image: url("/public/pictures/fancy_mug.jpeg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100vw;
-	height: 100vh;
+	min-width: 100%;
+	min-height: 100%;
 	margin-bottom: -100vh;
+	filter: blur(0px);
 }
 
 .text-box-container-overview{
@@ -388,7 +391,9 @@
 	
 	margin: 0 25px;
 	color: white;
+
 	border: 0.001px solid rgba(0,0,0,0);
+	/*text-shadow: black 0 0 2px;*/
 }
 
 .text-box-bat {
