@@ -104,10 +104,10 @@ function App() {
 
 			<section className="body">
 
-				<section className="text-box-container text-box-container-overview red-background">
-					<section className="mugs-image">
+				<section className="text-box-container text-box-container-overview black-background">
+					{/*<section className="mugs-image">
 
-					</section>
+					</section>*/}
 
 					<section className="text-box-container-inner
 										text-box-container-inner-overview">
@@ -120,6 +120,14 @@ function App() {
 						<AnimatedText text={ 
 							<p> Many solutions to the hard problem have been proposed. Some accept the hard problem, and others say there is no consciousness in this "what it's like" sense. Let's explore some of the arguments. </p> }/>
 
+					</section>
+
+					<section className="svg-container overview-container black-background"> 
+						<section className="overview-container-inner"> 
+							
+							<section className="mugs-image"></section>
+
+						</section>
 					</section>
 
 					
