@@ -272,6 +272,7 @@
 	background-image: url("/public/pictures/fancy_mug.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	min-width: 100%;
 	min-height: 100%;
 	margin-bottom: -100vh;
@@ -375,9 +376,12 @@
 @keyframes text-in {
 	0% {
 		opacity: 0;
+		left: -100px;
+		
 	}
 	100% {
 		opacity: 1;
+		left: 0;
 	}
 }
 
@@ -657,6 +661,10 @@
 @keyframes rotate {
 	to {
 	  transform: rotate(3600deg);
+	  -ms-transform: -ms-rotate(3600deg);
+	  -webkit-transform: -webkit-rotate(3600deg);
+	  -moz-transform: -moz-rotate(3600deg);
+	  -o-transform: -o-rotate(3600deg);
 	}
 }
 
