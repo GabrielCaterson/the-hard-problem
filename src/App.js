@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 
 import logo from './logo.svg';
 import './App.css';
+//import './css/main.css';
 
 
 
@@ -84,6 +85,9 @@ function App() {
 
 	return (
 		<section className="App">
+
+			<div id="container"></div>
+			<script type="module" src="script.js"></script>
 
 			<section className="logo-container">
 				<section  className="logo-container-inner">
