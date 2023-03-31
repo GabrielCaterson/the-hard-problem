@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { useInView } from 'react-intersection-observer';
-
+/*
 import gsap from "gsap";
 import SplitTextJS from 'split-text-js';
 
@@ -29,7 +29,7 @@ function animateText(){
             }, "<1")
 
     });
-}
+}*/
 
 
 const AnimatedText = (props) => {
