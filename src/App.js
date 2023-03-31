@@ -2,7 +2,8 @@ import React, { useRef } from 'react';
 
 import logo from './logo.svg';
 import './App.css';
-//import './css/main.css';
+import './css/main.css';
+import './script.js';
 
 
 
