@@ -1,5 +1,9 @@
-import * as THREE from './js/three.module.js';
-import { OrbitControls } from './js/OrbitControls.js';
+//import * as THREE from './js/three.module.js';
+//import { OrbitControls } from '../js/OrbitControls.js';
+import * as THREE from "three";
+
+import { Canvas, useFrame } from '@react-three/fiber'; 
+import { OrbitControls } from '@react-three/drei';
 
 // Select the container for the scene
 const container = document.getElementById('container');
