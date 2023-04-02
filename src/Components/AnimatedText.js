@@ -39,16 +39,14 @@ const AnimatedText = (props) => {
         rootMargin: '-100px 0px',
     });
 
-    console.log(inView);
-
     return (
         <section
             ref={ref}
             className={`text-box-container-inner-2 text-animate-in ${inView ? 'text-animate-in-onscreen' : 'text-animate-in-offscreen'}`} >
 
-            <p className="text-box text-box-overview" >
+            <section className="text-box text-box-overview" >
                 { props.text }
-            </p>
+            </section>
         </section>
     );
 };

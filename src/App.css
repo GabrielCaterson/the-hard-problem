@@ -751,6 +751,7 @@
 	
 	width: 50vw;
 	width: 50vw;
+	min-width: 50vw;
 	min-height: 100vh;
 	min-height: 100%;
 	top: 0;
@@ -881,6 +882,12 @@
 	text-decoration: none;
 }
 
+.marys-room {
+	height: 100vh;
+	width: 100%;
+	filter: grayscale(70%);
+}
+
 
 
 
@@ -938,6 +945,9 @@
 		position: relative;
 		height: 75vh;
 		min-height: 75vh;
+		width: 50vw;
+		min-width: 50vw;
+		border: 2px solid red;
 	}
 
 	.mary-container-inner {
@@ -968,6 +978,10 @@
 		display: flex;
 		flex-direction: column-reverse;
 		width: auto;
+	}
+
+	.marys-room {
+		height: 90vh;
 	}
 }
 
@@ -1000,3 +1014,12 @@
 
 
 }
+
+
+
+
+
+
+
+
+

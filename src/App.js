@@ -1,17 +1,19 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 
 import logo from './logo.svg';
 import './App.css';
+//import * as THREE from "three";
+//import './css/main.css';
+//import './three_script.js';
 
 
 
 
 import Autoscroll from './Components/Autoscroll.js';
 import Scroller from './Components/Scroller.js';
-
 import { ReadMore } from './Components/ReadMore.js';
 import AnimatedText from './Components/AnimatedText.js';
-
+import { MarysRoom } from './Components/MarysRoom.js';
 
 import useIntersection from './Components/useIntersection.js'
 
@@ -82,8 +84,13 @@ function App() {
 	observer.observe(document.querySelector('.crop-36-box'));
 	*/
 
+
+
 	return (
 		<section className="App">
+			
+
+			<div id="container"></div>
 
 			<section className="logo-container">
 				<section  className="logo-container-inner">
@@ -97,9 +104,9 @@ function App() {
 						Problem <br />
 					</p>
 				</section>
+
 				
 			</section>
-
 
 
 			<section className="body">
@@ -223,11 +230,15 @@ function App() {
 
 					
 					<section className="mary-container"> 
-						<section className="mary-container-inner"> 
+						{/*<section className="mary-container-inner"> 
 							<section className="mary"> 
 
 							</section>
-						</section>
+
+
+						</section>*/}
+						<MarysRoom />
+
 					</section>
 				</section>
 
