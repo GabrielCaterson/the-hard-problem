@@ -366,13 +366,14 @@
 	animation: text-in 1s ease-in-out normal 1;
 	margin: 0;
 	padding: 0;
+
+	
 }
 
 @keyframes text-in {
 	0% {
 		opacity: 0;
 		left: -100px;
-		
 	}
 	100% {
 		opacity: 1;
@@ -385,7 +386,7 @@
 	font-size: 35px;
 	font-weight: 600;
 	text-align: start;
-	width: apples;
+	width: auto;
 	padding: 0px;
 	
 	margin: 0 25px;
