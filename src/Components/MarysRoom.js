@@ -2,7 +2,7 @@ import React, { Component, useRef, useState } from 'react';
 import { Canvas, useFrame, useLoader } from '@react-three/fiber'; 
 import { OrbitControls, useTexture } from '@react-three/drei';
 import { TextureLoader } from 'three/src/loaders/TextureLoader';
-import Panorama from '../marys_room_2.jpeg'; //Made using skybox.blockadelabs.com 
+import Panorama from '../marys_room_3.jpeg'; //Made using skybox.blockadelabs.com 
 
 function Room(props) {
     const texture = useLoader(TextureLoader, Panorama );
@@ -14,7 +14,7 @@ function Room(props) {
 	const [hovered, hover] = useState(false)
 	const [clicked, click] = useState(false)
 	// Subscribe this component to the render-loop, rotate the mesh every frame.
-    const rotationSpeed = 0.0;
+    const rotationSpeed = clicked ? 0.0 : 0.03;
 	useFrame((state, delta) => (ref.current.rotation.y += delta * rotationSpeed))
 	// Return the view, these are regular Threejs elements expressed in JSX.
 
@@ -22,7 +22,9 @@ function Room(props) {
 	  <mesh
 		{...props}
 		ref={ref}
-		onClick={(event) => click(!clicked)}
+		//onClick={(event) => click(!clicked)}
+        onClick={(event) => click(true)}
+
 		onPointerOver={(event) => hover(false)}
 		onPointerOut={(event) => hover(false)}>
         position={[0, 0, 0.1]}
@@ -49,7 +51,7 @@ export class MarysRoom extends Component {
 
         return (
 			<section className="marys-room"> 
-                <Canvas sRGB={true}>
+                <Canvas sRGB={true} linear flat>
 
                     <Room position={[0, 0, 0]} />
 

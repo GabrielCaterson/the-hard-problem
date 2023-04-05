@@ -238,6 +238,10 @@ function App() {
 
 						</section>*/}
 						<MarysRoom />
+						<section className="move-icon-container">
+							<section className="move-icon"></section>
+						</section>
+						
 
 					</section>
 				</section>
