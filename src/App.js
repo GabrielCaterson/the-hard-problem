@@ -256,10 +256,6 @@ function App() {
 
 							</section>
 
-							<section className="test-svg"> 
-
-							</section>
-
 						</section>
 					</section>
 
