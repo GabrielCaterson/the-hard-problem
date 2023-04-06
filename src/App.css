@@ -366,8 +366,6 @@
 	animation: text-in 1s ease-in-out normal 1;
 	margin: 0;
 	padding: 0;
-
-	
 }
 
 @keyframes text-in {
@@ -900,7 +898,7 @@
 	width: 50px;
 	height: 50px;
 	clip-path: var(--path-3D);
-	background-color: #fff;
+	backdrop-filter: invert(100%);
 }
 
 
