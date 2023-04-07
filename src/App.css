@@ -268,6 +268,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-position: left;
 	min-width: 100%;
 	min-height: 100%;
 	margin-bottom: -100vh;
@@ -610,21 +611,16 @@
 	height: calc(100vh - 300px);
 	height: calc(100vh - 25vw);
 
-
 	/*top: calc(50vh - 150px);*/
 	margin: 0;
 	
-
-
 	z-index: 2;
 	background-image: url("/public/pictures/mugs_1.png");
 	background-position: center;
 	background-size: 100%;
-
 }
 
 .bat {
-	background-color: #000;
 	
 
 	top: calc(50vh - 150px);
@@ -632,8 +628,6 @@
 	margin-bottom: -30px;
 	
 	clip-path: var(--bat-path);
-
-
 
 
 	position: sticky;
@@ -649,6 +643,8 @@
 	animation-iteration-count: 1;
 	animation-fill-mode: both;
 	z-index: 2;
+
+	backdrop-filter: invert(70%);
 }
 
   
@@ -728,10 +724,19 @@
 	display: flex;
 	align-items: center;
 	justify-content:center;
+	top: 0;
 	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
 	
 	width: 50vw;
 	min-height: 100vh;
+	height: 100%;
+	background-image: url("/public/pictures/bat_impressionism.jpeg");
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: top;
+	
 
 }
 
