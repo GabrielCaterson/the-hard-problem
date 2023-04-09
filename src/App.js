@@ -13,6 +13,8 @@ import Autoscroll from './Components/Autoscroll.js';
 import Scroller from './Components/Scroller.js';
 import { ReadMore } from './Components/ReadMore.js';
 import AnimatedText from './Components/AnimatedText.js';
+import './Components/EyeZoom.js';
+
 import { MarysRoom } from './Components/MarysRoom.js';
 
 import useIntersection from './Components/useIntersection.js'
@@ -105,8 +107,16 @@ function App() {
 					</p>
 				</section>
 
-				
 			</section>
+
+
+			<section className="eye-container">
+				<section className="eye"></section>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis leo quis nisi consequat tincidunt. Fusce vitae lorem quis nunc tincidunt aliquet. Morbi id lacus vitae augue sagittis ullamcorper. Duis id nisi ut nisl luctus malesuada. Sed id sapien quis quam ultrices lacinia. Donec sit amet leo vitae nisl mattis tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Phasellus euismod lorem ut leo ornare, sed condimentum lectus ullamcorper.</p>
+				<p>Nulla facilisi. Curabitur in nisi eget lacus aliquet ultrices. Mauris vel eros sit amet enim mollis sagittis. Sed sit amet augue sed justo consequat blandit. Cras quis massa vitae sem ornare fringilla. Suspendisse potenti. Donec non massa ac lorem gravida lacinia eu quis mi. Morbi nec elit eget quam aliquam suscipit.</p>
+				<p>Etiam in semper magna, sed condimentum felis. Quisque euismod velit at arcu consectetur, nec eleifend arcu blandit. Sed id lectus vitae dolor vehicula fermentum sit amet nec nunc. Aliquam erat volutpat. Vivamus vel justo ac diam fringilla commodo ut id nibh. Fusce ac eros et leo vulputate sagittis.</p>
+			</section>
+
 
 
 			<section className="body">
@@ -180,7 +190,7 @@ function App() {
 
 					<section className="text-box-container-inner
 										text-box-container-inner-bat
-										black-background">
+										yellow-background">
 						{/*<p className="text-box text-box-bat" >
 							What is it like to be a bat? <br /><br />
 							We know roughly what it's like to be other humans because they are very similar to us, but what would it be like to be a bat? We may know that they experience life differently from us, using echolocation, and we can maybe consider analogous experiences, but we can never know what it is like for a bat to be a bat, having lived an entire life solely as a bat. 
@@ -191,7 +201,7 @@ function App() {
 						</p>*/}
 
 						<AnimatedText text={ 
-							<p> What is it like to be a bat? <br /><br />
+							<p className="black-text"> What is it like to be a bat? <br /><br />
 							We know roughly what it's like to be other humans because they are very similar to us, but what would it be like to be a bat? We may know that they experience life differently from us, using echolocation, and we can maybe consider analogous experiences, but we can never know what it is like for a bat to be a bat, having lived an entire life solely as a bat. 
 
 
@@ -199,7 +209,7 @@ function App() {
 							What this shows us is that scientific theories are objective, but our experiences are subjective. </p> }/>
 
 						<section className="reading-section">
-							<ReadMore color="yellow-background black-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+							<ReadMore color="black-background yellow-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
 						</section>
 
 					</section>
