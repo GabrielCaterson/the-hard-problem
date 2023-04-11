@@ -13,6 +13,8 @@ import Autoscroll from './Components/Autoscroll.js';
 import Scroller from './Components/Scroller.js';
 import { ReadMore } from './Components/ReadMore.js';
 import AnimatedText from './Components/AnimatedText.js';
+import AnimateOnScroll from './Components/AnimateOnScroll.js';
+
 import './Components/EyeZoom.js';
 
 import { MarysRoom } from './Components/MarysRoom.js';
@@ -91,23 +93,29 @@ function App() {
 	return (
 		<section className="App">
 			
-
-			<div id="container"></div>
-
 			<section className="logo-container">
-				<section  className="logo-container-inner">
-					<section className="animated-logo"> 
 
-					</section>
-		
-					<p className="title-text">
-						The 
-						Hard <br />
-						Problem <br />
-					</p>
+				<AnimateOnScroll 
+					html={
+						<section  className="logo-container-inner">
+								<section className="animated-logo"> 
+
+								</section>
+					
+								<p className="title-text">
+									The 
+									Hard <br />
+									Problem <br />
+								</p>
+						</section>
+
+					} 
+					animateIn={ "logo-animate-in-onscreen" }
+					animateOut={ "logo-animate-in-offscreen" }
+					classes={ "logo-container-inner" }
+					/>
 				</section>
 
-			</section>
 
 
 			<section className="eye-container">
