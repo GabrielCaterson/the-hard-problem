@@ -75,10 +75,7 @@
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
-    margin-top: calc(50vh - 150px);
 
-
-    border: 2px solid red;
 }
 
 .logo-container-inner {
@@ -88,7 +85,7 @@
     justify-content: center;
     width: 300px;
     height: 300px;
-    top: 0;
+    top: calc(50vh - 150px);
     animation: logo-in 1.3s ease-in-out normal 1;
     z-index: -1;
 }
@@ -179,6 +176,54 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100vw;
+}
+
+
+.logo-animate-in {
+    width: 100%;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-animate-in-offscreen {
+    opacity: 0;
+    animation: logo-out 2s ease-in-out normal 1;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes logo-out {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+
+    }
+    90% {
+        transform: scale(20);
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.logo-animate-in-onscreen {
+    opacity: 1;
+    animation: logo-in 1s ease-in-out normal 1;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes logo-in {
+    0% {
+        opacity: 0;
+        left: -100px;
+    }
+    100% {
+        opacity: 1;
+        left: 0;
+    }
 }
 
 .text-box-container {
@@ -656,7 +701,7 @@
     width: 50vw;
     min-height: 100vh;
     height: 100%;
-    background-image: url("/public/pictures/bat_impressionism.jpeg");
+    background-image: url("/public/pictures/bat_impressionism_grayscale.jpeg");
     background-size: cover;
     background-repeat: repeat;
     background-position: top;
