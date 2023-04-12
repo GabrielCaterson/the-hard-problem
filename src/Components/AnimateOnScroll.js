@@ -8,25 +8,22 @@ const AnimateOnScroll = (props) => {
         rootMargin: '-500px 0px -100px 0px',
     });
 
+    /*const [animationState, setAnimationState] = React.useState('paused');
 
-    // Add a state variable to store the animation play state
-    const [animationState, setAnimationState] = React.useState('paused');
-
-    // Add an effect hook to update the animation state based on the inView value
     React.useEffect(() => {
         if (inView) {
             setAnimationState('running');
         } else {
             setAnimationState('paused');
         }
-    }, [inView]);
+    }, [inView]);*/
 
 
     return (
         <section
             ref={ref}
             className={ props.classes + ` ${inView ? props.animateIn : props.animateOut}`} 
-            style={{animationPlayState: animationState}}
+            /*style={{animationPlayState: animationState}}*/
             >
 
             { props.html }
