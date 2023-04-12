@@ -98,15 +98,15 @@ function App() {
 				<AnimateOnScroll 
 					html={
 						<section  className="logo-container-inner">
-								<section className="animated-logo"> 
+							<section className="animated-logo"> 
 
-								</section>
-					
-								<p className="title-text">
-									The 
-									Hard <br />
-									Problem <br />
-								</p>
+							</section>
+				
+							<p className="title-text">
+								The 
+								Hard <br />
+								Problem <br />
+							</p>
 						</section>
 
 					} 
