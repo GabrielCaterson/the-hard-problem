@@ -95,7 +95,7 @@ function App() {
 			
 			<section className="logo-container">
 
-				<AnimateOnScroll 
+				{/*<AnimateOnScroll 
 					html={
 						<section  className="logo-container-inner">
 							<section className="animated-logo"> 
@@ -113,8 +113,28 @@ function App() {
 					animateIn={ "logo-animate-in-onscreen" }
 					animateOut={ "logo-animate-in-offscreen" }
 					classes={ "logo-container-inner" }
+				/>*/}
+
+				<section  className="logo-container-inner">
+
+					<AnimateOnScroll 
+						html={
+							<section className="animated-logo"> 
+
+							</section>
+						} 
+						animateIn={ "logo-animate-in-onscreen" }
+						animateOut={ "logo-animate-in-offscreen" }
+						classes={ "" }
 					/>
+
+					<p className="title-text">
+						The 
+						Hard <br />
+						Problem <br />
+					</p>
 				</section>
+			</section>
 
 
 

@@ -85,6 +85,9 @@
     justify-content: center;
     width: 300px;
     height: 300px;
+    max-width: 300px;
+    min-height: 300px;
+    padding: 0;
     top: calc(50vh - 150px);
     animation: logo-in 1.3s ease-in-out normal 1;
     z-index: -1;
@@ -103,8 +106,7 @@
 }
 
 .title-text {
-    margin-left: -300px;
-    margin-top: 20px;
+    margin: -300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,6 +115,9 @@
     font-weight: 900;
     color: #fff;
     text-align: center;
+
+    width: 300px;
+    height: 300px;
 }
 
 .animated-logo {
@@ -121,22 +126,16 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-}
 
-.animated-logo::before {
+
     position: relative;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     background-color: #000;
     color: #fff;
-    margin: 0px;
-    width: 300px;
-    height: 300px;
-    margin-left: -82px;
-    content: "";
+    margin: -300px;
+    margin-top: -150px;
     clip-path: path('M 135 3 C 135 3 141 0 144 3 Q 141 21 156 45 C 180 45 180 30 210 30 C 270 30 285 105 285 135 C 285 180 267 210 246 255 C 237 270 219 300 195 300 C 165 300 165 285 150 285 C 135 285 135 300 105 300 C 81 300 63 270 54 255 C 33 210 15 180 15 135 C 15 105 30 30 90 30 C 120 30 120 45 144 45 Q 129 21 129 6 C 129 6 129 6 135 3');
     animation: logo-animation 7s ease-in-out normal infinite;
+
 }
 
 @keyframes logo-animation {
@@ -188,6 +187,8 @@
 
 .logo-animate-in-offscreen {
     animation: logo-out 2s ease-in-out normal 1;
+    /*transform: scale(30);*/
+
 
 }
 
@@ -202,8 +203,8 @@
         opacity: 1;
     }*/
     100% {
-        transform: scale(30);
-        /*opacity: 0;*/
+        /*transform: scale(30);*/
+        opacity: 0;
     }
 }
 
