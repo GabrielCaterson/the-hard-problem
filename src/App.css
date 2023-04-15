@@ -205,6 +205,8 @@
     100% {
         /*transform: scale(30);*/
         opacity: 0;
+        clip-path: var(--brain-path);
+
     }
 }
 
