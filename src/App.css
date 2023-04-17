@@ -83,6 +83,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 300px;
     height: 300px;
     /*max-width: 300px;
@@ -111,6 +112,7 @@
 
 .title-text {
     margin: -300px;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -136,7 +138,8 @@
     background-color: #000;
     color: #fff;
     margin: -300px;
-    margin-top: -150px;
+    margin: 0;
+    margin-bottom: -300px;
     clip-path: path('M 135 3 C 135 3 141 0 144 3 Q 141 21 156 45 C 180 45 180 30 210 30 C 270 30 285 105 285 135 C 285 180 267 210 246 255 C 237 270 219 300 195 300 C 165 300 165 285 150 285 C 135 285 135 300 105 300 C 81 300 63 270 54 255 C 33 210 15 180 15 135 C 15 105 30 30 90 30 C 120 30 120 45 144 45 Q 129 21 129 6 C 129 6 129 6 135 3');
     animation: logo-animation 7s ease-in-out normal infinite;
 
@@ -193,14 +196,13 @@
 .logo-animate-in-offscreen {
     animation: logo-out 2s ease-in-out normal 1;
     transform: scale(30);
+    /*margin-top: -4200px;*/
 }
 
 @keyframes logo-out {
     0% {
         opacity: 1;
         transform: scale(1);
-        margin: -300px;
-
 
         /*transform: scale(1);*/
 
@@ -212,6 +214,9 @@
     100% {
         transform: scale(30);
         margin: 0;
+        /*margin-left: 8100px;*/
+        margin-top: -4200px;
+
 
         /*opacity: 0;*/
         /*clip-path: var(--brain-path);*/
@@ -223,14 +228,14 @@
 
 .logo-animate-in-onscreen {
     opacity: 1;
-    animation: logo-in 1s ease-in-out normal 1;
+    animation: logo-in-scroll 1s ease-in-out normal 1; 
     margin: 0;
     padding: 0;
     transform: scale(1);
 
 }
 
-@keyframes logo-in {
+@keyframes logo-in-scroll {
     0% {
         transform: scale(30);
     }
