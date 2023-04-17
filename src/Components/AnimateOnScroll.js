@@ -5,7 +5,7 @@ const AnimateOnScroll = (props) => {
     
     const { ref, inView } = useInView({
         triggerOnce: false,
-        rootMargin: '-50% 0px -100px 0px',
+        rootMargin: '-5% 10000px -100px 10000px',
     });
 
     /*const [animationState, setAnimationState] = React.useState('paused');
