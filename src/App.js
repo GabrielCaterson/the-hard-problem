@@ -13,7 +13,7 @@ import Autoscroll from './Components/Autoscroll.js';
 import Scroller from './Components/Scroller.js';
 import { ReadMore } from './Components/ReadMore.js';
 import AnimatedText from './Components/AnimatedText.js';
-import AnimateOnScroll from './Components/AnimateOnScroll.js';
+import AnimateOnScroll from './Components/LogoScroll.js';
 
 import './Components/EyeZoom.js';
 
