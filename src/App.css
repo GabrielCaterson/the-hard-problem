@@ -92,6 +92,7 @@
     top: calc(50vh - 150px);
     animation: logo-in 1.3s ease-in-out normal 1;
     z-index: -1;
+    border: 2px solid red;
 }
 
 @keyframes logo-in {

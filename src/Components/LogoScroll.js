@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { useInView } from 'react-intersection-observer';
 
-const AnimateOnScroll = (props) => {
+const LogoScroll = (props) => {
     
     const { ref, inView } = useInView({
         triggerOnce: false,
@@ -32,4 +32,4 @@ const AnimateOnScroll = (props) => {
     );
 };
 
-export default AnimateOnScroll;
+export default LogoScroll;
