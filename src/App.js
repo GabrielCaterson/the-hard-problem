@@ -13,7 +13,7 @@ import Autoscroll from './Components/Autoscroll.js';
 import Scroller from './Components/Scroller.js';
 import { ReadMore } from './Components/ReadMore.js';
 import AnimatedText from './Components/AnimatedText.js';
-import AnimateOnScroll from './Components/LogoScroll.js';
+import LogoScroll from './Components/LogoScroll.js';
 
 import './Components/EyeZoom.js';
 
@@ -96,7 +96,7 @@ function App() {
 			
 			<section className="logo-container">
 
-				{/*<AnimateOnScroll 
+				{/*<LogoScroll 
 					html={
 						<section  className="logo-container-inner">
 							<section className="animated-logo"> 
@@ -118,7 +118,7 @@ function App() {
 
 				<section  className="logo-container-inner">
 
-					<AnimateOnScroll 
+					<LogoScroll 
 						html={
 							<section className="animated-logo"> 
 
@@ -135,6 +135,9 @@ function App() {
 						Problem <br />
 					</p>
 				</section>
+
+				<LogoScroll />
+
 			</section>
 
 

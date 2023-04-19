@@ -26,6 +26,17 @@ const LogoScroll = (props) => {
             /*style={{animationPlayState: animationState}}*/
             >
 
+            <section  className="logo-container-inner">
+
+                
+                <p className="title-text">
+                    The 
+                    Hard <br />
+                    Problem <br />
+                </p>
+            </section>
+
+
             { props.html }
 
         </section>
