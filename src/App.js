@@ -10,7 +10,7 @@ import './App.css';
 
 
 import Autoscroll from './Components/Autoscroll.js';
-import Scroller from './Components/Scroller.js';
+//import Scroller from './Components/Scroller.js';
 import { ReadMore } from './Components/ReadMore.js';
 import AnimatedText from './Components/AnimatedText.js';
 import LogoScroll from './Components/LogoScroll.js';
@@ -93,62 +93,7 @@ function App() {
 	return (
 		<section className="App">
 
-			
-			<section className="logo-container">
-
-				{/*<LogoScroll 
-					html={
-						<section  className="logo-container-inner">
-							<section className="animated-logo"> 
-
-							</section>
-				
-							<p className="title-text">
-								The 
-								Hard <br />
-								Problem <br />
-							</p>
-						</section>
-
-					} 
-					animateIn={ "logo-animate-in-onscreen" }
-					animateOut={ "logo-animate-in-offscreen" }
-					classes={ "logo-container-inner" }
-				/>*/}
-
-				<section  className="logo-container-inner">
-
-					<LogoScroll 
-						html={
-							<section className="animated-logo"> 
-
-							</section>
-						} 
-						animateIn={ "logo-animate-in-onscreen" }
-						animateOut={ "logo-animate-in-offscreen" }
-						classes={ "" }
-					/>
-
-					<p className="title-text">
-						The 
-						Hard <br />
-						Problem <br />
-					</p>
-				</section>
-
-				<LogoScroll />
-
-			</section>
-
-
-
-			<section className="eye-container">
-				<section className="eye"></section>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis leo quis nisi consequat tincidunt. Fusce vitae lorem quis nunc tincidunt aliquet. Morbi id lacus vitae augue sagittis ullamcorper. Duis id nisi ut nisl luctus malesuada. Sed id sapien quis quam ultrices lacinia. Donec sit amet leo vitae nisl mattis tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Phasellus euismod lorem ut leo ornare, sed condimentum lectus ullamcorper.</p>
-				<p>Nulla facilisi. Curabitur in nisi eget lacus aliquet ultrices. Mauris vel eros sit amet enim mollis sagittis. Sed sit amet augue sed justo consequat blandit. Cras quis massa vitae sem ornare fringilla. Suspendisse potenti. Donec non massa ac lorem gravida lacinia eu quis mi. Morbi nec elit eget quam aliquam suscipit.</p>
-				<p>Etiam in semper magna, sed condimentum felis. Quisque euismod velit at arcu consectetur, nec eleifend arcu blandit. Sed id lectus vitae dolor vehicula fermentum sit amet nec nunc. Aliquam erat volutpat. Vivamus vel justo ac diam fringilla commodo ut id nibh. Fusce ac eros et leo vulputate sagittis.</p>
-			</section>
-
+			<LogoScroll />
 
 
 			<section className="body">

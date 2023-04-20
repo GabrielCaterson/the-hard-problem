@@ -5,39 +5,35 @@ const LogoScroll = (props) => {
     
     const { ref, inView } = useInView({
         triggerOnce: false,
-        rootMargin: '-5% 10000px -100px 10000px',
+        rootMargin: '-80% 10000px -100px 10000px',
     });
 
-    /*const [animationState, setAnimationState] = React.useState('paused');
-
-    React.useEffect(() => {
-        if (inView) {
-            setAnimationState('running');
-        } else {
-            setAnimationState('paused');
-        }
-    }, [inView]);*/
-
-
     return (
-        <section
-            ref={ref}
-            className={ props.classes + ` ${inView ? props.animateIn : props.animateOut}`} 
-            /*style={{animationPlayState: animationState}}*/
+        <section>
+            <section
+                ref={ref}
+                className={ "logo-container" } 
             >
 
-            <section  className="logo-container-inner">
+                <section  className="logo-container-inner">
 
-                
-                <p className="title-text">
-                    The 
-                    Hard <br />
-                    Problem <br />
-                </p>
+
+                    <section className={ "animated-logo-expander " + ` ${inView ? "logo-animate-in-onscreen " : "logo-animate-in-offscreen " }` }> 
+                    </section>
+                    
+                    <section className={ "animated-logo "  }>
+                    </section>
+                    
+                    <p className={"title-text" + ` ${inView ? "text-animate-in-onscreen " : "text-animate-in-offscreen " }` }>
+                        The 
+                        Hard <br />
+                        Problem <br />
+                    </p>
+                </section>
+
             </section>
-
-
-            { props.html }
+            
+            <section className="under-logo"></section>
 
         </section>
     );
