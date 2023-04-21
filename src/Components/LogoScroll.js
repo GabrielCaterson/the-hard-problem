@@ -25,8 +25,7 @@ const LogoScroll = (props) => {
                     </section>
                     
                     <p className={"title-text" + ` ${inView ? "text-animate-in-onscreen " : "text-animate-in-offscreen " }` }>
-                        The 
-                        Hard <br />
+                        The Hard <br />
                         Problem <br />
                     </p>
                 </section>
