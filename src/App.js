@@ -14,6 +14,7 @@ import Autoscroll from './Components/Autoscroll.js';
 import { ReadMore } from './Components/ReadMore.js';
 import AnimatedText from './Components/AnimatedText.js';
 import LogoScroll from './Components/LogoScroll.js';
+import Explain from './Components/Explain.js';
 
 import './Components/EyeZoom.js';
 
@@ -93,55 +94,13 @@ function App() {
 	return (
 		<section className="App">
 
-			<LogoScroll />
+			
 
 
 			<section className="body">
 
-				<section className="text-box-container text-box-container-overview black-background">
-					{/*<section className="mugs-image">
-
-					</section>*/}
-
-					<section className="text-box-container-inner
-										text-box-container-inner-overview">
-						<AnimatedText text={ 
-							<p>The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks, <q>why is it <span className="like-something red-text"> like something </span>to have the experiences we have?</q> Why is it like something to see the color red, smell coffee, or taste blueberries?</p> }/>
-
-						<AnimatedText text={ 
-							<p>The trouble is, everything in the universe is physical, but consciousness seems to be something different. The experience of red seems to be non-physical, or as the philosophers call it, phenomenal.</p> }/>
-
-						<AnimatedText text={ 
-							<p> Many solutions to the hard problem have been proposed. Some accept the difficulty of the hard problem, and others say there is no consciousness in this "what it's like" sense. Let's explore some of the arguments. </p> }/>
-
-					</section>
-
-					<section className="svg-container overview-container black-background"> 
-						<section className="overview-container-inner"> 
-							
-							<section className="mugs-image"></section>
-
-						</section>
-					</section>
-
-					
-					{/*<section className="svg-container overview-container red-background"> 
-						<section className="overview-container-inner"> 
-							<section className="mug-container"> 
-								<section className="eye"></section>
-							</section>
-							<section className="thought-bubble-container"> 
-								<section className="thought-bubble"></section>
-							</section>
-							<section className="mug-image"></section>
-
-						</section>
-					</section>*/}
-					
-				</section>
-
-
-
+			<LogoScroll />
+			<Explain />
 
 
 				<section className="text-box-container text-box-container-bat yellow-background">
