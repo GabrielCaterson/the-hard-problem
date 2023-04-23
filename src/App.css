@@ -308,7 +308,7 @@
 
 .explain-animate-in-onscreen {
     opacity: 1;
-    animation: explain-in-scroll 3s ease-in-out normal 1;
+    animation: explain-in-scroll 1.3s ease-in-out normal 1;
 }
 
 @keyframes explain-in-scroll {
