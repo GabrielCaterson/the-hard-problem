@@ -19,7 +19,6 @@ const Explain = (props) => {
             </section>*/}
 
 
-
             <section className="text-box-container-inner
                                 text-box-container-inner-overview">
                 <AnimatedText text={ 
