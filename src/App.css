@@ -213,7 +213,8 @@
 .logo-animate-in-offscreen {
     animation: logo-out 2s ease-in-out normal 1;
     transform: scale(20);
-    background-color: #000000;
+    background-color: var(--color-g-1);
+
 
     /*margin-top: -4200px;*/
 }
@@ -222,6 +223,8 @@
     0% {
         opacity: 0;
         transform: scale(1);
+        background-color: #000;
+
     }
     20% {
         opacity: 1;
@@ -232,6 +235,8 @@
         
         margin-top: -300px;
         opacity: 1;
+        background-color: var(--color-g-1);
+
     }
 }
 
@@ -248,6 +253,8 @@
         opacity: 1;
 
         transform: scale(20);
+        background-color: var(--color-g-1);
+
     }
     80% {
         opacity: 1;
@@ -255,6 +262,9 @@
     100% {
         opacity: 0;
         transform: scale(1);
+        background-color: #000;
+
+
     }
 }
 
