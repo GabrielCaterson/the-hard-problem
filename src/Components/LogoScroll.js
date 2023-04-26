@@ -17,9 +17,11 @@ const LogoScroll = (props) => {
 
                 <section  className="logo-container-inner">
 
-
-                    <section className={ "animated-logo-expander " + ` ${inView ? "logo-animate-in-onscreen " : "logo-animate-in-offscreen " }` }> 
+                    <section className="expander-container">
+                        <section className={ "animated-logo-expander " + ` ${inView ? "logo-animate-in-onscreen " : "logo-animate-in-offscreen " }` }> 
+                        </section>
                     </section>
+                    
                     
                     <section className={ "animated-logo "  }>
                     </section>
