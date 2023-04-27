@@ -11,6 +11,8 @@ import './App.css';
 
 import Autoscroll from './Components/Autoscroll.js';
 //import Scroller from './Components/Scroller.js';
+import './Components/NoHorizontalScroll.js';
+
 import { ReadMore } from './Components/ReadMore.js';
 import AnimatedText from './Components/AnimatedText.js';
 import LogoScroll from './Components/LogoScroll.js';
@@ -21,7 +23,6 @@ import './Components/EyeZoom.js';
 import { MarysRoom } from './Components/MarysRoom.js';
 
 import useIntersection from './Components/useIntersection.js'
-
 
 
 
@@ -205,6 +206,7 @@ function App() {
 
 						</section>
 					</section>
+
 
 
 					<section className="text-box-container-inner
