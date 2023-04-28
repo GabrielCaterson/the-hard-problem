@@ -750,15 +750,18 @@
 }
 
 .zombie {
-    position: sticky;
+    position: absolute;
     width: 50vw;
-    min-height: 100vh;
-    height: 100%;
+    min-height: 50vh;
+    height: 50%;
 
     background-image: url("/public/pictures/p-zombie.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transform: translateZ(-2px);
+    border: 2px solid red;
+
 
 }
 
@@ -796,16 +799,16 @@
 }
 
 .zombie-container {
+    top: 0;
     position: sticky;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 49vw;
+    width: 50vw;
     height: 100%;
     min-height: 100%;
     margin: 0;
-    border: 2px solid red;
 }
 
 .bat-container-inner {
@@ -830,15 +833,16 @@
 }
 
 .zombie-container-inner {
-    position: sticky;
+    /*position: sticky;*/
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
     width: 50vw;
     min-height: 100vh;
-    height: 100%;
-
+    height: 100vh;
+    perspective: 1px;
+    border: 2px solid purple;
 }
 
 .purple-background {
