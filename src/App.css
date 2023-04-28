@@ -360,6 +360,8 @@
 
 .text-box-container-bat {
     min-height: 100vh;
+    perspective: 1px;
+
 }
 
 .text-box-container-mary {
@@ -752,21 +754,22 @@
 .zombie {
     position: absolute;
     width: 50vw;
-    min-height: 50vh;
-    height: 50%;
+    min-height: 100vh;
+    height: 100%;
 
     background-image: url("/public/pictures/p-zombie.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    transform: translateZ(-2px);
+    transform: translateZ(-0.5px);
+    background-attachment: fixed;
     border: 2px solid red;
 
 
 }
 
 .bat-container {
-    position: sticky;
+    /*position: sticky;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -781,6 +784,10 @@
     background-size: cover;
     background-repeat: repeat;
     background-position: top;
+
+
+    transform: translateZ(-0.5px);
+    background-attachment: fixed;
 }
 
 .mary-container {
@@ -800,7 +807,7 @@
 
 .zombie-container {
     top: 0;
-    position: sticky;
+    /*position: sticky;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -809,10 +816,11 @@
     height: 100%;
     min-height: 100%;
     margin: 0;
+    overflow: hidden;
 }
 
 .bat-container-inner {
-    position: sticky;
+    position: absolute;
     display: flex;
     align-items: flex-start;
     justify-content: center;
