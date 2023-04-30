@@ -360,8 +360,6 @@
 
 .text-box-container-bat {
     min-height: 100vh;
-    perspective: 1px;
-
 }
 
 .text-box-container-mary {
@@ -752,20 +750,15 @@
 }
 
 .zombie {
-    position: absolute;
+    position: sticky;
     width: 50vw;
     min-height: 100vh;
     height: 100%;
 
-    background-image: url("/public/pictures/p-zombie.jpeg");
+    background-image: url("/public/pictures/p-zombie-2.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    transform: translateZ(-0.5px);
-    background-attachment: fixed;
-    border: 2px solid red;
-
-
 }
 
 .bat-container {
@@ -773,21 +766,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 0;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    width: 50vw;
+    width: 49vw;
     min-height: 100vh;
     height: 100%;
-    background-image: url("/public/pictures/bat_impressionism_grayscale.jpeg");
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: top;
 
+    perspective: 1px;
 
-    transform: translateZ(-0.5px);
-    background-attachment: fixed;
+    border: 2px solid purple;
 }
 
 .mary-container {
@@ -807,7 +795,7 @@
 
 .zombie-container {
     top: 0;
-    /*position: sticky;*/
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -825,8 +813,22 @@
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
-    width: 300px;
-    min-height: 100vh;
+    width: 200vw;
+    margin-left: -50vw;
+    min-height: 300vh;
+    height: 300vh;
+    background-image: url("/public/pictures/bat_impressionism_grayscale.jpeg");
+
+    background-size: cover;
+    
+    background-repeat: repeat;
+    background-position: center;
+
+    /*transform: translateZ(-1px);*/
+    transform: scale(0.5);
+
+    background-attachment: fixed;
+    border: 2px solid red;
 }
 
 .mary-container-inner {
@@ -841,7 +843,7 @@
 }
 
 .zombie-container-inner {
-    /*position: sticky;*/
+    position: sticky;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -849,8 +851,6 @@
     width: 50vw;
     min-height: 100vh;
     height: 100vh;
-    perspective: 1px;
-    border: 2px solid purple;
 }
 
 .purple-background {
