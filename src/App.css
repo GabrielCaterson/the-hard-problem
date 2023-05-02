@@ -769,14 +769,13 @@
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    width: 49vw;
+    width: 50vw;
     min-height: 100vh;
     height: 115vh;
 
     perspective: 1px;
 
     overflow: hidden;
-    border: 2px solid purple;
 }
 
 .mary-container {
@@ -811,23 +810,27 @@
 .bat-container-inner {
     flex-wrap: wrap;
     width: 200vw;
-    margin-left: -25vw;
-    margin-right: -25vw;
+    min-width: 200vw;
+    /*margin-left: -25vw;
+    margin-right: -25vw;*/
     min-height: 200vh;
     height: 200vh;
     background-image: url("/public/pictures/bat_impressionism_grayscale.jpeg");
 
-    background-size: cover;
+    background-size: 200vw;
     
     background-repeat: repeat;
     background-position: center;
 
-    transform: translateZ(-1px);
+    transform: translateZ(-2px);
     /*transform: scale(0.5);*/
+    /*transform: translate(-50%, -50%);*/
+
 
     background-attachment: fixed;
     border: 2px solid red;
 }
+
 
 .mary-container-inner {
     position: sticky;
