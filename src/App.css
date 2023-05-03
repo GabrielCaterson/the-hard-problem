@@ -817,7 +817,7 @@
     height: 200vh;
     background-image: url("/public/pictures/bat_impressionism_grayscale.jpeg");
 
-    background-size: 200vw;
+    background-size: cover;
     
     background-repeat: repeat;
     background-position: center;
@@ -828,7 +828,7 @@
 
 
     background-attachment: fixed;
-    border: 2px solid red;
+    border: 2px solid black;
 }
 
 
