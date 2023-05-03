@@ -108,20 +108,8 @@ function App() {
 
 					<section className="bat-container"> 
 						<section className="bat-container-inner"> 
-							{/*<section className="bat"> 
-
-							</section>*/}
-
-							{/*<svg className="bat" mlns="http://www.w3.org/2000/svg" viewBox="0 15 80 50">
-  								<path d="M 40 25 C 41 25 42 25 43 22 Q 45 25 45 30 C 50 32 60 25 55 15 C 65 15 80 35 80 45 C 75 40 68 42 68 50 C 63 45 55 47 55 55 C 50 50 44 50 40 65 C 36 50 30 50 25 55 C 25 47 18 45 12 50 C 12 42 5 40 0 45 C 0 35 15 15 25 15 C 20 25 30 32 35 30 Q 35 25 37 22 C 38 25 39 25 40 25" />
-							</svg>
-							<section className="bat"></section>*/}
+							
 						</section>
-
-						{/*<svg className="test-animation-guy" width="100" height="100" viewBox="0 0 24 24">
-							<path d="M21,9H15V22H13V16H11V22H9V9H3V7H21M12,2A2,2 0 0,1 14,4A2,2 0 0,1 12,6C10.89,6 10,5.1 10,4C10,2.89 10.89,2 12,2Z" />
-						</svg>*/}
-
 					</section>
 
 
