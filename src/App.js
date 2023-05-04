@@ -22,7 +22,9 @@ import './Components/EyeZoom.js';
 
 import { MarysRoom } from './Components/MarysRoom.js';
 
-import useIntersection from './Components/useIntersection.js'
+import useIntersection from './Components/useIntersection.js';
+import './Components/Bat3D.js';
+
 
 
 
