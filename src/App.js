@@ -2,9 +2,6 @@ import React, { useRef, useState } from 'react';
 
 import logo from './logo.svg';
 import './App.css';
-//import * as THREE from "three";
-//import './css/main.css';
-//import './three_script.js';
 
 
 
@@ -23,7 +20,13 @@ import './Components/EyeZoom.js';
 import { MarysRoom } from './Components/MarysRoom.js';
 
 import useIntersection from './Components/useIntersection.js';
-import './Components/Bat3D.js';
+
+
+import Scene from './Components/Bat3D.js';
+import { Suspense } from 'react'
+
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls } from '@react-three/drei';
 
 
 
@@ -101,17 +104,24 @@ function App() {
 
 
 			<section className="body">
+				
 
-			<LogoScroll />
-			<Explain />
+				<LogoScroll />
+				<Explain />
 
 
 				<section className="text-box-container text-box-container-bat yellow-background">
 
 					<section className="bat-container"> 
-						<section className="bat-container-inner"> 
+						<Suspense fallback={null}>
+							<Canvas shadows flat linear>
+								<Scene />
+								<OrbitControls />
+							</Canvas>
+						</Suspense>
+						{/*<section className="bat-container-inner"> 
 							
-						</section>
+						</section>*/}
 					</section>
 
 
