@@ -107,11 +107,12 @@ export default function Scene({ ...props }) {
         <OrthographicCamera
           name="1"
           makeDefault={true}
-          zoom={0.24}
+          zoom={0.09}
           far={100000}
           near={-100000}
-          position={[-4395.45, 4173.63, 3805.09]}
-          rotation={[-0.77, -0.62, -0.51]}
+          position={[-4383.15, 4038.08, 3947.51]}
+          rotation={[-0.78, -0.62, -0.52]}
+          scale={1}
         />
         <hemisphereLight name="Default Ambient Light" intensity={0.75} color="#eaeaea" />
       </group>
