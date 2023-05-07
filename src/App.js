@@ -31,6 +31,10 @@ import { OrbitControls } from '@react-three/drei';
 
 
 
+import Spline from "@splinetool/react-spline";
+
+
+
 
 /*
 import gsap from "gsap";
@@ -113,12 +117,17 @@ function App() {
 				<section className="text-box-container text-box-container-bat yellow-background">
 
 					<section className="bat-container"> 
-						<Suspense fallback={null}>
+						{/*<Suspense fallback={null}>
 							<Canvas shadows flat linear>
 								<Scene />
 								<OrbitControls />
 							</Canvas>
-						</Suspense>
+						</Suspense>*/}
+
+						<Spline
+							className="spline"
+							scene="https://prod.spline.design/HH5XNvjFf5WRiOoL/scene.splinecode"
+						/>
 						{/*<section className="bat-container-inner"> 
 							
 						</section>*/}
