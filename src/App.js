@@ -117,20 +117,11 @@ function App() {
 				<section className="text-box-container text-box-container-bat yellow-background">
 
 					<section className="bat-container"> 
-						{/*<Suspense fallback={null}>
-							<Canvas shadows flat linear>
-								<Scene />
-								<OrbitControls />
-							</Canvas>
-						</Suspense>*/}
 
 						<Spline
 							className="spline"
 							scene="https://prod.spline.design/HH5XNvjFf5WRiOoL/scene.splinecode"
 						/>
-						{/*<section className="bat-container-inner"> 
-							
-						</section>*/}
 					</section>
 
 
