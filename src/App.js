@@ -73,33 +73,6 @@ titles.forEach(title => {
 
 
 function App() {
-	/*
-	const ref = useRef();
-    //const inViewport = useIntersection(ref, '0px');
-    const inViewport = useIntersection(ref, '-200px');
-
-    if (inViewport) {
-        console.log('in viewport:', ref.current);
-    }
-
-	const observer = new IntersectionObserver(entries => {
-		entries.forEach(entry => {
-		  	const square = entry.target.querySelector('.wipe-enter');
-	  
-			if (entry.isIntersecting) {
-				square.classList.add('wipe-enter-activator');
-				return; // if we added the class, exit the function
-			}
-	  
-			// We're not intersecting, so remove the class!
-			square.classList.remove('wipe-enter-activator');
-		});
-	});
-	
-	observer.observe(document.querySelector('.crop-36-box'));
-	*/
-
-
 
 	return (
 		<section className="App">
@@ -128,14 +101,6 @@ function App() {
 					<section className="text-box-container-inner
 										text-box-container-inner-bat
 										yellow-background">
-						{/*<p className="text-box text-box-bat" >
-							What is it like to be a bat? <br /><br />
-							We know roughly what it's like to be other humans because they are very similar to us, but what would it be like to be a bat? We may know that they experience life differently from us, using echolocation, and we can maybe consider analogous experiences, but we can never know what it is like for a bat to be a bat, having lived an entire life solely as a bat. 
-
-
-							<br /><br />
-							What this shows us is that scientific theories are objective, but our experiences are subjective.
-						</p>*/}
 
 						<AnimatedText text={ 
 							<p className="black-text"> What is it like to be a bat? <br /><br />
@@ -158,12 +123,7 @@ function App() {
 									text-box-container-mary
 									">
 					<section className="text-box-container-inner text-box-container-inner-mary black-background">
-						{/*<p className="text-box text-box-1" >
-							Mary's room. <br /><br />
-
-							Imagine a color scientist named Mary. She has lived her entire life in a black and white room, and can only investigate the world using a black and white television monitor. That being said, she knows everything there is to know about the physical descriptions of color, and how the human body interacts with it. Will Mary learn anything when she sees color for the first time?
-						</p>*/}
-
+						
 						<AnimatedText text={ 
 							<p> Mary's room. <br /><br />
 
@@ -178,13 +138,7 @@ function App() {
 
 					
 					<section className="mary-container"> 
-						{/*<section className="mary-container-inner"> 
-							<section className="mary"> 
-
-							</section>
-
-
-						</section>*/}
+						
 						<MarysRoom />
 						<section className="move-icon-container">
 							<section className="move-icon"></section>
@@ -212,12 +166,6 @@ function App() {
 					<section className="text-box-container-inner
 										text-box-container-inner-zombie
 										green-background">
-						{/*<p className="text-box text-box-1" >
-							Philosophical zombies. <br /><br />
-							Imagine a person physically identical to a normal person, but who doesn't have a conscious experience. We'll call this person a philosophical zombie. There is nothing it is like to be a zombie. Still, they will behave the same way a normal person would. For instance, if someone poked a zombie with a sharp object, they would cry out as if they were in pain, but they wouldn't feel anything. Some zombies might even read websites about consciousness! <br /><br />
-
-							If it's at least possible for there to be a world where this kind of person exists, then it must be the case that consciousness exists, and isn't physical.
-						</p>*/}
 
 						<AnimatedText text={ 
 							<p> Philosophical zombies. <br /><br />
