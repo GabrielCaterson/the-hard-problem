@@ -327,16 +327,16 @@
 }
 
 .explain-animate-in-offscreen {
-    opacity: 0;
+    /*opacity: 0;*/
     animation: explain-out 2s ease-in-out normal 1;
 }
 
 @keyframes explain-out {
     0% {
-        opacity: 1;
+        /*opacity: 1;*/
     }
     100% {        
-        opacity: 0;
+        /*opacity: 0;/*
     }
 }
 
@@ -347,13 +347,15 @@
 
 @keyframes explain-in-scroll {
     0% {
-        opacity: 0;
+        /*opacity: 0;*/
+        height: 50%;
     }
     67% {
         opacity: 0;
     }
     100% {
         opacity: 1;
+        height: 100%;
     }
 }
 

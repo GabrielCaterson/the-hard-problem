@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, Suspense } from 'react';
 
 import logo from './logo.svg';
 import './App.css';
@@ -23,13 +23,9 @@ import useIntersection from './Components/useIntersection.js';
 
 
 import Scene from './Components/Bat3D.js';
-import { Suspense } from 'react'
 
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
-
-
-
 
 import Spline from "@splinetool/react-spline";
 
