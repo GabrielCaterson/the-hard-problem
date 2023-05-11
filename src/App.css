@@ -103,7 +103,7 @@
     padding: 0;
     top: calc(50vh - 150px);
     margin-bottom: -3000px;
-    animation: logo-in 1.3s ease-in-out normal 1;
+    /*animation: logo-in 1.3s ease-in-out normal 1;*/
     z-index: -1;
 }
 
