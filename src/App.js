@@ -89,7 +89,7 @@ function App() {
 
 						<Spline
 							className="spline"
-							scene="https://prod.spline.design/HH5XNvjFf5WRiOoL/scene.splinecode"
+							scene="https://prod.spline.design/wv6g-RgQlzWNngC9/scene.splinecode"
 						/>
 					</section>
 
