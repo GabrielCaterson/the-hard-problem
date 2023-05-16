@@ -30,44 +30,6 @@ import { OrbitControls } from '@react-three/drei';
 import Spline from "@splinetool/react-spline";
 
 
-
-
-/*
-import gsap from "gsap";
-import SplitTextJS from 'split-text-js';
-
-const titles = gsap.utils.toArray('p');
-const tl = gsap.timeline();
-
-
-titles.forEach(title => {
-	const splitTitle = new SplitTextJS(title);
-	
-	tl
-		.from(splitTitle.chars, {
-			opacity: 0,
-			y: 80,
-			rotateX: -90,
-			stagger: .005
-		}, "<")
-
-		.to(splitTitle.chars, {
-			opacity: 1,
-			y: 0,
-			rotateX: 0,
-			stagger: .005
-		}, "<1")
-
-});*/
-
-
-
-
-
-
-
-
-
 function App() {
 
 	return (
