@@ -277,8 +277,9 @@
     0% {
         opacity: 1;
 
-        transform: scale(20);
+        transform: scale(20) translateZ(1px);
         background-color: var(--color-g-1);
+        
 
     }
     80% {
@@ -286,9 +287,9 @@
     }
     100% {
         opacity: 0;
-        transform: scale(1);
+        transform: scale(1) translateZ(1px);
         background-color: #000;
-
+        
 
     }
 }
