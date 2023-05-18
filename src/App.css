@@ -770,10 +770,90 @@
     min-height: 100vh;
     height: 100%;
 
-    background-image: url("/public/pictures/p-zombie-2.jpeg");
+    background-image: url("/public/pictures/p-zombie-3.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    animation: zombie-animation 5s ease-in-out alternate infinite;
+}
+
+@keyframes zombie-animation {
+    0% {
+        filter: grayscale(0%);
+        opacity: 1;
+    }
+    40% {
+        filter: grayscale(0%);
+        opacity: 1;
+    }
+    60% {
+        filter: grayscale(100%);
+        opacity: 0.1;
+    }
+    100% {
+        filter: grayscale(100%); 
+        opacity: 0.1;
+    }
+}
+
+.zombie-no-bg {
+    position: sticky;
+    width: 50vw;
+    min-height: 100vh;
+    height: 100%;
+    margin-left: -50vw;
+
+    background-image: url("/public/pictures/p-zombie-3-no-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 10;
+
+    animation: zombie-no-bg-animation 5s ease-in-out alternate infinite;
+}
+
+@keyframes zombie-no-bg-animation {
+    0% {
+        filter: grayscale(0%);
+    }
+    40% {
+        filter: grayscale(0%);
+    }
+    60% {
+        filter: grayscale(100%);
+    }
+    100% {
+        filter: grayscale(100%); 
+    }
+}
+
+.zombie-no-bg-2 {
+    margin-left: -60vw;
+    opacity: 0.3;
+    filter: grayscale(100%) brightness(1.9);
+    z-index: 9;
+
+    animation: zombie-no-bg-2-animation 5s ease-in-out alternate infinite;
+}
+
+@keyframes zombie-no-bg-2-animation {
+    0% {
+        opacity: 0.3;
+        margin-left: -60vw;
+    }
+    40% {
+        opacity: 0.3;
+        margin-left: -60vw;
+    }
+    60% {
+        opacity: 0;
+        margin-left: -50vw;
+    }
+    100% {
+        opacity: 0;
+        margin-left: -50vw;
+    }
 }
 
 .bat-container {
@@ -861,8 +941,8 @@
 .zombie-container-inner {
     position: sticky;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
     flex-wrap: wrap;
     width: 50vw;
     min-height: 100vh;
@@ -891,6 +971,10 @@
 
 .black-background {
     background-color: #000;
+}
+
+.gray-background {
+    background-color: #444;
 }
 
 .white-background {

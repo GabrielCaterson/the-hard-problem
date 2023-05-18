@@ -108,11 +108,19 @@ function App() {
 
 
 
-				<section className="text-box-container text-box-container-zombie blue-background">
+				<section className="text-box-container text-box-container-zombie gray-background">
 
 					<section className="zombie-container"> 
 						<section className="zombie-container-inner"> 
 							<section className="overview zombie"> 
+
+							</section>
+
+							<section className="overview zombie-no-bg"> 
+
+							</section>
+
+							<section className="overview zombie-no-bg zombie-no-bg-2"> 
 
 							</section>
 
@@ -132,7 +140,7 @@ function App() {
 							If it's at least possible for there to be a world where this kind of person exists, then it must be the case that consciousness exists, and isn't physical. </p> }/>
 
 						<section className="reading-section">
-							<ReadMore color="blue-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+							<ReadMore color="gray-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
 						</section>
 
 					</section>
