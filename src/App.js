@@ -131,10 +131,10 @@ function App() {
 
 					<section className="text-box-container-inner
 										text-box-container-inner-zombie
-										green-background">
+										blue-background">
 
 						<AnimatedText text={ 
-							<p> Philosophical zombies. <br /><br />
+							<p className="white-text"> Philosophical zombies. <br /><br />
 							Imagine a person physically identical to a normal person, but who doesn't have a conscious experience. We'll call this person a philosophical zombie. There is nothing it is like to be a philosophical zombie. Still, they will behave the same way a normal person would. For instance, if someone poked a zombie with a sharp object, they would cry out as if they were in pain, but they wouldn't feel anything. Some zombies might even read websites about consciousness! <br /><br />
 
 							If it's at least possible for there to be a world where this kind of person exists, then it must be the case that consciousness exists, and isn't physical. </p> }/>

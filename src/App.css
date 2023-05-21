@@ -423,7 +423,7 @@
 
 .text-animate-in-offscreen {
     opacity: 0;
-    animation: text-out 1s ease-in-out normal 1;
+    /*animation: text-out 1s ease-in-out normal 1;*/
     padding: 0;
 }
 
@@ -438,7 +438,7 @@
 
 .text-animate-in-onscreen {
     opacity: 1;
-    animation: text-in 2s ease-in-out normal 1;
+    animation: text-in 1.5s ease-in-out normal 1;
     
     color: white;
     
@@ -775,7 +775,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    animation: zombie-animation 5s ease-in-out alternate infinite;
+    animation: zombie-animation 8s ease-in-out normal infinite;
     filter: blur(4px);
 }
 
@@ -784,20 +784,22 @@
         filter: grayscale(0%);
         opacity: 1;
     }
-    20%{
-    }
-    40% {
+    30% {
         filter: grayscale(0%);
         opacity: 1;
         
     }
-    60% {
+    40% {
         filter: grayscale(100%);
         opacity: 0.1;
     }
-    100% {
+    90% {
         filter: grayscale(100%); 
         opacity: 0.1;
+    }
+    100% {
+        filter: grayscale(0%);
+        opacity: 1;
     }
 }
 
@@ -814,7 +816,7 @@
     background-repeat: no-repeat;
     z-index: 10;
 
-    animation: zombie-no-bg-animation 5s ease-in-out alternate infinite;
+    animation: zombie-no-bg-animation 8s ease-in-out normal infinite;
     
 }
 
@@ -825,11 +827,17 @@
     40% {
         filter: grayscale(0%);
     }
-    60% {
+    50% {
         filter: grayscale(100%);
     }
-    100% {
+    85% {
         filter: grayscale(100%); 
+    }
+    95% {
+        filter: grayscale(0%);
+    }
+    100% {
+        filter: grayscale(0%);
     }
 }
 
@@ -839,7 +847,7 @@
     filter: grayscale(100%) brightness(1.9);
     z-index: 9;
 
-    animation: zombie-no-bg-2-animation 5s ease-in-out alternate infinite;
+    animation: zombie-no-bg-2-animation 8s ease-in-out normal infinite;
 }
 
 @keyframes zombie-no-bg-2-animation {
@@ -847,17 +855,21 @@
         opacity: 0.3;
         margin-left: -60vw;
     }
-    40% {
+    35% {
         opacity: 0.3;
-        margin-left: -60vw;
+        margin-left: -61vw;
     }
-    60% {
+    45% {
+        opacity: 0;
+        margin-left: -50vw;
+    }
+    90% {
         opacity: 0;
         margin-left: -50vw;
     }
     100% {
-        opacity: 0;
-        margin-left: -50vw;
+        opacity: 0.3;
+        margin-left: -60vw;
     }
 }
 
