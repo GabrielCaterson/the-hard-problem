@@ -267,7 +267,7 @@
 
 .logo-animate-in-onscreen {
     opacity: 1;
-    animation: logo-in-scroll 1s ease-in-out normal forwards; 
+    animation: logo-in-scroll 2s ease-in-out normal forwards; 
     padding: 0;
     transform: scale(20);
     background-color: var(--color-g-1);
