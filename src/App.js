@@ -147,6 +147,34 @@ function App() {
 				</section>
 
 
+				<section className="text-box-container text-box-container-materialism white-background">
+
+					<section className="materialism-container"> 
+						<section className="materialism-container-inner"> 
+							<section className="overview materialism"> 
+
+							</section>
+						</section>
+					</section>
+
+
+
+					<section className="text-box-container-inner
+										text-box-container-inner-materialism
+										white-background">
+
+						<AnimatedText text={ 
+							<p className="black-text"> Materialism. <br /><br />
+							 </p> }/>
+
+						<section className="reading-section">
+							<ReadMore color="gray-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+						</section>
+
+					</section>
+				</section>
+
+
 				
 			</section>
 
