@@ -884,7 +884,7 @@
     min-height: 100vh;
     height: 100%;
 
-    background-image: url("/public/pictures/p-zombie-3.jpeg");
+    /*background-image: url("/public/pictures/p-zombie-3.jpeg");*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -164,11 +164,13 @@ function App() {
 										white-background">
 
 						<AnimatedText text={ 
-							<p className="black-text"> Materialism. <br /><br />
-							 </p> }/>
+							<p className="black-text"> 
+								Materialism. <br /><br />
+								Here is some text about materialism.
+							</p> }/>
 
 						<section className="reading-section">
-							<ReadMore color="gray-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+							<ReadMore color="black-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
 						</section>
 
 					</section>
