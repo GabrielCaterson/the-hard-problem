@@ -165,8 +165,8 @@ function App() {
 
 						<AnimatedText text={ 
 							<p className="black-text"> 
-								Materialism. <br /><br />
-								Here is some text about materialism.
+								Eliminative materialism. <br /><br />
+								Eliminative materialism is the claim that our common-sense understanding of the mind is wrong. Some or all of the mental states (like consciousness) common-sense tells us exist don't exist at all.
 							</p> }/>
 
 						<section className="reading-section">
