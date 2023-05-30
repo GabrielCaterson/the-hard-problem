@@ -428,7 +428,7 @@
 
 .text-animate-in-offscreen {
     opacity: 0;
-    /*animation: text-out 1s ease-in-out normal 1;*/
+    animation: text-out 1s ease-in-out normal 1;
     padding: 0;
 }
 
