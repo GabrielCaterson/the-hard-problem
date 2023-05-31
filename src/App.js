@@ -176,6 +176,43 @@ function App() {
 				</section>
 
 
+				<section className="text-box-container text-box-container-zombie gray-background">
+
+					<section className="zombie-container"> 
+						<section className="zombie-container-inner"> 
+							<section className="overview zombie"> 
+
+							</section>
+
+							<section className="overview zombie-no-bg"> 
+
+							</section>
+
+							<section className="overview zombie-no-bg zombie-no-bg-2"> 
+
+							</section>
+
+						</section>
+					</section>
+
+
+
+					<section className="text-box-container-inner
+										text-box-container-inner-zombie
+										blue-background">
+
+						<AnimatedText text={ 
+							<p className="white-text"> Dualism <br /><br />
+							</p> }/>
+
+						<section className="reading-section">
+							<ReadMore color="gray-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+						</section>
+
+					</section>
+				</section>
+
+
 				
 			</section>
 
