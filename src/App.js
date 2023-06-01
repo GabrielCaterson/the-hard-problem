@@ -90,7 +90,7 @@ function App() {
 						
 
 						<section className="reading-section">
-							<ReadMore color="white-background black-text" link="" text="Read paper"/>
+							<ReadMore color="white-background black-text" link="https://web.ics.purdue.edu/~drkelly/JacksonWhatMaryDidntKnow1986.pdf" text="Read paper"/>
 						</section>
 					</section>
 
@@ -140,7 +140,7 @@ function App() {
 							If it's at least possible for there to be a world where this kind of person exists, then it must be the case that consciousness exists, and isn't physical. </p> }/>
 
 						<section className="reading-section">
-							<ReadMore color="gray-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+							<ReadMore color="gray-background white-text" link="https://plato.stanford.edu/entries/zombies/" text="Read more"/>
 						</section>
 
 					</section>
