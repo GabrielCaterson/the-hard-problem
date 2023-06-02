@@ -83,7 +83,7 @@ function App() {
 					<section className="text-box-container-inner text-box-container-inner-mary black-background">
 						
 						<AnimatedText text={ 
-							<p> Mary's room. <br /><br />
+							<p> Mary's Room <br /><br />
 
 							Imagine a color scientist named Mary. She has lived her entire life in a black and white room, and can only investigate the world using a black and white television monitor. That being said, she knows everything there is to know about the physical descriptions of color, and how the human body interacts with it. Will Mary learn anything when she sees color for the first time? </p> }/>
 
@@ -134,7 +134,7 @@ function App() {
 										blue-background">
 
 						<AnimatedText text={ 
-							<p className="white-text"> Philosophical zombies. <br /><br />
+							<p className="white-text"> Philosophical Zombies <br /><br />
 							Imagine a person physically identical to a normal person, but who doesn't have a conscious experience. We'll call this person a philosophical zombie. There is nothing it is like to be a philosophical zombie. Still, they will behave the same way a normal person would. For instance, if someone poked a zombie with a sharp object, they would cry out as if they were in pain, but they wouldn't feel anything. Some zombies might even read websites about consciousness! <br /><br />
 
 							If it's at least possible for there to be a world where this kind of person exists, then it must be the case that consciousness exists, and isn't physical. </p> }/>
@@ -156,8 +156,8 @@ function App() {
 
 						<AnimatedText text={ 
 							<p className="black-text"> 
-								Eliminative materialism. <br /><br />
-								Eliminative materialism is the claim that our common-sense understanding of the mind is wrong. Some or all of the mental states (like consciousness) common-sense tells us exist don't exist at all.
+								Materialism <br /><br />
+								Materialism is the view that everything is physical. There is no non-physical consciousness.
 							</p> }/>
 
 						<section className="reading-section">
@@ -180,7 +180,7 @@ function App() {
 
 					<section className="zombie-container"> 
 						<section className="zombie-container-inner"> 
-							<section className="overview zombie"> 
+							<section className="overview zombie">
 
 							</section>
 
