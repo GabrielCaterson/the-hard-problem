@@ -167,11 +167,10 @@ function App() {
 					</section>
 
 					<section className="materialism-container"> 
-						<section className="materialism-container-inner"> 
-							<section className="overview materialism"> 
-
-							</section>
-						</section>
+					<Spline
+							className="spline"
+							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
+						/>
 					</section>
 				</section>
 
