@@ -167,7 +167,7 @@ function App() {
 					</section>
 
 					<section className="materialism-container"> 
-					<Spline
+						<Spline
 							className="spline"
 							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
 						/>
@@ -208,6 +208,277 @@ function App() {
 							<ReadMore color="gray-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
 						</section>
 
+					</section>
+				</section>
+
+				<section className="text-box-container text-box-container-materialism white-background">
+
+
+					<section className="text-box-container-inner
+										text-box-container-inner-materialism
+										white-background">
+
+						<AnimatedText text={ 
+							<p className="black-text"> 
+								Materialism <br /><br />
+								Materialism is the view that everything is physical. There is no non-physical consciousness.
+							</p> }/>
+
+						<section className="reading-section">
+							<ReadMore color="black-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+						</section>
+
+					</section>
+
+					<section className="materialism-container"> 
+						<Spline
+							className="spline"
+							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
+						/>
+					</section>
+				</section>
+
+				<section className="text-box-container text-box-container-materialism white-background">
+
+
+					<section className="text-box-container-inner
+										text-box-container-inner-materialism
+										white-background">
+
+						<AnimatedText text={ 
+							<p className="black-text"> 
+								Materialism <br /><br />
+								Materialism is the view that everything is physical. There is no non-physical consciousness.
+							</p> }/>
+
+						<section className="reading-section">
+							<ReadMore color="black-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+						</section>
+
+					</section>
+
+					<section className="materialism-container"> 
+						<Spline
+							className="spline"
+							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
+						/>
+					</section>
+				</section>
+
+				<section className="text-box-container text-box-container-materialism white-background">
+
+
+					<section className="text-box-container-inner
+										text-box-container-inner-materialism
+										white-background">
+
+						<AnimatedText text={ 
+							<p className="black-text"> 
+								Materialism <br /><br />
+								Materialism is the view that everything is physical. There is no non-physical consciousness.
+							</p> }/>
+
+						<section className="reading-section">
+							<ReadMore color="black-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+						</section>
+
+					</section>
+
+					<section className="materialism-container"> 
+						<Spline
+							className="spline"
+							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
+						/>
+					</section>
+				</section>
+
+				<section className="text-box-container text-box-container-materialism white-background">
+
+
+					<section className="text-box-container-inner
+										text-box-container-inner-materialism
+										white-background">
+
+						<AnimatedText text={ 
+							<p className="black-text"> 
+								Materialism <br /><br />
+								Materialism is the view that everything is physical. There is no non-physical consciousness.
+							</p> }/>
+
+						<section className="reading-section">
+							<ReadMore color="black-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+						</section>
+
+					</section>
+
+					<section className="materialism-container"> 
+						<Spline
+							className="spline"
+							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
+						/>
+					</section>
+				</section>
+
+				<section className="text-box-container text-box-container-materialism white-background">
+
+
+					<section className="text-box-container-inner
+										text-box-container-inner-materialism
+										white-background">
+
+						<AnimatedText text={ 
+							<p className="black-text"> 
+								Materialism <br /><br />
+								Materialism is the view that everything is physical. There is no non-physical consciousness.
+							</p> }/>
+
+						<section className="reading-section">
+							<ReadMore color="black-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+						</section>
+
+					</section>
+
+					<section className="materialism-container"> 
+						<Spline
+							className="spline"
+							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
+						/>
+					</section>
+				</section>
+
+
+				<section className="text-box-container text-box-container-materialism white-background">
+
+
+					<section className="text-box-container-inner
+										text-box-container-inner-materialism
+										white-background">
+
+						<AnimatedText text={ 
+							<p className="black-text"> 
+								Materialism <br /><br />
+								Materialism is the view that everything is physical. There is no non-physical consciousness.
+							</p> }/>
+
+						<section className="reading-section">
+							<ReadMore color="black-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+						</section>
+
+					</section>
+
+					<section className="materialism-container"> 
+						<Spline
+							className="spline"
+							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
+						/>
+					</section>
+				</section>
+
+				<section className="text-box-container text-box-container-materialism white-background">
+
+
+					<section className="text-box-container-inner
+										text-box-container-inner-materialism
+										white-background">
+
+						<AnimatedText text={ 
+							<p className="black-text"> 
+								Materialism <br /><br />
+								Materialism is the view that everything is physical. There is no non-physical consciousness.
+							</p> }/>
+
+						<section className="reading-section">
+							<ReadMore color="black-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+						</section>
+
+					</section>
+
+					<section className="materialism-container"> 
+						<Spline
+							className="spline"
+							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
+						/>
+					</section>
+				</section>
+
+				<section className="text-box-container text-box-container-materialism white-background">
+
+
+					<section className="text-box-container-inner
+										text-box-container-inner-materialism
+										white-background">
+
+						<AnimatedText text={ 
+							<p className="black-text"> 
+								Materialism <br /><br />
+								Materialism is the view that everything is physical. There is no non-physical consciousness.
+							</p> }/>
+
+						<section className="reading-section">
+							<ReadMore color="black-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+						</section>
+
+					</section>
+
+					<section className="materialism-container"> 
+						<Spline
+							className="spline"
+							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
+						/>
+					</section>
+				</section>
+
+				<section className="text-box-container text-box-container-materialism white-background">
+
+
+					<section className="text-box-container-inner
+										text-box-container-inner-materialism
+										white-background">
+
+						<AnimatedText text={ 
+							<p className="black-text"> 
+								Materialism <br /><br />
+								Materialism is the view that everything is physical. There is no non-physical consciousness.
+							</p> }/>
+
+						<section className="reading-section">
+							<ReadMore color="black-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+						</section>
+
+					</section>
+
+					<section className="materialism-container"> 
+						<Spline
+							className="spline"
+							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
+						/>
+					</section>
+				</section>
+
+				<section className="text-box-container text-box-container-materialism white-background">
+
+
+					<section className="text-box-container-inner
+										text-box-container-inner-materialism
+										white-background">
+
+						<AnimatedText text={ 
+							<p className="black-text"> 
+								Materialism <br /><br />
+								Materialism is the view that everything is physical. There is no non-physical consciousness.
+							</p> }/>
+
+						<section className="reading-section">
+							<ReadMore color="black-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+						</section>
+
+					</section>
+
+					<section className="materialism-container"> 
+						<Spline
+							className="spline"
+							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
+						/>
 					</section>
 				</section>
 
