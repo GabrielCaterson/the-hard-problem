@@ -1116,44 +1116,60 @@
         width: 100vw;
     }
     .overview-container {
-        height: calc(600px + 100vw);
-        min-height: calc(600px + 100vw);
-        max-height: calc(600px + 100vw);
+        height: calc(100vw);
+        min-height: calc(100vw);
+        max-height: calc(100vw);
         width: 100%;
     }
     .overview-container-inner {
-        height: calc(600px + 100vw);
-        min-height: calc(600px + 100vw);
-        max-height: calc(600px + 100vw);
+        height: calc(100vw);
+        min-height: calc(100vw);
+        max-height: calc(100vw);
         width: 100%;
     }
     .mug-image {
         background-repeat: no-repeat;
         background-position: center;
     }
+
+    .bat-container {
+        position: relative;
+        height: 100vw;
+        min-height: 100vw;
+        width: 100vw;
+        min-width: 100vw;
+    }
+    .bat-container-inner {
+        height: 100vw;
+        min-height: 100vw;
+        width: 100vw;
+    }
+
     .mary-container {
         position: relative;
         height: 75vh;
         min-height: 75vh;
-        width: 50vw;
-        min-width: 50vw;
+        width: 100vw;
+        min-width: 100vw;
     }
     .mary-container-inner {
         height: 75vh;
         min-height: 75vh;
-        width: 300px;
+        width: 100vw;
     }
+
     .zombie-container {
         position: relative;
         height: 75vh;
         min-height: 75vh;
-        
+        width: 100vw;
     }
     .zombie-container-inner {
         height: 75vh;
         min-height: 75vh;
-        width: 300px;
+        width: 100vw;
     }
+
     .text-box-container-bat {
         display: flex;
         flex-direction: column-reverse;
