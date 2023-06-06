@@ -1169,6 +1169,18 @@
         min-height: 75vh;
         width: 100vw;
     }
+    .zombie {
+        width: 100vw;
+    }
+    .zombie-no-bg {
+        width: 100vw;
+        margin-left: -100vw;
+
+    }
+    .zombie-no-bg-2 {
+        width: 100vw;
+        margin-left: -100vw;
+    }
 
     .text-box-container-bat {
         display: flex;

@@ -112,15 +112,15 @@ function App() {
 
 					<section className="zombie-container"> 
 						<section className="zombie-container-inner"> 
-							<section className="overview zombie"> 
+							<section className="zombie"> 
 
 							</section>
 
-							<section className="overview zombie-no-bg"> 
+							<section className="zombie-no-bg"> 
 
 							</section>
 
-							<section className="overview zombie-no-bg zombie-no-bg-2"> 
+							<section className="zombie-no-bg zombie-no-bg-2"> 
 
 							</section>
 
