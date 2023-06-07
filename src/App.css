@@ -1160,24 +1160,26 @@
 
     .zombie-container {
         position: relative;
-        height: 75vh;
-        min-height: 75vh;
+        height: 100vw;
+        min-height: 100vw;
         width: 100vw;
     }
     .zombie-container-inner {
-        height: 75vh;
-        min-height: 75vh;
+        height: 100vw;
+        min-height: 100vw;
         width: 100vw;
     }
     .zombie {
+        height: 100vw;
         width: 100vw;
     }
     .zombie-no-bg {
+        height: 100vw;
         width: 100vw;
         margin-left: -100vw;
-
     }
     .zombie-no-bg-2 {
+        height: 100vw;
         width: 100vw;
         margin-left: -100vw;
     }
