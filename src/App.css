@@ -1184,6 +1184,13 @@
         margin-left: -100vw;
     }
 
+    .materialism-container {
+        position: relative;
+        height: 100vw;
+        min-height: 100vw;
+        width: 100vw;
+    }
+
     .text-box-container-bat {
         display: flex;
         flex-direction: column-reverse;
