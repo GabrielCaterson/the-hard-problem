@@ -1172,7 +1172,6 @@
     .zombie {
         height: 100vw;
         width: 100vw;
-        background-size: cover;
     }
     .zombie-no-bg {
         height: 100vw;
