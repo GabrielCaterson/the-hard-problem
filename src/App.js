@@ -174,19 +174,11 @@ function App() {
 				</section>
 
 
-				<section className="text-box-container text-box-container-zombie gray-background">
+				<section className="text-box-container text-box-container-dualism gray-background">
 
-					<section className="zombie-container"> 
-						<section className="zombie-container-inner"> 
-							<section className="overview zombie">
-
-							</section>
-
-							<section className="overview zombie-no-bg"> 
-
-							</section>
-
-							<section className="overview zombie-no-bg zombie-no-bg-2"> 
+					<section className="dualism-container"> 
+						<section className="dualism-container-inner"> 
+							<section className="dualism">
 
 							</section>
 
@@ -196,7 +188,7 @@ function App() {
 
 
 					<section className="text-box-container-inner
-										text-box-container-inner-zombie
+										text-box-container-inner-dualism
 										blue-background">
 
 						<AnimatedText text={ 
