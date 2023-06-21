@@ -46,7 +46,7 @@ function App() {
 
 				<section className="text-box-container text-box-container-bat yellow-background">
 
-					<section className="bat-container"> 
+					<section className="bat-container section-container"> 
 
 						<Spline
 							className="spline"
@@ -94,7 +94,7 @@ function App() {
 					</section>
 
 					
-					<section className="mary-container"> 
+					<section className="mary-container section-container"> 
 						
 						<MarysRoom />
 						<section className="move-icon-container">
@@ -109,7 +109,7 @@ function App() {
 
 				<section className="text-box-container text-box-container-zombie gray-background">
 
-					<section className="zombie-container"> 
+					<section className="zombie-container section-container"> 
 						<section className="zombie-container-inner"> 
 							<section className="zombie"> 
 
@@ -160,12 +160,12 @@ function App() {
 							</p> }/>
 
 						<section className="reading-section">
-							<ReadMore color="black-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+							<ReadMore color="black-background white-text" link="https://plato.stanford.edu/entries/physicalism/" text="Read more"/>
 						</section>
 
 					</section>
 
-					<section className="materialism-container"> 
+					<section className="materialism-container section-container"> 
 						<Spline
 							className="spline"
 							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
@@ -174,9 +174,9 @@ function App() {
 				</section>
 
 
-				<section className="text-box-container text-box-container-dualism gray-background">
+				<section className="text-box-container text-box-container-dualism blue-background">
 
-					<section className="dualism-container"> 
+					<section className="dualism-container section-container"> 
 						<section className="dualism-container-inner"> 
 							<section className="dualism">
 
@@ -189,14 +189,16 @@ function App() {
 
 					<section className="text-box-container-inner
 										text-box-container-inner-dualism
-										blue-background">
+										purple-background">
 
 						<AnimatedText text={ 
-							<p className="white-text"> Dualism <br /><br />
+							<p className=" reverse-text"> 
+								Dualism <br /><br />
+								Dualism is the view that the mind and the body are radically different kinds of things.
 							</p> }/>
 
 						<section className="reading-section">
-							<ReadMore color="gray-background white-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
+							<ReadMore color="gray-background white-text" link="https://plato.stanford.edu/entries/dualism/" text="Read more"/>
 						</section>
 
 					</section>
