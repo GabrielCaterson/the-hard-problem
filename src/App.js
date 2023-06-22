@@ -177,12 +177,10 @@ function App() {
 				<section className="text-box-container text-box-container-dualism blue-background">
 
 					<section className="dualism-container section-container"> 
-						<section className="dualism-container-inner"> 
-							<section className="dualism">
-
-							</section>
-
-						</section>
+					<Spline
+							className="spline"
+							scene="https://prod.spline.design/G9dTpjFGK014gjtK/scene.splinecode"
+						/>
 					</section>
 
 

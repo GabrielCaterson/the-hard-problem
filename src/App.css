@@ -892,6 +892,7 @@
 }
 
 .section-container {
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -903,6 +904,7 @@
     width: 50vw;
     min-height: 100vh;
     /*height: 115vh;*/
+    height: 100vh;
 
     overflow: hidden;
 }
