@@ -20,7 +20,8 @@
     "react-scripts": "^5.0.1",
     "split-text-js": "^1.0.3",
     "three": "^0.151.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "gh-pages": "^8.19.2"
   },
   "scripts": {
     "predeploy": "npm run build",
