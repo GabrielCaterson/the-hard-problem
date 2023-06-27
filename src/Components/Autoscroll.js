@@ -3,7 +3,7 @@ function delay(time) {
 }
   
 async function Autoscroll() {
-	await delay(2000);
+	await delay(4000);
 
     if (window.scrollY === 0) {
         for (let i=0; i < 50; i++){
