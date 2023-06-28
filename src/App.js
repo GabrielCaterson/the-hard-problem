@@ -203,6 +203,34 @@ function App() {
 				</section>
 
 
+				<section className="text-box-container text-box-container-materialism white-background">
+
+
+					<section className="text-box-container-inner
+										text-box-container-inner-materialism
+										white-background">
+
+						<AnimatedText text={ 
+							<p className="black-text"> 
+								Panpsychism <br /><br />
+								Panpsychism is the view that consciousness is fundamental and ubiquitous. In simpler terms, consciousness is everywhere. 
+							</p> }/>
+
+						<section className="reading-section">
+							<ReadMore color="black-background white-text" link="https://plato.stanford.edu/entries/physicalism/" text="Read more"/>
+						</section>
+
+					</section>
+
+					<section className="materialism-container section-container"> 
+						<Spline
+							className="spline"
+							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
+						/>
+					</section>
+				</section>
+
+
 				
 			</section>
 

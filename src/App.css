@@ -268,7 +268,7 @@
 
         margin: 0;
         
-        margin-top: -3000px;
+        margin-top: -300px;
         opacity: 1;
         background-color: var(--color-g-1);
 
@@ -396,6 +396,8 @@
     margin: 0;
     padding: 0;
     align-content: space-between;
+    min-height: 100vh;
+
 }
 
 .text-box-container-inner-2 {
@@ -407,22 +409,23 @@
 }
 
 .text-box-container-inner-bat {
-    min-height: 100vh;
+
 }
 
 .text-box-container-inner-mary {
-    min-height: 100vh;
     color: white;
 }
 
 .text-box-container-inner-zombie {
-    margin: 0;
-    min-height: 100vh;
+
 }
 
 .text-box-container-inner-materialism {
-    margin: 0;
-    min-height: 100vh;
+
+}
+
+.text-box-container-inner-panpsychism {
+
 }
 
 .text-box-overview {
@@ -888,19 +891,6 @@
     }
 }
 
-.materialism {
-    position: sticky;
-    width: 50vw;
-    min-height: 100vh;
-    height: 100%;
-
-    /*background-image: url("/public/pictures/p-zombie-3.jpeg");*/
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
 .section-container {
     position: sticky;
     display: flex;
@@ -968,6 +958,20 @@
 }
 
 .materialism-container {
+    top: 0;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 100vh;
+    min-height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.panpsychism-container {
     top: 0;
     position: sticky;
     display: flex;
