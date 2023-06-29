@@ -177,9 +177,9 @@ function App() {
 				<section className="text-box-container text-box-container-dualism blue-background">
 
 					<section className="dualism-container section-container"> 
-					<Spline
+						<Spline
 							className="spline"
-							scene="https://prod.spline.design/G9dTpjFGK014gjtK/scene.splinecode"
+							scene="https://prod.spline.design/5zA-4VKI1tlCPNHT/scene.splinecode"
 						/>
 					</section>
 
@@ -203,12 +203,12 @@ function App() {
 				</section>
 
 
-				<section className="text-box-container text-box-container-materialism white-background">
+				<section className="text-box-container text-box-container-panpsychism red-background">
 
 
 					<section className="text-box-container-inner
-										text-box-container-inner-materialism
-										white-background">
+										text-box-container-inner-panpsychism
+										red-background">
 
 						<AnimatedText text={ 
 							<p className="black-text"> 
@@ -223,10 +223,10 @@ function App() {
 					</section>
 
 					<section className="materialism-container section-container"> 
-						<Spline
+						{/*<Spline
 							className="spline"
 							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
-						/>
+						/>*/}
 					</section>
 				</section>
 
