@@ -518,6 +518,10 @@
     color: var(--color-d-1);
 }
 
+.green-text {
+    color: var(--color-e-1);
+}
+
 .overview-container {
     position: sticky;
     display: flex;
@@ -920,7 +924,7 @@
     padding: 0;
     width: 50vw;
     min-height: 100vh;
-    height: 115vh;
+    height: 100vh;
 
     perspective: 1px;
 

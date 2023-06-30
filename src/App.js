@@ -203,12 +203,12 @@ function App() {
 				</section>
 
 
-				<section className="text-box-container text-box-container-panpsychism red-background">
+				<section className="text-box-container text-box-container-panpsychism blue-background">
 
 
 					<section className="text-box-container-inner
 										text-box-container-inner-panpsychism
-										red-background">
+										blue-background">
 
 						<AnimatedText text={ 
 							<p className="black-text"> 
@@ -217,7 +217,7 @@ function App() {
 							</p> }/>
 
 						<section className="reading-section">
-							<ReadMore color="black-background white-text" link="https://plato.stanford.edu/entries/physicalism/" text="Read more"/>
+							<ReadMore color="black-background blue-text" link="https://plato.stanford.edu/entries/panpsychism/" text="Read more"/>
 						</section>
 
 					</section>
@@ -228,6 +228,33 @@ function App() {
 							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
 						/>*/}
 					</section>
+				</section>
+
+				<section className="text-box-container text-box-container-panpsychism green-background">
+					
+					<section className="materialism-container section-container"> 
+						{/*<Spline
+							className="spline"
+							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
+						/>*/}
+					</section>
+
+					<section className="text-box-container-inner
+										text-box-container-inner-panpsychism
+										green-background">
+
+						<AnimatedText text={ 
+							<p className="black-text"> 
+								Idealism <br /><br />
+								Idealism is the view that everything is consciousness. Consciousness is the ultimate foundation of all reality. There is no non-conscious matter.
+							</p> }/>
+
+						<section className="reading-section">
+							<ReadMore color="black-background green-text" link="https://plato.stanford.edu/Archives/Win2017/entries/idealism/" text="Read more"/>
+						</section>
+
+					</section>
+
 				</section>
 
 
