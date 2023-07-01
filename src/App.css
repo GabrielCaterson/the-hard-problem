@@ -1239,16 +1239,37 @@
         width: 100vw;
     }
 
+    .dualism-container {
+        position: relative;
+        height: 100vw;
+        min-height: 100vw;
+        width: 100vw;
+    }
+
     .text-box-container-bat {
         display: flex;
         flex-direction: column-reverse;
         width: auto;
     }
+
     .text-box-container-zombie {
         display: flex;
         flex-direction: column-reverse;
         width: auto;
     }
+
+    .text-box-container-dualism {
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+    }
+
+    .text-box-container-idealism {
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+    }
+
     .marys-room {
         height: 90vh;
     }

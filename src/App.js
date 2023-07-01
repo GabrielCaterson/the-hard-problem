@@ -174,7 +174,7 @@ function App() {
 				</section>
 
 
-				<section className="text-box-container text-box-container-dualism blue-background">
+				<section className="text-box-container text-box-container-dualism black-background">
 
 					<section className="dualism-container section-container"> 
 						<Spline
@@ -213,7 +213,7 @@ function App() {
 						<AnimatedText text={ 
 							<p className="black-text"> 
 								Panpsychism <br /><br />
-								Panpsychism is the view that consciousness is fundamental and ubiquitous. In simpler terms, consciousness is everywhere. 
+								Panpsychism is the view that consciousness is fundamental and ubiquitous. In simpler terms, consciousness is everywhere. That isn't to say that rocks are conscious, but moreso that rocks are made of conscious parts.
 							</p> }/>
 
 						<section className="reading-section">
@@ -230,7 +230,7 @@ function App() {
 					</section>
 				</section>
 
-				<section className="text-box-container text-box-container-panpsychism green-background">
+				<section className="text-box-container text-box-container-idealism green-background">
 					
 					<section className="materialism-container section-container"> 
 						{/*<Spline
@@ -246,7 +246,7 @@ function App() {
 						<AnimatedText text={ 
 							<p className="black-text"> 
 								Idealism <br /><br />
-								Idealism is the view that everything is consciousness. Consciousness is the ultimate foundation of all reality. There is no non-conscious matter.
+								Idealism is the view that everything is consciousness. Consciousness is the ultimate foundation of all reality. There is no non-conscious matter. Consciousness is all there is.
 							</p> }/>
 
 						<section className="reading-section">
