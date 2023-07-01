@@ -139,7 +139,7 @@ function App() {
 							If it's at least possible for there to be a world where this kind of person exists, then it must be the case that consciousness exists, and isn't physical. </p> }/>
 
 						<section className="reading-section">
-							<ReadMore color="gray-background white-text" link="https://plato.stanford.edu/entries/zombies/" text="Read more"/>
+							<ReadMore color="white-background blue-text" link="https://plato.stanford.edu/entries/zombies/" text="Read more"/>
 						</section>
 
 					</section>
@@ -196,7 +196,7 @@ function App() {
 							</p> }/>
 
 						<section className="reading-section">
-							<ReadMore color="gray-background white-text" link="https://plato.stanford.edu/entries/dualism/" text="Read more"/>
+							<ReadMore color="white-background purple-text" link="https://plato.stanford.edu/entries/dualism/" text="Read more"/>
 						</section>
 
 					</section>

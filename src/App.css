@@ -522,6 +522,10 @@
     color: var(--color-e-1);
 }
 
+.purple-text {
+    color: var(--color-c-1);
+}
+
 .overview-container {
     position: sticky;
     display: flex;
