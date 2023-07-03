@@ -213,7 +213,7 @@ function App() {
 						<AnimatedText text={ 
 							<p className="black-text"> 
 								Panpsychism <br /><br />
-								Panpsychism is the view that consciousness is fundamental and ubiquitous. In simpler terms, consciousness is everywhere. That isn't to say that rocks are conscious, but moreso that rocks are made of conscious parts.
+								Panpsychism is the view that consciousness is fundamental and ubiquitous. In simpler terms, consciousness is everywhere. That isn't to say that everything including rocks are conscious, but more that everything including rocks are made of conscious parts.
 							</p> }/>
 
 						<section className="reading-section">
