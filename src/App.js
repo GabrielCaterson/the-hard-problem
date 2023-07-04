@@ -192,7 +192,7 @@ function App() {
 						<AnimatedText text={ 
 							<p className=" reverse-text"> 
 								Dualism <br /><br />
-								Dualism is the view that the mind and the body are radically different kinds of things.
+								Dualism is the view that the mind and the body are radically different kinds of things. 
 							</p> }/>
 
 						<section className="reading-section">
