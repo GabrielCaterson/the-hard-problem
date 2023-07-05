@@ -425,7 +425,7 @@
 }
 
 .text-box-container-inner-panpsychism {
-
+    /*text-shadow: #fff 0 0 4px;*/
 }
 
 .text-box-overview {
@@ -987,11 +987,13 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 50vw;
+    width: 100vw;
     height: 100vh;
     min-height: 100%;
     margin: 0;
+    margin-left: -50vw;
     overflow: hidden;
+    z-index: -2;
 }
 
 .bat-container-inner {

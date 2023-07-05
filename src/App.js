@@ -207,8 +207,7 @@ function App() {
 
 
 					<section className="text-box-container-inner
-										text-box-container-inner-panpsychism
-										blue-background">
+										text-box-container-inner-panpsychism">
 
 						<AnimatedText text={ 
 							<p className="black-text"> 
@@ -222,17 +221,17 @@ function App() {
 
 					</section>
 
-					<section className="materialism-container section-container"> 
-						{/*<Spline
+					<section className="panpsychism-container section-container"> 
+						<Spline
 							className="spline"
-							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
-						/>*/}
+							scene="https://prod.spline.design/qQ4gJhc8Amkb1DrF/scene.splinecode"
+						/>
 					</section>
 				</section>
 
 				<section className="text-box-container text-box-container-idealism green-background">
 					
-					<section className="materialism-container section-container"> 
+					<section className="idealism-container section-container"> 
 						{/*<Spline
 							className="spline"
 							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
