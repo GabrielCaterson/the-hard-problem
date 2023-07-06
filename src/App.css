@@ -428,6 +428,13 @@
     /*text-shadow: #fff 0 0 4px;*/
 }
 
+.text-box-container-inner-p-panpsychism {
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 20px;
+    
+    padding: 20px;
+}
+
 .text-box-overview {
     position: sticky;
     top: 0;
