@@ -502,6 +502,11 @@
     /*text-align: end;*/
 }
 
+.section-title {
+    font-weight: 800;
+    font-size: 50px;
+}
+
 .like-something {
     color: black;
     font-weight: 900;
@@ -1123,7 +1128,7 @@
     width: fit-content;
     bottom: 0;
     border-radius: 100px;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 35px;
     display: flex;
     align-items: center;

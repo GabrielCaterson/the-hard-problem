@@ -60,12 +60,17 @@ function App() {
 										yellow-background">
 
 						<AnimatedText text={ 
-							<p className="black-text"> What is it like to be a bat? <br /><br />
-							We know roughly what it's like to be other humans because they are very similar to us, but what would it be like to be a bat? We may know that they experience life differently from us, using echolocation, and we can maybe consider analogous experiences, but we can never know what it is like for a bat to be a bat, having lived an entire life solely as a bat. 
+							<p className="black-text"> 
+								<span className="section-title">
+									What is it like to be a bat? 
+								</span>
+								<br /><br />
+								We know roughly what it's like to be other humans because they are very similar to us, but what would it be like to be a bat? We may know that they experience life differently from us, using echolocation, and we can maybe consider analogous experiences, but we can never know what it is like for a bat to be a bat, having lived an entire life solely as a bat. 
 
 
-							<br /><br />
-							What this shows us is that scientific theories are objective, but our experiences are subjective. </p> }/>
+								<br /><br />
+								What this shows us is that scientific theories are objective, but our experiences are subjective. 
+							</p> }/>
 
 						<section className="reading-section">
 							<ReadMore color="black-background yellow-text" link="https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf" text="Read paper"/>
@@ -82,9 +87,14 @@ function App() {
 					<section className="text-box-container-inner text-box-container-inner-mary black-background">
 						
 						<AnimatedText text={ 
-							<p> Mary's Room <br /><br />
+							<p> 
+								<span className="section-title">
+									Mary's Room
+								</span>
+								<br /><br />
 
-							Imagine a color scientist named Mary. She has lived her entire life in a black and white room, and can only investigate the world using a black and white television monitor. That being said, she knows everything there is to know about the physical descriptions of color, and how the human body interacts with it. Will Mary learn anything when she sees color for the first time? </p> }/>
+								Imagine a color scientist named Mary. She has lived her entire life in a black and white room, and can only investigate the world using a black and white television monitor. That being said, she knows everything there is to know about the physical descriptions of color, and how the human body interacts with it. Will Mary learn anything when she sees color for the first time? 
+							</p> }/>
 
 						
 
@@ -133,10 +143,15 @@ function App() {
 										blue-background">
 
 						<AnimatedText text={ 
-							<p className="white-text"> Philosophical Zombies <br /><br />
-							Imagine a person physically identical to a normal person, but who doesn't have a conscious experience. We'll call this person a philosophical zombie. There is nothing it is like to be a philosophical zombie. Still, they will behave the same way a normal person would. For instance, if someone poked a zombie with a sharp object, they would cry out as if they were in pain, but they wouldn't feel anything. Some zombies might even read websites about consciousness! <br /><br />
+							<p className="white-text"> 
+								<span className="section-title">
+									Philosophical Zombies
+								</span>
+								 <br /><br />
+								Imagine a person physically identical to a normal person, but who doesn't have a conscious experience. We'll call this person a philosophical zombie. There is nothing it is like to be a philosophical zombie. Still, they will behave the same way a normal person would. For instance, if someone poked a zombie with a sharp object, they would cry out as if they were in pain, but they wouldn't feel anything. Some zombies might even read websites about consciousness! <br /><br />
 
-							If it's at least possible for there to be a world where this kind of person exists, then it must be the case that consciousness exists, and isn't physical. </p> }/>
+								If it's at least possible for there to be a world where this kind of person exists, then it must be the case that consciousness exists, and isn't physical. 
+								</p> }/>
 
 						<section className="reading-section">
 							<ReadMore color="white-background blue-text" link="https://plato.stanford.edu/entries/zombies/" text="Read more"/>
@@ -155,7 +170,10 @@ function App() {
 
 						<AnimatedText text={ 
 							<p className="black-text"> 
-								Materialism <br /><br />
+								<span className="section-title">
+									Materialism
+								</span>
+								<br /><br />
 								Materialism is the view that everything is physical. There is no non-physical consciousness.
 							</p> }/>
 
@@ -191,7 +209,10 @@ function App() {
 
 						<AnimatedText text={ 
 							<p className=" reverse-text"> 
-								Dualism <br /><br />
+								<span className="section-title">
+									Dualism 
+								</span>
+								<br /><br />
 								Dualism is the view that the mind and the body are radically different kinds of things. 
 							</p> }/>
 
@@ -211,7 +232,10 @@ function App() {
 
 						<AnimatedText text={ 
 							<p className="white-text text-box-container-inner-p-panpsychism"> 
-								Panpsychism <br /><br />
+								<span className="section-title">
+									Panpsychism 
+								</span>
+								<br /><br />
 								Panpsychism is the view that consciousness is fundamental and ubiquitous. In simpler terms, consciousness is everywhere. That isn't to say that everything including rocks are conscious, but more that everything including rocks are made of conscious parts.
 							</p> }/>
 
@@ -244,7 +268,10 @@ function App() {
 
 						<AnimatedText text={ 
 							<p className="black-text"> 
-								Idealism <br /><br />
+								<span className="section-title">
+									Idealism 
+								</span>
+								<br /><br />
 								Idealism is the view that everything is consciousness. Consciousness is the ultimate foundation of all reality. There is no non-conscious matter. Consciousness is all there is.
 							</p> }/>
 
