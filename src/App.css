@@ -436,7 +436,7 @@
 
 .text-box-overview {
     position: sticky;
-    top: 0;
+    top: 0px;
 }
 
 .text-animate-in {
