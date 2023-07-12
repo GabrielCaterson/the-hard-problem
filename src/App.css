@@ -319,6 +319,8 @@
     z-index: 3;
     margin: 0;
     padding: 0;
+
+    top: -15px;
 }
 
 .mugs-image {
@@ -465,7 +467,6 @@
     animation: text-in 1.5s ease-in-out normal 1;
     
     color: white;
-    
 }
 
 @keyframes text-in {
@@ -495,6 +496,7 @@
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;*/
     color: white;
+    background-color: red;
 }
 
 .text-box-bat {
