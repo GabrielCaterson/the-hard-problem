@@ -438,7 +438,7 @@
 
 .text-box-overview {
     position: sticky;
-    top: 0px;
+    top: -15px;
 }
 
 .text-animate-in {
@@ -496,7 +496,6 @@
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;*/
     color: white;
-    background-color: red;
 }
 
 .text-box-bat {
