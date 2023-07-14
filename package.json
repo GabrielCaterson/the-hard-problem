@@ -2,7 +2,7 @@
   "name": "the-hard-problem",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://gabrielcaterson.github.io/the-hard-problem",
+  "homepage": "https://gabrielcaterson.github.io/the-hard-problem",
   "dependencies": {
     "@react-three/drei": "^9.61.3",
     "@react-three/fiber": "^8.12.0",
