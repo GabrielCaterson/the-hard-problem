@@ -3,6 +3,12 @@ import { useInView } from 'react-intersection-observer';
 import AnimatedText from './AnimatedText.js';
 
 
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls } from '@react-three/drei';
+
+import Spline from "@splinetool/react-spline";
+
+
 const Explain = (props) => {
     
     const { ref, inView } = useInView({
@@ -33,11 +39,16 @@ const Explain = (props) => {
             </section>
 
             <section className="svg-container overview-container black-background"> 
-                <section className="overview-container-inner"> 
+                {/*<section className="overview-container-inner"> 
                     
                     <section className="mugs-image"></section>
 
-                </section>
+                </section>*/}
+                <Spline
+                    className="spline"
+                    scene="https://prod.spline.design/zuWdkU3etVcRwLTg/scene.splinecode"
+                />
+                
             </section>
 					
 
