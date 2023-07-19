@@ -64,7 +64,7 @@ function App() {
 								<span className="section-title">
 									What is it like to be a bat? 
 								</span>
-								<br /><br />
+								<br />o<br />
 								We know roughly what it's like to be other humans because they are very similar to us, but what would it be like to be a bat? We may know that they experience life differently from us, using echolocation, and we can maybe consider analogous experiences, but we can never know what it is like for a bat to be a bat, having lived an entire life solely as a bat.
 
 
