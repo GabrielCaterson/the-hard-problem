@@ -437,6 +437,7 @@
 }
 
 .text-box-overview {
+
 }
 
 .text-animate-in {
@@ -1160,6 +1161,10 @@
     height: 50px;
     clip-path: var(--path-3D);
     backdrop-filter: invert(100%);
+}
+
+.solve-container {
+    font-size: 30px;
 }
 
 @media (max-width: 500px) {

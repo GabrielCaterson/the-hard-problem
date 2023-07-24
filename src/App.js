@@ -163,6 +163,27 @@ function App() {
 					</section>
 				</section>
 
+				<section className="solve-container">
+					<section className="">
+						So
+					</section>
+					<section className="">
+						how
+					</section>
+					<section className="">
+						do
+					</section>
+					<section className="">
+						we
+					</section>
+					<section className="">
+						solve
+					</section>
+					<section className="">
+						it?
+					</section>
+				</section>
+
 
 				<section className="text-box-container text-box-container-materialism white-background">
 
