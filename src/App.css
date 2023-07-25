@@ -1164,7 +1164,48 @@
 }
 
 .solve-container {
-    font-size: 30px;
+    font-size: 50px;
+    font-weight: 700;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 75vh;
+}
+
+.solve-container-word {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50vw;
+    height: 25vh;
+}
+
+.solve-container-word-1 {
+    width: 100vw;
+}
+
+.solve-container-word-2 {
+    width: 50vw;
+}
+
+.solve-container-word-3 {
+    width: 50vw;
+}
+
+.solve-container-word-4 {
+    width: 33.3vw;
+}
+
+.solve-container-word-5 {
+    width: 33.3vw;
+}
+
+.solve-container-word-6 {
+    width: 33.3vw;
 }
 
 @media (max-width: 500px) {

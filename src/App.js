@@ -163,23 +163,23 @@ function App() {
 					</section>
 				</section>
 
-				<section className="solve-container">
-					<section className="">
+				<section className="solve-container gray-background">
+					<section className="solve-container-word solve-container-word-1 purple-background white-text">
 						So
 					</section>
-					<section className="">
+					<section className="solve-container-word solve-container-word-2 blue-background">
 						how
 					</section>
-					<section className="">
+					<section className="solve-container-word solve-container-word-3 white-background">
 						do
 					</section>
-					<section className="">
+					<section className="solve-container-word solve-container-word-4 gray-background white-text">
 						we
 					</section>
-					<section className="">
+					<section className="solve-container-word solve-container-word-5 green-background">
 						solve
 					</section>
-					<section className="">
+					<section className="solve-container-word solve-container-word-6 black-background white-text">
 						it?
 					</section>
 				</section>
