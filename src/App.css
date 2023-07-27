@@ -1172,7 +1172,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 75vh;
+    height: 66.67vh;
 }
 
 .solve-container-word {
@@ -1181,7 +1181,8 @@
     justify-content: center;
 
     width: 50vw;
-    height: 25vh;
+    height: 33.4%;
+    height: 25%;
 }
 
 .solve-container-word-1 {
@@ -1197,15 +1198,18 @@
 }
 
 .solve-container-word-4 {
-    width: 33.3vw;
+    width: 33.333vw;
+    width: 100vw;
 }
 
 .solve-container-word-5 {
-    width: 33.3vw;
+    width: 33.333vw;
+    width: 50vw;
 }
 
 .solve-container-word-6 {
-    width: 33.3vw;
+    width: 33.333vw;
+    width: 50vw;
 }
 
 @media (max-width: 500px) {
