@@ -30,6 +30,7 @@ import { OrbitControls } from '@react-three/drei';
 import Spline from "@splinetool/react-spline";
 
 
+
 function App() {
 
 	return (
@@ -211,7 +212,7 @@ function App() {
 					<section className="materialism-container section-container"> 
 						<Spline
 							className="spline"
-							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
+							scene="/public/models/mug_box_2.spline"
 						/>
 					</section>
 				</section>
@@ -314,7 +315,7 @@ function App() {
 				<section className="footer">
 
 					<section className="footer-section">
-						Site created by Gabriel Caterson (hire me)!
+						Site created by Gabriel Caterson. Hire me!
 					</section>
 
 					<section className="footer-section">
