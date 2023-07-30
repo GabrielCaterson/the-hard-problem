@@ -210,9 +210,11 @@ function App() {
 					</section>
 
 					<section className="materialism-container section-container"> 
+						{/*scene="/public/models/mug_box_2.spline"*/}
+
 						<Spline
 							className="spline"
-							scene="/public/models/mug_box_2.spline"
+							scene="https://prod.spline.design/dPpxQf2SNHN-cJTN/scene.splinecode"
 						/>
 					</section>
 				</section>
