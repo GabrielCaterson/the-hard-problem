@@ -1175,7 +1175,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 66.67vh;
+    height: 50vw;
 }
 
 .solve-container-word {
@@ -1185,24 +1185,24 @@
 
     width: 50vw;
     height: 33.4%;
-    height: 25%;
+    height: 50%;
 }
 
 .solve-container-word-1 {
-    width: 100vw;
+    width: 25vw;
 }
 
 .solve-container-word-2 {
-    width: 50vw;
+    width: 25vw;
 }
 
 .solve-container-word-3 {
-    width: 50vw;
+    width: 25vw;
 }
 
 .solve-container-word-4 {
     width: 33.333vw;
-    width: 100vw;
+    width: 25vw;
 }
 
 .solve-container-word-5 {

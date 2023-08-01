@@ -168,7 +168,7 @@ function App() {
 					<section className="solve-container-word solve-container-word-1 purple-background white-text">
 						So
 					</section>
-					<section className="solve-container-word solve-container-word-2 blue-background">
+					<section className="solve-container-word solve-container-word-2 blue-background white-text">
 						how
 					</section>
 					<section className="solve-container-word solve-container-word-3 white-background">
@@ -207,6 +207,8 @@ function App() {
 							<ReadMore color="black-background white-text" link="https://plato.stanford.edu/entries/physicalism/" text="Read more"/>
 						</section>
 
+
+
 					</section>
 
 					<section className="materialism-container section-container"> 
@@ -214,7 +216,7 @@ function App() {
 
 						<Spline
 							className="spline"
-							scene="https://prod.spline.design/dPpxQf2SNHN-cJTN/scene.splinecode"
+							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
 						/>
 					</section>
 				</section>
