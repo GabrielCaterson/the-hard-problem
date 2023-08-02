@@ -1228,6 +1228,10 @@
     padding: 30px;
 }
 
+.footer-links {
+    color: black;
+}
+
 @media (max-width: 500px) {
     .text-box-container-inner {
         padding: 0;

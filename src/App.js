@@ -319,11 +319,15 @@ function App() {
 				<section className="footer">
 
 					<section className="footer-section">
-						Site created by Gabriel Caterson. Hire me!
+						Site created by <a  className="footer-links" 
+							href="https://www.gabrielcaterson.com" 
+							target="_blank" rel="noopener noreferrer">
+								Gabriel Caterson
+						</a>. Hire me!
 					</section>
 
 					<section className="footer-section">
-						Based on the work of philosophers like David Chalmers (who coined the term "the hard problem"), Thomas Nagel (who wrote the book "What is it Like to Be a Bat?"), Frank Jackson (who wrote "What Mary Didn't Know"), and many more.
+						Based on the work of philosophers like David Chalmers, Thomas Nagel, Frank Jackson, and many, many more.
 					</section>
 
 					<section className="footer-section">
