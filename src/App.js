@@ -17,7 +17,7 @@ import Explain from './Components/Explain.js';
 import Scene from './Components/TestAnimation.js';
 
 
-import './Components/EyeZoom.js';
+/*import './Components/EyeZoom.js';*/
 
 import { MarysRoom } from './Components/MarysRoom.js';
 
@@ -50,7 +50,7 @@ function App() {
 				<section className="text-box-container text-box-container-bat yellow-background">
 
 					<section className="bat-container section-container"> 
-
+						
 						<Spline
 							className="spline"
 							scene="https://prod.spline.design/wv6g-RgQlzWNngC9/scene.splinecode"
@@ -218,7 +218,7 @@ function App() {
 
 						<Spline
 							className="spline"
-							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
+							scene="https://prod.spline.design/dPpxQf2SNHN-cJTN/scene.splinecode"
 						/>
 					</section>
 				</section>
@@ -229,7 +229,7 @@ function App() {
 					<section className="dualism-container section-container"> 
 						<Spline
 							className="spline"
-							scene="https://prod.spline.design/5zA-4VKI1tlCPNHT/scene.splinecode"
+							scene="https://prod.spline.design/GHoLJgjBar3RsQoM/scene.splinecode"
 						/>
 					</section>
 
@@ -290,10 +290,10 @@ function App() {
 				<section className="text-box-container text-box-container-idealism green-background">
 					
 					<section className="idealism-container section-container"> 
-						<Spline
+						{/*<Spline
 							className="spline"
-							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
-						/>
+							scene="/public/models/bat_dvd_box_2.spline"
+						/>*/}
 
 					</section>
 
