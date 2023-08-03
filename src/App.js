@@ -14,6 +14,8 @@ import { ReadMore } from './Components/ReadMore.js';
 import AnimatedText from './Components/AnimatedText.js';
 import LogoScroll from './Components/LogoScroll.js';
 import Explain from './Components/Explain.js';
+import Scene from './Components/TestAnimation.js';
+
 
 import './Components/EyeZoom.js';
 
@@ -22,7 +24,7 @@ import { MarysRoom } from './Components/MarysRoom.js';
 import useIntersection from './Components/useIntersection.js';
 
 
-import Scene from './Components/Bat3D.js';
+//import Scene from './Components/Bat3D.js';
 
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
@@ -288,10 +290,11 @@ function App() {
 				<section className="text-box-container text-box-container-idealism green-background">
 					
 					<section className="idealism-container section-container"> 
-						{/*<Spline
+						<Spline
 							className="spline"
 							scene="https://prod.spline.design/cAejUylNoqwFykU6/scene.splinecode"
-						/>*/}
+						/>
+
 					</section>
 
 					<section className="text-box-container-inner

@@ -6,6 +6,7 @@
   "dependencies": {
     "@react-three/drei": "^9.61.3",
     "@react-three/fiber": "^8.12.0",
+    "@splinetool/loader": "^0.9.411",
     "@splinetool/r3f-spline": "^1.0.2",
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^0.9.321",
@@ -13,6 +14,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/three": "^0.150.0",
+    "gh-pages": "^8.19.2",
     "gsap": "^3.11.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -20,8 +22,7 @@
     "react-scripts": "^5.0.1",
     "split-text-js": "^1.0.3",
     "three": "^0.151.2",
-    "web-vitals": "^2.1.4",
-    "gh-pages": "^8.19.2"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
