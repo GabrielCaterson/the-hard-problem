@@ -49,7 +49,7 @@ function App() {
 
 				<section className="text-box-container text-box-container-bat yellow-background">
 
-					<section className="bat-container section-container"> 
+					<section className="bat-container section-container gray-background"> 
 						
 						<Spline
 							className="spline"
