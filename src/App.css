@@ -1219,12 +1219,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+
     
     font-size: 25px;
 }
 
 .footer-section {
-    width: 33.3%;
+    width: calc(33.3vw - 60px);
     padding: 30px;
 }
 
@@ -1340,19 +1342,8 @@
     }
 
     .panpsychism-container {
-        top: 0;
-        position: sticky;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 100vw;
-        height: 100vh;
-        min-height: 100%;
         margin: 0;
-        margin-top: -100vh;
-        overflow: hidden;
-        z-index: -2;
+        margin-top: -110vh;
     }
 
     .text-box-container-bat {
@@ -1385,6 +1376,17 @@
 
     .read-more {
         margin-top: 0px;
+    }
+
+    .footer {
+        padding: 30px 0px;
+        
+    }
+
+    .footer-section {
+        width: calc(100vw - 60px);
+        padding: 30px;
+        flex-wrap: wrap;
     }
 }
 
