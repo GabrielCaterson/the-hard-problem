@@ -721,7 +721,6 @@
     /*top: calc(50vh - 150px);*/
     margin: 0;
     z-index: 2;
-    background-image: url("/public/pictures/mugs_1.png");
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1401,7 +1400,6 @@
 .test-image {
     width: 100vw;
     height: 100vh;
-    background-image: url("/public/pictures/mugs_1.png");
     background-size: 100%;
     background-repeat: no-repeat;
     color: white;
