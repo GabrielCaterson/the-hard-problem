@@ -334,7 +334,9 @@ function App() {
 					</section>
 
 					<section className="footer-section">
-						Read more on the Stanford Encyclopedia of philosophy.
+						Read more on the <a  className="footer-links" 
+							href="https://plato.stanford.edu/entries/consciousness/" 
+							target="_blank" rel="noopener noreferrer">Stanford Encyclopedia of philosophy</a>.
 					</section>
 
 				</section>
