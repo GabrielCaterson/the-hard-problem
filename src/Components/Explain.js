@@ -38,7 +38,7 @@ const Explain = (props) => {
 
             </section>
 
-            <section className="svg-container overview-container black-background"> 
+            <section className="svg-container overview-container gray-background"> 
                 {/*<section className="overview-container-inner"> 
                     
                     <section className="mugs-image"></section>
