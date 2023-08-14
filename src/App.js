@@ -290,10 +290,10 @@ function App() {
 				<section className="text-box-container text-box-container-idealism green-background">
 					
 					<section className="idealism-container section-container"> 
-						{/*<Spline
+						<Spline
 							className="spline"
-							scene="/public/models/bat_dvd_box_2.spline"
-						/>*/}
+							scene="https://prod.spline.design/9LBQmEATDxrsoD6a/scene.splinecode"
+						/>
 
 					</section>
 
