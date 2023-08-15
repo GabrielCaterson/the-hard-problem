@@ -7,7 +7,6 @@ import './App.css';
 
 
 import Autoscroll from './Components/Autoscroll.js';
-//import Scroller from './Components/Scroller.js';
 import './Components/NoHorizontalScroll.js';
 
 import { ReadMore } from './Components/ReadMore.js';
@@ -43,7 +42,7 @@ function App() {
 			<section className="body">
 				
 
-				<LogoScroll />
+				<LogoScroll className="logo-container-outer"/>
 				<Explain />
 
 
@@ -53,7 +52,7 @@ function App() {
 						
 						<Spline
 							className="spline"
-							scene="https://prod.spline.design/wv6g-RgQlzWNngC9/scene.splinecode"
+							scene="https://prod.spline.design/ZKDGGUoIVyMGwL-e/scene.splinecode"
 						/>
 					</section>
 

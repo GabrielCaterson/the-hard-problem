@@ -19,7 +19,7 @@ const Explain = (props) => {
     return (
         <section
             ref={ref}
-            className={ "text-box-container text-box-container-overview black-background"  + ` ${inView ? "explain-animate-in-onscreen " : "explain-animate-in-offscreen " }`} 
+            className={ "explain-section text-box-container text-box-container-overview black-background"  + ` ${inView ? "explain-animate-in-onscreen " : "explain-animate-in-offscreen " }`} 
         >
             {/*<section className={ "animated-logo-expander " + ` ${inView ? "logo-animate-in-onscreen " : "logo-animate-in-offscreen " }` }> 
             </section>*/}

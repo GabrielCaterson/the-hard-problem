@@ -93,6 +93,7 @@
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
+    overflow: hidden;    
 }
 
 .logo-container-inner {
@@ -342,6 +343,10 @@
 
 .text-box-container-overview {
     margin-top: -50vh;
+}
+
+.explain-section {
+    /*margin-top: -20px;*/
 }
 
 .explain-animate-in-offscreen {
@@ -1156,6 +1161,7 @@
     margin-top: -30px;
     padding: 3px 15px;
     text-decoration: none;
+    z-index: 10;
 }
 
 .marys-room {
