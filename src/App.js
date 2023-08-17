@@ -281,8 +281,9 @@ function App() {
 					<section className="panpsychism-container section-container"> 
 						<Spline
 							className="spline"
-							scene="https://prod.spline.design/qQ4gJhc8Amkb1DrF/scene.splinecode"
+							scene="https://prod.spline.design/BPRF0wz8xOssqg8U/scene.splinecode"
 						/>
+						
 					</section>
 				</section>
 
