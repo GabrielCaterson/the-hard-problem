@@ -1006,11 +1006,11 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100vw;
+    /*width: 100vw;*/
     height: 100vh;
     min-height: 100%;
     margin: 0;
-    margin-left: -50vw;
+    /*margin-left: -50vw;*/
     overflow: hidden;
     z-index: -2;
 }
@@ -1365,7 +1365,7 @@
 
     .panpsychism-container {
         margin: 0;
-        margin-top: -110vh;
+        /*margin-top: -110vh;*/
     }
 
     .text-box-container-bat {
