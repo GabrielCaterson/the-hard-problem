@@ -263,7 +263,7 @@ function App() {
 										text-box-container-inner-panpsychism">
 
 						<AnimatedText text={ 
-							<p className="white-text text-box-container-inner-p-panpsychism"> 
+							<p className="white-text"> 
 								<span className="section-title">
 									Panpsychism 
 								</span>
@@ -273,7 +273,7 @@ function App() {
 						}/>
 
 						<section className="reading-section">
-							<ReadMore color="white-background black-text" link="https://plato.stanford.edu/entries/panpsychism/" text="Read more"/>
+							<ReadMore color="white-background blue-text" link="https://plato.stanford.edu/entries/panpsychism/" text="Read more"/>
 						</section>
 
 					</section>
