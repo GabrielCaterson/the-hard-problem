@@ -207,9 +207,6 @@ function App() {
 						<section className="reading-section">
 							<ReadMore color="black-background white-text" link="https://plato.stanford.edu/entries/physicalism/" text="Read more"/>
 						</section>
-						<section className="reading-section">
-							<ReadMore color="black-background white-text" link="https://www.amazon.com/Consciousness-Explained-Daniel-C-Dennett/dp/0316180661" text="Recommended book"/>
-						</section>
 
 
 
