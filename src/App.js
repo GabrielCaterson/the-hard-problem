@@ -292,7 +292,7 @@ function App() {
 					<section className="idealism-container section-container"> 
 						<Spline
 							className="spline"
-							scene="https://prod.spline.design/9LBQmEATDxrsoD6a/scene.splinecode"
+							scene="https://prod.spline.design/9uEd3g7gqzuQ39qo/scene.splinecode"
 						/>
 
 					</section>
@@ -302,7 +302,7 @@ function App() {
 										green-background">
 
 						<AnimatedText text={ 
-							<p className="black-text"> 
+							<p className="white-text"> 
 								<span className="section-title">
 									Idealism 
 								</span>
@@ -312,7 +312,7 @@ function App() {
 						}/>
 
 						<section className="reading-section">
-							<ReadMore color="black-background green-text" link="https://plato.stanford.edu/Archives/Win2017/entries/idealism/" text="Read more"/>
+							<ReadMore color="black-background white-text" link="https://plato.stanford.edu/Archives/Win2017/entries/idealism/" text="Read more"/>
 						</section>
 
 					</section>
