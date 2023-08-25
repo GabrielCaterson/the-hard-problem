@@ -292,9 +292,8 @@ function App() {
 					<section className="idealism-container section-container"> 
 						<Spline
 							className="spline"
-							scene="https://prod.spline.design/9uEd3g7gqzuQ39qo/scene.splinecode"
+							scene="https://prod.spline.design/pksbiKRgSsjoSuRe/scene.splinecode"
 						/>
-
 					</section>
 
 					<section className="text-box-container-inner
