@@ -301,7 +301,7 @@ function App() {
 										green-background">
 
 						<AnimatedText text={ 
-							<p className="white-text"> 
+							<p className="black-text"> 
 								<span className="section-title">
 									Idealism 
 								</span>
@@ -311,7 +311,7 @@ function App() {
 						}/>
 
 						<section className="reading-section">
-							<ReadMore color="black-background white-text" link="https://plato.stanford.edu/Archives/Win2017/entries/idealism/" text="Read more"/>
+							<ReadMore color="black-background green-text" link="https://plato.stanford.edu/Archives/Win2017/entries/idealism/" text="Read more"/>
 						</section>
 
 					</section>
