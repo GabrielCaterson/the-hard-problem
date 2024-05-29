@@ -6,7 +6,7 @@ import './App.css';
 
 
 
-import Autoscroll from './Components/Autoscroll.js';
+//import Autoscroll from './Components/Autoscroll.js';
 import './Components/NoHorizontalScroll.js';
 
 import { ReadMore } from './Components/ReadMore.js';
@@ -20,7 +20,7 @@ import Scene from './Components/TestAnimation.js';
 
 import { MarysRoom } from './Components/MarysRoom.js';
 
-import useIntersection from './Components/useIntersection.js';
+//import useIntersection from './Components/useIntersection.js';
 
 
 //import Scene from './Components/Bat3D.js';
@@ -228,7 +228,7 @@ function App() {
 					<section className="dualism-container section-container"> 
 						<Spline
 							className="spline"
-							scene="https://prod.spline.design/GHoLJgjBar3RsQoM/scene.splinecode"
+							scene="https://prod.spline.design/UszumCVC9fgQh865/scene.splinecode"
 						/>
 					</section>
 
@@ -307,7 +307,7 @@ function App() {
 								</span>
 								<br /><br />
 								Idealism is the view that everything is consciousness. Consciousness is the ultimate foundation of all reality. There is no non-conscious matter. Consciousness is all there is.
-							</p> 
+							</p>
 						}/>
 
 						<section className="reading-section">
