@@ -1,25 +1,20 @@
 import React, { Component } from 'react';
-import { useInView } from 'react-intersection-observer';
+//import { useInView } from 'react-intersection-observer';
 import AnimatedText from './AnimatedText.js';
 
 
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
-
 import Spline from "@splinetool/react-spline";
 
 
 const Explain = (props) => {
-    
-    const { ref, inView } = useInView({
-        triggerOnce: false,
-        rootMargin: '100% 10000px -100px 10000px',
-    });
 
     return (
         <section
-            ref={ref}
-            className={ "explain-section text-box-container text-box-container-overview black-background"  + ` ${inView ? "explain-animate-in-onscreen " : "explain-animate-in-offscreen " }`} 
+
+            className={ "explain-section text-box-container text-box-container-overview black-background explain-animate-in-onscreen "} 
+            
         >
             {/*<section className={ "animated-logo-expander " + ` ${inView ? "logo-animate-in-onscreen " : "logo-animate-in-offscreen " }` }> 
             </section>*/}

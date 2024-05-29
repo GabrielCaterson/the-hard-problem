@@ -12,10 +12,9 @@ const AnimatedText = (props) => {
 
     return (
         <section
-            ref={ref}
-            className={`text-box-container-inner-2 text-animate-in ${inView ? 'text-animate-in-onscreen' : 'text-animate-in-offscreen'}`} >
+            className={'text-box-container-inner-2 text-animate-in text-animate-in-onscreen'} >
 
-            <section className={`text-box text-box-overview ${inView ? 'text-animate-in-onscreen' : 'text-animate-in-offscreen'}`} >
+            <section className={'text-box text-box-overview text-animate-in-onscreen'} >
                 { props.text }
             </section>
         </section>

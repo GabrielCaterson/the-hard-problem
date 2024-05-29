@@ -1,32 +1,26 @@
 import React, { Component } from 'react';
-import { useInView } from 'react-intersection-observer';
+//import { useInView } from 'react-intersection-observer';
 
 const LogoScroll = (props) => {
-    
-    const { ref, inView } = useInView({
-        triggerOnce: false,
-        rootMargin: '-80% 10000px -100px 10000px',
-    });
 
     return (
         <section>
             <section
-                ref={ref}
                 className={ "logo-container" } 
             >
 
                 <section  className="logo-container-inner">
 
-                    <section className="expander-container">
-                        <section className={ "animated-logo-expander " + ` ${inView ? "logo-animate-in-onscreen " : "logo-animate-in-offscreen " }` }> 
+                    {/*<section className="expander-container">
+                        <section className={ "animated-logo-expander logo-animate-in-onscreen " }> 
                         </section>
-                    </section>
+                    </section>*/}
                     
                     
                     <section className={ "animated-logo "  }>
                     </section>
                     
-                    <p className={"title-text" + ` ${inView ? "text-animate-in-onscreen " : "text-animate-in-offscreen " }` }>
+                    <p className={"title-text text-animate-in-onscreen  text-animate-in-offscreen "}>
                         The Hard <br />
                         Problem <br />
                     </p>
