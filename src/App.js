@@ -50,10 +50,14 @@ function App() {
 
 					<section className="bat-container section-container gray-background"> 
 						
-						<Spline
+						{/*<Spline
 							className="spline"
 							scene="https://prod.spline.design/ZKDGGUoIVyMGwL-e/scene.splinecode"
-						/>
+						/>*/}
+                        <img
+                            className="spline"
+                            src={(process.env.PUBLIC_URL+"/pictures/test-gif.gif")}
+                            alt="3D model of a cube with an image of a red coffee mug surrounded by blueberries."/>
 					</section>
 
 
@@ -215,10 +219,14 @@ function App() {
 					<section className="materialism-container section-container"> 
 						{/*scene="/public/models/mug_box_2.spline"*/}
 
-						<Spline
+						{/*<Spline
 							className="spline"
 							scene="https://prod.spline.design/dPpxQf2SNHN-cJTN/scene.splinecode"
-						/>
+						/>*/}
+                        <img
+                            className="spline"
+                            src={(process.env.PUBLIC_URL+"/pictures/test-gif.gif")}
+                            alt="3D model of a cube with an image of a red coffee mug surrounded by blueberries."/>
 					</section>
 				</section>
 
@@ -226,10 +234,14 @@ function App() {
 				<section className="text-box-container text-box-container-dualism black-background">
 
 					<section className="dualism-container section-container"> 
-						<Spline
+						{/*<Spline
 							className="spline"
 							scene="https://prod.spline.design/GHoLJgjBar3RsQoM/scene.splinecode"
-						/>
+						/>*/}
+                        <img
+                            className="spline"
+                            src={(process.env.PUBLIC_URL+"/pictures/test-gif.gif")}
+                            alt="3D model of a cube with an image of a red coffee mug surrounded by blueberries."/>
 					</section>
 
 
@@ -279,10 +291,14 @@ function App() {
 					</section>
 
 					<section className="panpsychism-container section-container"> 
-						<Spline
+						{/*<Spline
 							className="spline"
 							scene="https://prod.spline.design/re9iWnWMKQA-ysoS/scene.splinecode"
-						/>
+						/>*/}
+                        <img
+                            className="spline"
+                            src={(process.env.PUBLIC_URL+"/pictures/test-gif.gif")}
+                            alt="3D model of a cube with an image of a red coffee mug surrounded by blueberries."/>
 						
 					</section>
 				</section>
@@ -290,10 +306,14 @@ function App() {
 				<section className="text-box-container text-box-container-idealism green-background">
 					
 					<section className="idealism-container section-container"> 
-						<Spline
+						{/*<Spline
 							className="spline"
 							scene="https://prod.spline.design/pksbiKRgSsjoSuRe/scene.splinecode"
-						/>
+						/>*/}
+                        <img
+                            className="spline"
+                            src={(process.env.PUBLIC_URL+"/pictures/test-gif.gif")}
+                            alt="3D model of a cube with an image of a red coffee mug surrounded by blueberries."/>
 					</section>
 
 					<section className="text-box-container-inner
