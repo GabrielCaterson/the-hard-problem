@@ -44,10 +44,14 @@ const Explain = (props) => {
                     <section className="mugs-image"></section>
 
                 </section>*/}
-                <Spline
+                {/*<Spline
                     className="spline"
                     scene="https://prod.spline.design/zuWdkU3etVcRwLTg/scene.splinecode"
-                />
+                />*/}
+                <img
+                    className="spline"
+                    src={(process.env.PUBLIC_URL+"/pictures/test-gif.gif")}
+                    alt="3D model of a cube with an image of a red coffee mug surrounded by blueberries."/>
                 
             </section>
 					
