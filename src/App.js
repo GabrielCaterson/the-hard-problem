@@ -1,4 +1,4 @@
-import React, { useRef, useState, Suspense } from 'react';
+import React, { useRef, useState, Suspense, useEffect } from 'react';
 
 import logo from './logo.svg';
 import './App.css';
@@ -18,7 +18,7 @@ import Scene from './Components/TestAnimation.js';
 
 /*import './Components/EyeZoom.js';*/
 
-import { MarysRoom } from './Components/MarysRoom.js';
+//import { MarysRoom } from './Components/MarysRoom.js';
 
 import useIntersection from './Components/useIntersection.js';
 
@@ -30,9 +30,17 @@ import { OrbitControls } from '@react-three/drei';
 
 import Spline from "@splinetool/react-spline";
 
+import panpsychismVideo from "./Videos/panpsychism.webm";
 
 
 function App() {
+
+    const videoRef = useRef(null);
+
+    useEffect(() => {
+        const { current: videoElement } = videoRef;
+        videoElement.setAttribute('muted', '');
+    }, []);
 
 	return (
 		<section className="App">
@@ -50,14 +58,14 @@ function App() {
 
 					<section className="bat-container section-container gray-background"> 
 						
-						{/*<Spline
+						<Spline
 							className="spline"
 							scene="https://prod.spline.design/ZKDGGUoIVyMGwL-e/scene.splinecode"
-						/>*/}
-                        <img
+						/>
+                        {/*<img
                             className="spline"
                             src={(process.env.PUBLIC_URL+"/pictures/test-gif.gif")}
-                            alt="3D model of a cube with an image of a red coffee mug surrounded by blueberries."/>
+                            alt="3D model of a cube with an image of a red coffee mug surrounded by blueberries."/>*/}
 					</section>
 
 
@@ -114,7 +122,7 @@ function App() {
 					
 					<section className="mary-container section-container"> 
 						
-						<MarysRoom />
+						{/*<MarysRoom />*/}
 						<section className="move-icon-container">
 							<section className="move-icon"></section>
 						</section>
@@ -224,8 +232,8 @@ function App() {
 							scene="https://prod.spline.design/dPpxQf2SNHN-cJTN/scene.splinecode"
 						/>*/}
                         <img
-                            className="spline"
-                            src={(process.env.PUBLIC_URL+"/pictures/test-gif.gif")}
+                            className="model-gif"
+                            src={(process.env.PUBLIC_URL+"/pictures/gears.gif")}
                             alt="3D model of a cube with an image of a red coffee mug surrounded by blueberries."/>
 					</section>
 				</section>
@@ -239,8 +247,8 @@ function App() {
 							scene="https://prod.spline.design/GHoLJgjBar3RsQoM/scene.splinecode"
 						/>*/}
                         <img
-                            className="spline"
-                            src={(process.env.PUBLIC_URL+"/pictures/test-gif.gif")}
+                            className="model-gif"
+                            src={(process.env.PUBLIC_URL+"/pictures/dualism.gif")}
                             alt="3D model of a cube with an image of a red coffee mug surrounded by blueberries."/>
 					</section>
 
@@ -290,15 +298,26 @@ function App() {
 
 					</section>
 
-					<section className="panpsychism-container section-container"> 
+					<section className="panpsychism-container section-container">
 						{/*<Spline
 							className="spline"
 							scene="https://prod.spline.design/re9iWnWMKQA-ysoS/scene.splinecode"
 						/>*/}
-                        <img
+                        {/*<img
                             className="spline"
-                            src={(process.env.PUBLIC_URL+"/pictures/test-gif.gif")}
-                            alt="3D model of a cube with an image of a red coffee mug surrounded by blueberries."/>
+                            src={(process.env.PUBLIC_URL+"/pictures/panpsychism.webm")}
+                            alt="3D model of a cube with an image of a red coffee mug surrounded by blueberries."/>*/}
+                        <video class="model-gif" src={panpsychismVideo} ref={videoRef} autoPlay muted loop>
+                            Your browser does not support the video tag.
+                        </video>
+                        {/*<video class="model-gif" muted autoPlay loop playsInline>
+                            <source src={(process.env.PUBLIC_URL+"/pictures/panpsychism.webm")} type="video/webm" />
+                            Your browser does not support the video tag.
+                        </video>*/}
+                        {/*<video class="model-gif" autoplay muted playsinline loop>
+                            <source src="https://download.samplelib.com/webm/sample-5s.webm" type="video/webm" />
+                            Your browser does not support the video tag.
+                        </video>*/} 
 						
 					</section>
 				</section>
@@ -306,14 +325,14 @@ function App() {
 				<section className="text-box-container text-box-container-idealism green-background">
 					
 					<section className="idealism-container section-container"> 
-						{/*<Spline
+						<Spline
 							className="spline"
 							scene="https://prod.spline.design/pksbiKRgSsjoSuRe/scene.splinecode"
-						/>*/}
-                        <img
+						/>
+                        {/*<img
                             className="spline"
                             src={(process.env.PUBLIC_URL+"/pictures/test-gif.gif")}
-                            alt="3D model of a cube with an image of a red coffee mug surrounded by blueberries."/>
+                            alt="3D model of a cube with an image of a red coffee mug surrounded by blueberries."/>*/}
 					</section>
 
 					<section className="text-box-container-inner
