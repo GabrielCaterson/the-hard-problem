@@ -28,7 +28,7 @@ const Explain = (props) => {
             <section className="text-box-container-inner
                                 text-box-container-inner-overview">
                 <AnimatedText text={ 
-                    <p>The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks, <q>why is it <span className="like-something red-text"> like something </span>to have the experiences we have?</q> Why is it like something to see the color red, smell coffee, or taste blueberries?</p> }/>
+                    <p>The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks, <q>why is it <span className="like-something red-text"> like something </span>to have the experiences we have?</q> Why is it like something to see the redness of a red apple, smell the smell of coffee, or taste the taste of mint?</p> }/>
 
                 <AnimatedText text={ 
                     <p>The trouble is, everything in the universe is physical, but consciousness seems to be something different. The experience of red seems to be non-physical, or as the philosophers call it, phenomenal.</p> }/>

@@ -13,17 +13,10 @@ import { ReadMore } from './Components/ReadMore.js';
 import AnimatedText from './Components/AnimatedText.js';
 import LogoScroll from './Components/LogoScroll.js';
 import Explain from './Components/Explain.js';
-import Scene from './Components/TestAnimation.js';
 
-
-/*import './Components/EyeZoom.js';*/
-
-//import { MarysRoom } from './Components/MarysRoom.js';
 
 import useIntersection from './Components/useIntersection.js';
 
-
-//import Scene from './Components/Bat3D.js';
 
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
@@ -89,7 +82,7 @@ function App() {
 					<section className="text-box-container-inner text-box-container-inner-mary black-background">
 						
 						<AnimatedText text={ 
-							<p> 
+							<p className="white-text"> 
 								<span className="section-title">
 									Mary's Room
 								</span>
@@ -109,11 +102,10 @@ function App() {
 					
 					<section className="mary-container section-container"> 
 						
-						{/*<MarysRoom />*/}
-						<section className="move-icon-container">
-							<section className="move-icon"></section>
-						</section>
-						
+            <Spline
+							className="spline"
+							scene="https://prod.spline.design/QH08ivGk2R0fYQ5C/scene.splinecode"
+						/>
 
 					</section>
 				</section>
@@ -122,21 +114,11 @@ function App() {
 
 				<section className="text-box-container text-box-container-zombie gray-background">
 
-					<section className="zombie-container section-container"> 
-						<section className="zombie-container-inner"> 
-							<section className="zombie"> 
-
-							</section>
-
-							<section className="zombie-no-bg"> 
-
-							</section>
-
-							<section className="zombie-no-bg zombie-no-bg-2"> 
-
-							</section>
-
-						</section>
+					<section className="zombie-container section-container white-background"> 
+            <Spline
+							className="spline"
+							scene="https://prod.spline.design/cVDsFg724U0r2VfC/scene.splinecode"
+						/>
 					</section>
 
 
@@ -174,7 +156,7 @@ function App() {
 					<section className="solve-container-word solve-container-word-3 white-background">
 						do
 					</section>
-					<section className="solve-container-word solve-container-word-4 gray-background white-text">
+					<section className="solve-container-word solve-container-word-4 yellow-background black-text">
 						we
 					</section>
 					<section className="solve-container-word solve-container-word-5 green-background">
@@ -196,10 +178,10 @@ function App() {
 						<AnimatedText text={ 
 							<p className="black-text"> 
 								<span className="section-title">
-									Materialism
+									Physicalism
 								</span>
 								<br /><br />
-								Materialism is the view that everything is physical. There is no non-physical consciousness.
+								Physicalism is the view that everything is physical. There is no non-physical consciousness.
 							</p> 
 						}/>
 
@@ -303,7 +285,7 @@ function App() {
 						<AnimatedText text={ 
 							<p className="black-text"> 
 								<span className="section-title">
-									Idealism 
+									Analytic Idealism 
 								</span>
 								<br /><br />
 								Idealism is the view that everything is consciousness. Consciousness is the ultimate foundation of all reality. There is no non-conscious matter. Consciousness is all there is.
@@ -311,7 +293,7 @@ function App() {
 						}/>
 
 						<section className="reading-section">
-							<ReadMore color="black-background green-text" link="https://plato.stanford.edu/Archives/Win2017/entries/idealism/" text="Read more"/>
+							<ReadMore color="black-background green-text" link="https://www.goodreads.com/book/show/204478729-analytic-idealism-in-a-nutshell" text="Read more"/>
 						</section>
 
 					</section>
