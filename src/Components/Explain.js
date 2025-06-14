@@ -39,19 +39,11 @@ const Explain = (props) => {
             </section>
 
             <section className="svg-container overview-container gray-background"> 
-                {/*<section className="overview-container-inner"> 
-                    
-                    <section className="mugs-image"></section>
-
-                </section>*/}
+                
                 <Spline
                     className="spline"
-                    scene="https://prod.spline.design/zuWdkU3etVcRwLTg/scene.splinecode"
+                    scene="https://prod.spline.design/TL8DGrebd2ALSwbS/scene.splinecode"
                 />
-                {/*<img
-                    className="model-gif"
-                    src={(process.env.PUBLIC_URL+"/pictures/mug-box.gif")}
-                    alt="3D model of a cube with an image of a red coffee mug surrounded by blueberries."/>*/}
                 
             </section>
 					
