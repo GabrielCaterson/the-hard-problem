@@ -44,7 +44,7 @@ function App() {
 						
 						<Spline
 							className="spline"
-							scene="https://prod.spline.design/ZKDGGUoIVyMGwL-e/scene.splinecode"
+							scene="https://prod.spline.design/k3R9R-BrF7WZ9qiO/scene.splinecode"
 						/>
 					</section>
 
