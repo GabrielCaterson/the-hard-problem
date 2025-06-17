@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import AnimatedText from './AnimatedText.js';
-
 
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';

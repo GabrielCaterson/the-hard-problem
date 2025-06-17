@@ -48,7 +48,7 @@ What this shows us is that scientific theories are objective, but our experience
 					splineBackgroundColor="gray-background"
 					readMoreProps={{
 						color: "black-background yellow-text",
-						link: "https://warwick.ac.uk/fac/cross_fac/iatl/study/ugmodules/humananimalstudies/lectures/32/nagel_bat.pdf",
+						link: "https://www.sas.upenn.edu/~cavitch/pdf-library/Nagel_Bat.pdf",
 						text: "Read paper"
 					}}
 					splineScene="https://prod.spline.design/k3R9R-BrF7WZ9qiO/scene.splinecode"
@@ -129,7 +129,7 @@ If it's at least possible for there to be a world where this kind of person exis
 
 				<Section
 					headerText="Dualism"
-					bodyText="Dualism is the view that the mind and the body are radically different kinds of things."
+					bodyText="Dualism is the view that the mind and the body are radically different kinds of things. The mind can't be explained by physical processes alone."
 					textColor="reverse-text"
 					textBackgroundColor="purple-background"
 					splineBackgroundColor=""

@@ -1,7 +1,7 @@
 import React from 'react';
 import Spline from "@splinetool/react-spline";
 import AnimatedText from './AnimatedText.js';
-import { ReadMore } from './ReadMore.js';
+import ReadMore from './ReadMore.js';
 
 function Section({
   headerText,
