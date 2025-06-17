@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Spline from "@splinetool/react-spline";
 import AnimatedText from './AnimatedText.js';
 import ReadMore from './ReadMore.js';
+import useIntersection from './useIntersection.js';
 
 function Section({
   headerText,
@@ -14,6 +15,9 @@ function Section({
   textOnLeft = true,
   className = ""
 }) {
+  const sectionRef = useRef(null);
+  const isVisible = useIntersection(sectionRef, "100%");
+
   const textSection = (
     <section className={`text-box-container-inner ${textBackgroundColor}`}>
       <AnimatedText text={
@@ -37,15 +41,17 @@ function Section({
 
   const splineSection = (
     <section className={`section-container ${splineBackgroundColor}`}>
-      <Spline
-        className="spline"
-        scene={splineScene}
-      />
+      {isVisible && (
+        <Spline
+          className="spline"
+          scene={splineScene}
+        />
+      )}
     </section>
   );
 
   return (
-    <section className={`text-box-container ${className}`}>
+    <section ref={sectionRef} className={`text-box-container ${className}`}>
       {textOnLeft ? (
         <>
           {textSection}
