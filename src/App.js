@@ -1,29 +1,22 @@
-import React, { useRef, useState, Suspense, useEffect } from 'react';
+import React from 'react';
 
-import logo from './logo.svg';
 import './App.css';
 
-
-
-
-import Autoscroll from './Components/Autoscroll.js';
 import './Components/NoHorizontalScroll.js';
 
-import { ReadMore } from './Components/ReadMore.js';
-import AnimatedText from './Components/AnimatedText.js';
 import LogoScroll from './Components/LogoScroll.js';
 import Explain from './Components/Explain.js';
 import Section from './Components/Section.js';
 
-
+import Autoscroll from './Components/Autoscroll.js';
+import { ReadMore } from './Components/ReadMore.js';
+import AnimatedText from './Components/AnimatedText.js';
 import useIntersection from './Components/useIntersection.js';
-
 
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 
 import Spline from "@splinetool/react-spline";
-
 
 function App() {
 
