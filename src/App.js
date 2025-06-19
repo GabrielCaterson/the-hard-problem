@@ -5,16 +5,12 @@ import './App.css';
 import './Components/NoHorizontalScroll.js';
 
 import LogoScroll from './Components/LogoScroll.js';
-import Explain from './Components/Explain.js';
 import Section from './Components/Section.js';
-
 import Autoscroll from './Components/Autoscroll.js';
 import { ReadMore } from './Components/ReadMore.js';
 import AnimatedText from './Components/AnimatedText.js';
 import useIntersection from './Components/useIntersection.js';
 
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls } from '@react-three/drei';
 
 import Spline from "@splinetool/react-spline";
 
@@ -29,7 +25,20 @@ function App() {
 				
 
 				<LogoScroll className="logo-container-outer"/>
-				<Explain />
+				
+				<Section
+					bodyText={[
+						<p>The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks, <q>why is it <span className="like-something red-text"> like something </span>to have the experiences we have?</q> Why is it like something to see the redness of a red apple, smell the smell of coffee, or taste the taste of mint?</p>,
+						<p>The trouble is, everything in the universe is physical, but consciousness seems to be something different. The experience of red seems to be non-physical, or as the philosophers call it, phenomenal.</p>,
+						<p> Many solutions to the hard problem have been proposed. Some accept the difficulty of the hard problem, and others say there is no consciousness in this "what it's like" sense. Let's explore some of the arguments. </p>
+					]}
+					textColor="white-text"
+					textBackgroundColor="text-box-container-inner-overview"
+					splineBackgroundColor="gray-background"
+					splineScene="https://prod.spline.design/TL8DGrebd2ALSwbS/scene.splinecode"
+					textOnLeft={true}
+					className="explain-section text-box-container text-box-container-overview black-background"
+				/>
 
 				<Section
 					headerText="What is it like to be a bat?"
