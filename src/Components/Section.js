@@ -18,60 +18,61 @@ function Section({
   const sectionRef = useRef(null);
   const isVisible = useIntersection(sectionRef, "100%");
 
-  // Handle bodyText as either a string or array
-  const renderBodyText = () => {
+  const renderHeaderText = () => {
+    if (!headerText) return null;
+    
+    return (
+      <AnimatedText text={
+        <p className={`${textColor} section-title`}>
+          {headerText}
+        </p>
+      } />
+    );
+  };
+
+  const renderBodyTextItems = () => {
     if (Array.isArray(bodyText)) {
-      // If bodyText is an array, render each element with its own AnimatedText
       return bodyText.map((text, index) => (
         <AnimatedText key={index} text={text} />
       ));
-    } else {
-      // If bodyText is a string, render it as before
-      return (
-        <AnimatedText text={
-          <p className={textColor}>
-            <span className="section-title">
-              {headerText}
-            </span>
-            <br /><br />
-            {bodyText}
-          </p>
-        } />
-      );
     }
+    
+    return (
+      <AnimatedText text={
+        <p className={textColor}>
+          {!Array.isArray(bodyText) && headerText && (
+            <>
+              <span className="section-title">{headerText}</span>
+              <br /><br />
+            </>
+          )}
+          {bodyText}
+        </p>
+      } />
+    );
+  };
+
+  const renderReadMoreSection = () => {
+    if (!readMoreProps || Object.keys(readMoreProps).length === 0) {
+      return null;
+    }
+
+    return (
+      <section className="reading-section">
+        <ReadMore 
+          color={readMoreProps.color} 
+          link={readMoreProps.link} 
+          text={readMoreProps.text}
+        />
+      </section>
+    );
   };
 
   const textSection = (
     <section className={`text-box-container-inner ${textBackgroundColor}`}>
-      {Array.isArray(bodyText) ? (
-        // If bodyText is an array, render header separately and then body texts
-        <>
-          {headerText && (
-            <AnimatedText text={
-              <p className={textColor}>
-                <span className="section-title">
-                  {headerText}
-                </span>
-              </p>
-            } />
-          )}
-          {renderBodyText()}
-        </>
-      ) : (
-        // If bodyText is a string, render as before
-        renderBodyText()
-      )}
-      
-      {/* Only render Read More section if readMoreProps is provided and not empty */}
-      {readMoreProps && Object.keys(readMoreProps).length > 0 && (
-        <section className="reading-section">
-          <ReadMore 
-            color={readMoreProps.color} 
-            link={readMoreProps.link} 
-            text={readMoreProps.text}
-          />
-        </section>
-      )}
+      {Array.isArray(bodyText) && renderHeaderText()}
+      {renderBodyTextItems()}
+      {renderReadMoreSection()}
     </section>
   );
 
@@ -86,19 +87,11 @@ function Section({
     </section>
   );
 
+  const sections = textOnLeft ? [textSection, splineSection] : [splineSection, textSection];
+
   return (
     <section ref={sectionRef} className={`text-box-container ${className}`}>
-      {textOnLeft ? (
-        <>
-          {textSection}
-          {splineSection}
-        </>
-      ) : (
-        <>
-          {splineSection}
-          {textSection}
-        </>
-      )}
+      {sections}
     </section>
   );
 }

@@ -31,6 +31,7 @@ function App() {
 						<p>The hard problem of consciousness is one of the hardest problems in philosophy today. In simple terms, it asks, <q>why is it <span className="like-something red-text"> like something </span>to have the experiences we have?</q> Why is it like something to see the redness of a red apple, smell the smell of coffee, or taste the taste of mint?</p>,
 						<p>The trouble is, everything in the universe is physical, but consciousness seems to be something different. The experience of red seems to be non-physical, or as the philosophers call it, phenomenal.</p>,
 						<p> Many solutions to the hard problem have been proposed. Some accept the difficulty of the hard problem, and others say there is no consciousness in this "what it's like" sense. Let's explore some of the arguments. </p>
+            
 					]}
 					textColor="white-text"
 					textBackgroundColor="text-box-container-inner-overview"
@@ -180,7 +181,7 @@ If it's at least possible for there to be a world where this kind of person exis
 				<section className="footer">
 
 					<section className="footer-section">
-						Site created by <a  className="footer-links" 
+						Designed and developed by <a  className="footer-links" 
 							href="https://www.gabrielcaterson.com" 
 							target="_blank" rel="noopener noreferrer">
 								Gabriel Caterson
