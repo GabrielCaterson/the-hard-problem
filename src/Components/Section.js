@@ -43,10 +43,12 @@ function Section({
           {!Array.isArray(bodyText) && headerText && (
             <>
               <span className="section-title">{headerText}</span>
-              <br /><br />
+              
             </>
           )}
-          {bodyText}
+          <p className={" body-text"}>
+            {bodyText}
+          </p>
         </p>
       } />
     );

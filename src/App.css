@@ -24,6 +24,9 @@
     --color-g-1: rgb(111, 16, 26);
     --color-h-1: rgb(26, 26, 32);
 
+    --text-section-margin: 15px;
+
+
     /*--color-g-1: rgb(222,56,27);*/
     --brain-path: path( 'M 120 45 C 147 42 159 42 192 48 Q 225 54 261 84 C 282 105 300 126 300 165 C 300 189 285 201 270 207 C 243 210 255 207 240 210 C 237 234 189 243 165 240 C 138 246 129 264 99 291 C 96 297 87 294 90 288 C 105 267 102 261 99 261 C 75 264 18 246 18 213 C 18 201 21 195 24 195 C 3 183 -6 147 12 117 Q 24 90 51 66 C 84 45 99 48 120 45');
     --apple-path: path( 'M 135 3 C 135 3 141 0 144 3 Q 141 21 156 45 C 180 45 180 30 210 30 C 270 30 285 105 285 135 C 285 180 267 210 246 255 C 237 270 219 300 195 300 C 165 300 165 285 150 285 C 135 285 135 300 105 300 C 81 300 63 270 54 255 C 33 210 15 180 15 135 C 15 105 30 30 90 30 C 120 30 120 45 144 45 Q 129 21 129 6 C 129 6 129 6 135 3');
@@ -319,7 +322,6 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100vw;
-    padding: 0;
     height: auto;
     z-index: 3;
     margin: 0;
@@ -401,14 +403,11 @@
     align-items: center;
     justify-content: start;
     flex-wrap: wrap;
-    width: 50vw;
+    width: calc(50vw - var(--text-section-margin) * 2);
     margin: 0;
-    padding: 0;
-    margin: 0;
-    padding: 0;
+    padding: var(--text-section-margin);
     align-content: space-between;
     min-height: 100vh;
-
 }
 
 .text-box-container-inner-2 {
@@ -482,25 +481,26 @@
 
 .text-box {
     position: sticky;
-    top: 15px;
 
     font-size: 35px;
     font-weight: 600;
     text-align: start;
     width: auto;
     padding: 0px;
-    margin: -15px 25px 30px 25px;
-    /*color: white;*/
-    /*border: 0.001px solid rgba(0, 0, 0, 0);*/
-    /*text-shadow: black 0 0 2px;*/
-    /*background-color: #f3ec78;
-    background-image: linear-gradient(45deg, #f3ec78, #af4261);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;*/
+    margin: var(--text-section-margin);
+    top: var(--text-section-margin);
     color: white;
+}
+
+.text-box::after { /* This is to remove the space between the text and Read More button */
+  content: '';
+  display: table;
+  margin-top: -42px; 
+}
+
+.body-text {
+    padding: 0;
+    margin: 0;
 }
 
 .text-box-bat {
@@ -510,7 +510,9 @@
 .section-title {
     font-weight: 800;
     font-size: 50px;
-}
+    margin: 0;
+    padding: 0;
+  }
 
 .like-something {
     color: black;
@@ -1144,7 +1146,6 @@
     align-items: end;
     justify-content: start;
     width: 100%;
-    margin: 20px;
     bottom: 0;
 }
 
@@ -1159,8 +1160,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px;
-    margin-top: -30px;
+    margin: var(--text-section-margin);
     padding: 3px 15px;
     text-decoration: none;
     z-index: 10;
@@ -1260,24 +1260,19 @@
 
 @media (max-width: 500px) {
     .text-box-container-inner {
-        padding: 0;
-        margin: 0;
+        
         width: auto;
     }
+
     .text-box {
         padding: 0;
-        margin: -10px 30px 0px 30px;
-        position: sticky;
-        top: 25px;
+        background-color: red;
     }
 
     .section-title {
       font-weight: 800;
       font-size: 50px;
       top: 25px;
-      margin-bottom: -30px;
-      padding-bottom: -30px;
-      background-color: red;
     }
 
     .svg-container {
@@ -1420,7 +1415,7 @@
     }
 
     .read-more {
-        margin-top: 0px;
+
     }
 
     .footer {
